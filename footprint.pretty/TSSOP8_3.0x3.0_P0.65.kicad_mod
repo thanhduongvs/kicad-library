@@ -1,0 +1,208 @@
+(footprint "TSSOP8_3.0x3.0_P0.65"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "TSSOP SO")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "f925053f-36a0-4a0d-b912-f56dc6fed828")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSSOP8_3.0x3.0_P0.65"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "73da7323-2351-4794-9251-68bd76bdc3cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5245c955-3914-49ed-a706-191c64bf03bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "579a2a2f-3f69-4b2a-9df2-e433cbc00251")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.5 -1.524)
+		(end 1.5 1.524)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "611c15c9-d3aa-4e7c-9a92-3c3a74de299a")
+	)
+	(fp_poly
+		(pts
+			(xy -2.794 -1.016) (xy -3.175 -0.635) (xy -3.175 -1.397)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0c97de39-c85a-427c-a24b-656a3453701c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -1.016) (xy -1.5 -1.524) (xy -1.016 -1.524)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3191cfcf-8319-4fc1-bdf4-5426d4168063")
+	)
+	(fp_rect
+		(start -2.794 -1.778)
+		(end 2.794 1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b0a03856-703e-48b0-85b5-7817cec6b37f")
+	)
+	(fp_line
+		(start -1.524 -1.016)
+		(end -1.016 -1.524)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00063b8e-a0d6-4370-9ae1-8e70839ec4f0")
+	)
+	(fp_rect
+		(start -1.524 -1.524)
+		(end 1.524 1.524)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1655eeb0-8435-4a4f-8799-d5888eaef62b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9fa6a6c0-16e7-45aa-a9dc-4369d5792fa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.159 -0.975)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "5e96e409-bcc8-4d4f-bb40-26d2f4cb6373")
+	)
+	(pad "2" smd roundrect
+		(at -2.159 -0.325)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.0762)
+		(uuid "f40b9151-9be1-4d62-bd86-30a39bff04ac")
+	)
+	(pad "3" smd roundrect
+		(at -2.159 0.325)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.0762)
+		(uuid "c24cdef6-13c9-4162-9176-128377abb1ca")
+	)
+	(pad "4" smd roundrect
+		(at -2.159 0.975)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.0762)
+		(uuid "6d336c3a-d90c-4d9f-b884-723946b142e1")
+	)
+	(pad "5" smd roundrect
+		(at 2.159 0.975)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.0762)
+		(uuid "1bd850f8-ca5b-4af1-a064-5fb6c21d0239")
+	)
+	(pad "6" smd roundrect
+		(at 2.159 0.325)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.0762)
+		(uuid "5b93d82e-f961-4cab-b99e-ae27ed92bd68")
+	)
+	(pad "7" smd roundrect
+		(at 2.159 -0.325)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.0762)
+		(uuid "0eddbfe7-5ff5-4d4e-ba2d-57d530262a19")
+	)
+	(pad "8" smd roundrect
+		(at 2.159 -0.975)
+		(size 1.016 0.4064)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.0762)
+		(uuid "b3305694-c096-404d-84bd-6c9a5bce5559")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-8_4.4x3mm_P0.65mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

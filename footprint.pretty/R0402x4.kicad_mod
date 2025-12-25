@@ -1,0 +1,206 @@
+(footprint "R0402x4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Thick Film Chip Resistor Array, Wave soldering, Vishay CRA04P (see cra04p.pdf)")
+	(tags "resistor array")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "15873201-6f75-4e59-88bd-6885a23682d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R0402x4"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "821fb3a1-65e9-44b9-ae5e-87ea1d3ca34f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00438097-a898-4e2d-9c02-45fcc80e03e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7565f401-c1f1-4846-8a7d-64933d276971")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.5 -1.1)
+		(end -0.5 -1.1)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "521f8adf-f533-453b-80c3-3b017371e9a1")
+	)
+	(fp_line
+		(start 0.5 1.1)
+		(end -0.5 1.1)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3ad0a4c-2934-4e96-a50a-364b8b050b70")
+	)
+	(fp_rect
+		(start -0.9 -1.2)
+		(end 0.9 1.2)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bfcd7ad4-9b83-4eaa-957b-95cac7241f1a")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 0.5 -1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c40d9823-b72e-4de5-8900-4be2afda65d3")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 -1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8067c342-ac03-42f9-8e72-de76868be0f7")
+	)
+	(fp_line
+		(start 0.5 -1)
+		(end 0.5 1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b20dcf53-449f-4ed6-bf8a-776449e1b479")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end -0.5 1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "276d1f27-9b94-400c-905b-a7765056c96c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "feaeb7ac-ebfb-4672-a3fd-5026b74678eb")
+		(effects
+			(font
+				(size 0.254 0.254)
+				(thickness 0.0635)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.75)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "74f55b47-ffd0-4804-bbe4-01b6acc1482c")
+	)
+	(pad "2" smd rect
+		(at -0.5 -0.25)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "47ed728f-38fb-4ba8-ae26-3aa02f42649d")
+	)
+	(pad "3" smd rect
+		(at -0.5 0.25)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "79a498a4-d351-4c26-9d9d-d61a9c7db9a1")
+	)
+	(pad "4" smd rect
+		(at -0.5 0.75)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "29fdf553-6249-4f38-a361-00cfae716f49")
+	)
+	(pad "5" smd rect
+		(at 0.5 0.75)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "c81190da-b631-498b-abdc-eea32edccb58")
+	)
+	(pad "6" smd rect
+		(at 0.5 0.25)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "45313535-6b92-4f02-a07b-f9c88ead0844")
+	)
+	(pad "7" smd rect
+		(at 0.5 -0.25)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "73f23ba9-dcf7-4035-a9ce-90c86fe24ffc")
+	)
+	(pad "8" smd rect
+		(at 0.5 -0.75)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "aaee101d-5871-44d1-88d3-f677b9049f53")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Concave_4x0402.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

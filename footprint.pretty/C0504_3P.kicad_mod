@@ -1,0 +1,230 @@
+(footprint "C0504_3P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Feed Through Capacitors")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "701f77c7-26ee-4160-8ed4-4174654f37dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C0504_3P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "0a28d32e-e5c6-468f-a05d-6656e77bfa18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e252f0-0b28-41af-8a8f-e241b3bed9e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "026846df-e99d-4965-9180-3131d1b1d3df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.45)
+		(end -0.95 0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d947507-381c-450a-8dc2-f94ca17eaa7f")
+	)
+	(fp_line
+		(start -0.5 -0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af80a13d-16d2-4b59-83cb-b0e9a3df7468")
+	)
+	(fp_line
+		(start -0.5 0.6)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efca25c1-5017-4789-8005-9762d0956c27")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end 0.5 -0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33b7bdfe-8197-4f31-897a-b2bd23bae677")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end 0.5 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f52080b4-741c-4208-8620-2c81eb9ee925")
+	)
+	(fp_line
+		(start 0.95 -0.45)
+		(end 0.95 0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "690f42ef-4d8c-4d43-8bac-5fcbdcc19daf")
+	)
+	(fp_arc
+		(start -0.95 -0.45)
+		(mid -0.906066 -0.556066)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a28ebeb-de80-4df0-a43c-1fcc1015adce")
+	)
+	(fp_arc
+		(start -0.8 0.6)
+		(mid -0.906066 0.556066)
+		(end -0.95 0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e3d3f87-3639-48f7-8a90-7dc4d4b936e1")
+	)
+	(fp_arc
+		(start 0.8 -0.6)
+		(mid 0.906066 -0.556066)
+		(end 0.95 -0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc1cc6ec-c20b-4ebc-bd65-4dd679527227")
+	)
+	(fp_arc
+		(start 0.95 0.45)
+		(mid 0.906066 0.556066)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f57aeb78-66d0-41aa-a391-2f6372ed5f14")
+	)
+	(fp_rect
+		(start -0.9 -0.6)
+		(end 0.9 0.6)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c67d7c0e-b175-4da7-9bfe-3f78f3abac7a")
+	)
+	(fp_rect
+		(start -0.8 -0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1f20942c-3382-487b-9290-35f20bdb2fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a77112b9-af32-4695-90ee-6df334d40dc2")
+		(effects
+			(font
+				(size 0.254 0.254)
+				(thickness 0.0635)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0)
+		(size 0.35 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0254)
+		(thermal_bridge_angle 45)
+		(uuid "cf5fff9c-46e7-412d-8a51-1b49a1943c1d")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0254)
+		(thermal_bridge_angle 45)
+		(uuid "62f167e1-158e-45bc-b953-873ad40bbc94")
+	)
+	(pad "3" smd rect
+		(at 0.65 0)
+		(size 0.35 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0254)
+		(thermal_bridge_angle 45)
+		(uuid "337df14b-dc73-4aae-aa0e-7bd23eac281f")
+	)
+	(embedded_fonts no)
+	(model ":ONEKIWI_3DMODEL_DIR:Capacitor_SMD.3dshapes/C0504_3P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

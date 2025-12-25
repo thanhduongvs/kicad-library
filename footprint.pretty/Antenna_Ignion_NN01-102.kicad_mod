@@ -1,0 +1,137 @@
+(footprint "Antenna_Ignion_NN01-102"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.794 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bea2e4e3-37b3-4b96-b36c-f5d41b411071")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Antenna_Ignion_NN01-102"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "4f3a7ad0-6bb7-4181-8945-38a34b70475f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56dba876-6ab2-408d-8c6a-45959da59f3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7b656d9-9cc7-4639-8af4-7d8900588183")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.556 -1.524)
+		(end 3.556 1.524)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "64a973f6-4268-45ad-ab61-d4575819bdfa")
+	)
+	(fp_rect
+		(start -1.524 1.016)
+		(end -1.27 1.524)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c256b764-755a-450c-a257-90dcd92947e2")
+	)
+	(fp_rect
+		(start -3.81 -1.778)
+		(end 3.81 1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6891fd07-95be-4bf8-80aa-dad4b1f29fcd")
+	)
+	(fp_rect
+		(start -3.556 -1.524)
+		(end 3.556 1.524)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "37e8ba84-c440-4f84-a62c-dcc091e7fd9a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0f36116-de6e-4806-afd0-52e92149a999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.55 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "0be5fe2a-e914-4ab0-b090-1af350efc2ba")
+	)
+	(pad "2" smd rect
+		(at 2.55 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "72354f89-3e43-455f-a402-8b4be7db44f0")
+	)
+	(embedded_fonts no)
+	(model "${ONEKIWI_3DMODEL_DIR}/RF_Antenna.3dshapes/ANT_NN01-102.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

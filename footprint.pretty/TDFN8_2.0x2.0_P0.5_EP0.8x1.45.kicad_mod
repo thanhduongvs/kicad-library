@@ -1,0 +1,214 @@
+(footprint "TDFN8_2.0x2.0_P0.5_EP0.8x1.45"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03a1310c-8d0e-41d8-bd53-3c3cfd675705")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TDFN8_2.0x2.0_P0.5_EP0.8x1.45"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "8ea4a524-03ed-4fed-9eae-a8a5bfcd7164")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3afbb458-a35e-4679-90fc-74def4f84d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fa4ac60-32e4-40a7-be29-4bf54a6a5d83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8caa958f-a144-4d5a-a8c1-c6c399b0c2cf")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b3fe9bb9-6ab3-4a58-bb3e-2607e7970caa")
+	)
+	(fp_poly
+		(pts
+			(xy -1.55 -0.75) (xy -1.95 -1.15) (xy -1.95 -0.35)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5bca9b8a-3fd2-446e-972c-f4e8d2cb2d61")
+	)
+	(fp_rect
+		(start -1.8 -1.2)
+		(end 1.6 1.2)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ccc8fb1c-d570-4dc8-ab4a-63c18710b688")
+	)
+	(fp_rect
+		(start -1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b166668a-21a3-48cf-9ccd-a9cd62c6c8e1")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -1) (xy -1 -0.6) (xy -0.6 -1)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b246f97d-804b-4481-bff4-565cb54f341a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a4b04c56-f29f-45e4-9a3d-43e8e6522983")
+		(effects
+			(font
+				(size 0.381 0.381)
+				(thickness 0.09525)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 -0.75)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7ee484fe-75bb-48e2-9cd8-68498341dd81")
+	)
+	(pad "2" smd rect
+		(at -1.1 -0.25)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0bb9c850-afbc-41d6-a052-93d18b926498")
+	)
+	(pad "3" smd rect
+		(at -1.1 0.25)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "abf86703-5f11-409c-82ab-7f55ef5fe7b9")
+	)
+	(pad "4" smd rect
+		(at -1.1 0.75)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e7a6bfd5-a970-4da2-bd20-49aadb9dd7f7")
+	)
+	(pad "5" smd rect
+		(at 1.1 0.75)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "826b30b8-d920-49e5-9569-e06c764aef8a")
+	)
+	(pad "6" smd rect
+		(at 1.1 0.25)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7763f994-8d55-40a8-a0e5-cb47fa612a86")
+	)
+	(pad "7" smd rect
+		(at 1.1 -0.25)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2cd3e794-9829-4c99-ad07-64970afe8f07")
+	)
+	(pad "8" smd rect
+		(at 1.1 -0.75)
+		(size 0.8 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fb0979fe-ab0d-47f7-ab21-f4ff547ae9b3")
+	)
+	(pad "9" smd roundrect
+		(at 0 0)
+		(size 0.8 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_left)
+		(thermal_bridge_angle 45)
+		(uuid "ba3efaae-50d3-488a-8bba-07c46cf20c7a")
+	)
+	(embedded_fonts no)
+	(model "${ONEKIWI_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TDFN8_2.0x2.0_P0.5_EP0.8x1.45.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,132 @@
+(footprint "HDR_P2.54_1x3_SMD_NO_PASTE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x20 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(uuid "acc1d433-afec-4467-ab9d-2f6080352d7c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "HDR_P2.54_1x3_SMD_NO_PASTE"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "1650d70e-4151-4b81-b5d7-8de7152e6246")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "HDR_P2.54_1x3_SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52f0117e-deea-41f3-81c2-27461a25fc89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a229b13-04e8-424c-8528-b4a9eee865c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e9be4c1-3eaa-4a81-a928-44e98865ae50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1 -3.6)
+		(end 1 3.6)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dd356ad2-4d18-476e-9cec-134018493715")
+	)
+	(fp_rect
+		(start -1.2 -3.8)
+		(end 1.2 3.8)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ec49b775-ea8f-4532-b882-95b6272d75fe")
+	)
+	(fp_rect
+		(start -1 3.4)
+		(end 1 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "206873dd-36c5-4d9b-9fcb-c9b255b5d6fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "16bf147e-766a-4fe2-a84e-c8f7b30d5043")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -2.54)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "fac91115-88ee-4880-b50a-c8e6a8d4a9d4")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1bb4362b-a6a8-4ac7-a827-fe7391ddd32c")
+	)
+	(pad "3" smd rect
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ae74eaab-6d74-4235-9a59-f01efc0f0e23")
+	)
+)

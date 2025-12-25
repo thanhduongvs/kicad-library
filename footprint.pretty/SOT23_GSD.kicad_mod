@@ -1,0 +1,184 @@
+(footprint "SOT23_GSD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0.127 0 0)
+		(layer "F.SilkS")
+		(uuid "d5488901-b6a3-425d-bca7-0cddaf10a4ee")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "SOT23_GSD"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "dc321fd9-7dd5-4577-b6ac-fe5c2a2e8a64")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a90b5316-07f9-4404-9cdf-cc602f57be62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "253969ee-f9f5-4175-80b6-b2caf59b3538")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.778 -1.016)
+		(end -0.762 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "934ee0d4-174b-4dff-9456-e2ded55c9c32")
+	)
+	(fp_line
+		(start -1.778 1.016)
+		(end -1.778 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4f005f7-7307-406b-a183-548b28b8662b")
+	)
+	(fp_line
+		(start -0.254 1.016)
+		(end 0.254 1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8718b25-aaac-466e-9a19-fab67c6be440")
+	)
+	(fp_line
+		(start 0.762 -1.016)
+		(end 1.778 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30595e86-2377-43b5-9328-f9c6b9409697")
+	)
+	(fp_line
+		(start 1.778 1.016)
+		(end 1.778 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3035c332-618b-4148-a1e0-ce0895173328")
+	)
+	(fp_rect
+		(start -2.032 -1.778)
+		(end 2.032 1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "546aafd5-5076-411d-b3f7-b675792e1092")
+	)
+	(fp_rect
+		(start -1.8 -1)
+		(end 1.8 1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "17d3f51b-26b4-4a6e-b4cc-015b7bacefd7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.8 0.7) (xy -1.8 1) (xy -1.5 1)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "782c12e6-2c5e-4d08-98ab-34ae28660347")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "11442a5e-ec5e-4d2f-9f89-f3e54b26f7dd")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+				(bold yes)
+			)
+		)
+	)
+	(pad "D" smd rect
+		(at 0 -1)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "823af6f4-821a-4c52-9598-0cf2ae6be69f")
+	)
+	(pad "G" smd rect
+		(at -1 1)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "17384b36-d000-4180-a517-5cbc4cd6c559")
+	)
+	(pad "S" smd rect
+		(at 1 1)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "986d9d50-9135-4c96-9383-6a52b4d46921")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

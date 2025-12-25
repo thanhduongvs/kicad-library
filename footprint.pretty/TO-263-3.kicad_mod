@@ -1,0 +1,132 @@
+(footprint "TO-263-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
+	(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
+	(property "Reference" "REF**"
+		(at 0 -10.668 0)
+		(layer "F.SilkS")
+		(uuid "89467233-446e-4020-8b5a-c54c97253df1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-263-3"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "c928c79a-23cb-4657-a843-90ccdea6c879")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c8a22f5-18d4-40aa-a5d4-1afb5ec4f0af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6331fce3-bd3b-4d89-87a0-c5d3f733f948")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.969 9.017)
+		(end 5.969 -9.017)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f8990760-adc8-4f8f-ae5f-dd45020367ce")
+	)
+	(fp_rect
+		(start -6.35 9.398)
+		(end 6.35 -9.398)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4c4d570b-6203-482c-8444-39bfef2b4a67")
+	)
+	(fp_rect
+		(start -5.842 8.89)
+		(end 5.842 -8.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "11ca8db9-a2ab-4ea3-afff-ddbef17ef7bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "4e1a1e95-0b69-43ae-ad49-1c7a2227a98d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 6.858)
+		(size 2.286 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "3001e0fe-d330-4941-847f-07d1c712eb72")
+	)
+	(pad "2" smd rect
+		(at 0 -4.318)
+		(size 11.43 8.89)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "3304c0dd-339d-4865-a1a1-3dbaa5b59702")
+	)
+	(pad "3" smd rect
+		(at 2.54 6.858)
+		(size 2.286 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "18ee4980-f0f0-45f0-b114-885a621e2d90")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

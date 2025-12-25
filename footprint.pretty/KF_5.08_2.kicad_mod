@@ -1,0 +1,170 @@
+(footprint "KF_5.08_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "terminal block RND 205-00238, 8 pins, pitch 5.08mm, size 40.6x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND")
+	(tags "THT terminal block RND 205-00238 pitch 5.08mm size 40.6x8.45mm^2 drill 1.1mm pad 2.1mm")
+	(property "Reference" "REF**"
+		(at -4.572 -5.842 0)
+		(layer "F.SilkS")
+		(uuid "08918d67-dcf2-4651-ae72-7949683871d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KF_5.08_2"
+		(at 0 5.588 0)
+		(layer "User.1")
+		(uuid "4ceaf85a-ddd5-433d-ba15-8540f494937b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31bf497d-bc98-4144-8185-775f00244ef7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "352793b5-8278-4379-a847-7dd98d2db9dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.604 -2.54)
+		(end 6.604 -2.54)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "834e57d0-b16f-49f8-91d1-d99b18c5f0fd")
+	)
+	(fp_rect
+		(start -6.604 -4.572)
+		(end 6.604 4.064)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5f2966d5-a173-4d0c-a376-155ac87b528b")
+	)
+	(fp_rect
+		(start -6.604 2.54)
+		(end 6.604 3.556)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "08f410b0-d450-4db0-ab3b-7973b47a9ab4")
+	)
+	(fp_rect
+		(start -4.064 -4.572)
+		(end -1.016 -3.556)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "56805c02-f7f2-4322-a790-11d864e1ad4e")
+	)
+	(fp_rect
+		(start 1.016 -4.572)
+		(end 4.064 -3.556)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c6ec5f7a-afb7-4577-bdc4-817ad2e8c4a5")
+	)
+	(fp_rect
+		(start -7.112 -5.08)
+		(end 7.112 4.572)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8acc8e50-2f28-4d33-9d3a-7b621762420f")
+	)
+	(fp_rect
+		(start -6.604 -4.572)
+		(end 6.604 4.064)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2d799bea-6adc-4a7a-a03a-4950f451a716")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fd009f97-6a38-4f64-9659-b13eb14b4a3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da315196-b6a7-4f2b-8e48-0e51478b97ac")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53d0a1cc-50af-4bf1-9949-225c79a772ed")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00238_1x08_P5.08mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

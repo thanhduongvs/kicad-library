@@ -1,0 +1,211 @@
+(footprint "SOT23_AKA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0.127 0 0)
+		(layer "F.SilkS")
+		(uuid "b0311756-58cc-4b0d-9713-717f9ac96e87")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "SOT23_AKA"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "43883d33-88eb-4d89-b08f-f75008ebf0f2")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" "SOT23_AKA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ce71301-8fb3-418c-a29e-7196f0e0bc4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e18592bd-dcbe-4418-834e-4bfa79022fb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93885a98-71d6-4c94-af3c-566bde6f01a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.778 -1.016)
+		(end -0.762 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3c1b60b-86e7-406c-87c4-59d8a2a7661f")
+	)
+	(fp_line
+		(start -1.778 1.016)
+		(end -1.778 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "778ba20e-56f7-41c5-a51d-a883fa3e45a9")
+	)
+	(fp_line
+		(start -0.254 1.016)
+		(end 0.254 1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33404111-c5de-438a-a3ee-d9d359a96cc4")
+	)
+	(fp_line
+		(start 0.762 -1.016)
+		(end 1.778 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec8e94ee-a48a-4553-8d3e-e5964049c8db")
+	)
+	(fp_line
+		(start 1.778 1.016)
+		(end 1.778 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3aa47e77-0470-4ee7-9e0a-0e1d09cb1a4f")
+	)
+	(fp_rect
+		(start -2.032 -1.778)
+		(end 2.032 1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "58e664fb-8bcf-4a44-8756-bcbe5fbf5512")
+	)
+	(fp_line
+		(start -1.524 -1.27)
+		(end 1.524 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf23005c-a349-40fb-8f5f-a4fb5125fb1a")
+	)
+	(fp_line
+		(start -1.524 1.27)
+		(end -1.524 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5101cdca-98f0-4062-920b-a239bd3c5a6f")
+	)
+	(fp_line
+		(start -1.524 1.27)
+		(end 1.524 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09758c2c-ddeb-4692-b8b4-6ec9ba1f72a0")
+	)
+	(fp_line
+		(start 1.524 -1.27)
+		(end 1.524 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "666474d5-e1cb-498a-bee6-4bc94c1a4075")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d3073741-dba1-4d6f-adff-8aa534046b78")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "A1" smd rect
+		(at -1.016 1.016)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "a33c87e4-1ff4-4e5c-9ad7-1032ddecd19f")
+	)
+	(pad "A2" smd rect
+		(at 1.016 1.016)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "297bb704-579a-414d-b8c4-77f8ebb9948f")
+	)
+	(pad "K" smd rect
+		(at 0 -1.016)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "f4e8015a-90d5-4100-ba36-7debd9e376fd")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

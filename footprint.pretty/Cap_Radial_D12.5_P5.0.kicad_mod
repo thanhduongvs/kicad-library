@@ -1,0 +1,216 @@
+(footprint "Cap_Radial_D12.5_P5.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=12.5mm, Electrolytic Capacitor")
+	(tags "CP Radial series Radial pin pitch 5.00mm  diameter 12.5mm Electrolytic Capacitor")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(layer "F.SilkS")
+		(uuid "7a281f48-bb9e-4266-94e0-be92b00436de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cap_Radial_D12.5_P5.0"
+		(at 0 7.5 0)
+		(layer "User.1")
+		(uuid "2a2d2d07-74a3-4399-85ed-4400f6c9fd76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45792aaa-dd42-422b-a4cd-de59af97b4ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d267d91-6d58-40f7-b6fd-f76da5d72a71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 -2.5)
+		(end -1.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db20b875-66f8-4ebc-a2fe-17dd829e451d")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba6d47af-fdc5-42df-b429-0a4d9c2226f4")
+	)
+	(fp_line
+		(start 0 -6.33)
+		(end 0 6.33)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84a8e6ca-12ce-42fc-b9e9-a60220cd2528")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.37 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "20e15f7d-1a3a-4468-8a54-fe6405ad9191")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "96be6acf-23fb-40cd-b218-f7d899efceec")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 0.5 0) (xy 1.4 -1.8) (xy 3.6 -1.8) (xy 4.6 0) (xy 6.37 0) (xy 6.2 -1.6) (xy 5.4 -3.4)
+			(xy 4.4 -4.6) (xy 3.4 -5.4) (xy 2.2 -6) (xy 1.6 -6.2) (xy 0.6 -6.4) (xy 0 -6.37)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f4c914a7-082c-46ff-bd4a-ed281f8e618e")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 0.5 0) (xy 1.4 1.8) (xy 3.6 1.8) (xy 4.6 0) (xy 6.37 0) (xy 6.2 1.6) (xy 5.4 3.4) (xy 4.4 4.6)
+			(xy 3.4 5.4) (xy 2.2 6) (xy 1.6 6.2) (xy 0.6 6.4) (xy 0 6.37)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "85e6fde0-c989-4cde-b7fd-b48421a48d02")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a5e96f08-45f0-414d-9f70-462ca03e2aae")
+	)
+	(fp_line
+		(start -5.366489 -2.7375)
+		(end -4.116489 -2.7375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f97f582-2a0d-4976-9627-858bf51efe4d")
+	)
+	(fp_line
+		(start -4.741489 -3.3625)
+		(end -4.741489 -2.1125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c1d2a0e-429a-45bf-b249-2611168df683")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e515af72-8c0f-4182-8f13-776fb138346a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c2166b38-68fc-45bb-80ed-f0f345dfd11f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "N" thru_hole circle
+		(at 2.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77910e68-8471-45f3-9353-611325e38828")
+	)
+	(pad "P" thru_hole rect
+		(at -2.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3feded85-e757-4ea4-b854-9889aa02fd2c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl"
+		(offset
+			(xyz -2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

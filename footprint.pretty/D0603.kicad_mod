@@ -1,0 +1,248 @@
+(footprint "D0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c01ad790-f59c-430d-bb89-f5b67adf107b")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "D0603"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "dd7cccec-af4c-438f-8b87-ee399b0a954b")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b41512-cae0-440f-aa84-6a067165aacc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eacbe255-3e21-4f2b-9fab-6400fbda9cc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.55)
+		(end -1.2 0.55)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6eabf62-d2f0-4e2f-afe4-008fe163dfc7")
+	)
+	(fp_line
+		(start -1.2 0.55)
+		(end -0.4 0.55)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9fb619e-3da2-4d37-a199-eba28cb3531a")
+	)
+	(fp_line
+		(start -0.4 -0.55)
+		(end -1.2 -0.55)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2747f40-4e05-48a6-8c11-366de674c029")
+	)
+	(fp_line
+		(start 0.4 0.55)
+		(end 1.1 0.55)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59f93f78-1040-4dea-ad1a-053966d9af99")
+	)
+	(fp_line
+		(start 1.1 -0.55)
+		(end 0.4 -0.55)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "961aba22-20db-4110-a91a-7c6f0e546225")
+	)
+	(fp_line
+		(start 1.2 -0.45)
+		(end 1.1 -0.55)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d09e8af-3f01-4732-98f5-5417a81c2e3e")
+	)
+	(fp_line
+		(start 1.2 0.45)
+		(end 1.1 0.55)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7660a6e8-a562-4b2c-be01-3f0772d6af41")
+	)
+	(fp_line
+		(start 1.2 0.45)
+		(end 1.2 -0.45)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d5c0e94-5cd2-4bba-b108-33ae9b7d6169")
+	)
+	(fp_poly
+		(pts
+			(xy -0.2 0.3) (xy 0.2 0) (xy -0.2 -0.3)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f08c29a7-d42f-45bf-adaa-2d412b6d9001")
+	)
+	(fp_rect
+		(start -1.27 -0.5715)
+		(end 1.27 0.5715)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dccf462f-af5d-4e59-ae95-a4f7d502ff3a")
+	)
+	(fp_rect
+		(start -1 -0.4)
+		(end 1 0.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2e0e2545-b92a-4c09-8b47-a55a6996a035")
+	)
+	(fp_rect
+		(start 0.9 -0.4)
+		(end 1 0.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d8a74a5b-f320-46bb-9499-1c7bab6cdaa1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "67854c02-116d-44ba-a488-1a89f9571c5b")
+		(effects
+			(font
+				(size 0.381 0.381)
+				(thickness 0.09525)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at -0.7 0)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0254)
+		(uuid "7a463dda-dc5f-40c6-a6d1-3d0473aef109")
+	)
+	(pad "K" smd rect
+		(at 0.7 0)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0254)
+		(uuid "8c62935b-bbfa-4adc-89fc-af925cdffa00")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "d2a43685-7933-44df-93a4-f13e80c53919")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.2 -0.5) (xy -0.2 0.5) (xy 0.2 0.5) (xy 0.2 -0.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

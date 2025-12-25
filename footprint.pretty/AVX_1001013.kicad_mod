@@ -1,0 +1,170 @@
+(footprint "AVX_1001013"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0d569aa0-7b3e-4f08-af3d-740626dbad9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AVX_1001013"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "26b94c38-c39f-4ec7-953e-39dd1aa51445")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "AVX_1001013"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37358fbb-3fa4-49a1-8725-3fe3a678d01c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3780df7-33c4-4961-acf1-23044ff0a5f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d7eb607-8384-4c75-990e-8c7a9bfca75d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.7 -0.8)
+		(end -7.7 -1.8)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5c9b3ad-a4e8-4c5c-be5e-0e5fe4ee6d30")
+	)
+	(fp_line
+		(start -6.7 -1.8)
+		(end -7.7 -1.8)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b25cb97-a1c8-4209-ad46-577485d496e7")
+	)
+	(fp_rect
+		(start -7.5 -1.6)
+		(end 7.5 1.6)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fd9cb1e4-818b-4ce2-83f7-c7602ead72f9")
+	)
+	(fp_rect
+		(start -7.5 -1.6)
+		(end 7.5 1.6)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fc9b50e8-791a-4c8d-80e1-0d42ad04fc4c")
+	)
+	(fp_rect
+		(start -7.5 -1.6)
+		(end 7.5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f40ecb15-2eb7-4c76-84e2-cfa312429374")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de97226f-7ee3-4e59-8730-0de78cd9d2cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.3 0)
+		(size 2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(thermal_bridge_angle 45)
+		(uuid "d80300ac-b7f9-4dc7-bfca-522de400cb28")
+	)
+	(pad "2" smd rect
+		(at -0.5 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(thermal_bridge_angle 45)
+		(uuid "54fcba7c-6275-44ce-a1cf-8b34bef49968")
+	)
+	(pad "3" smd rect
+		(at 5.8 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(thermal_bridge_angle 45)
+		(uuid "b41104d0-7c74-4626-8d8c-2f636cacf22a")
+	)
+	(model "${ONEKIWI_3DMODEL_DIR}/RF_Antenna.3dshapes/AVX_1001013.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,162 @@
+(footprint "ALPSALPINE_SKTDLDE010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "10f89cd7-02af-4900-b99f-d135b7a657cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ALPSALPINE_SKTDLDE010"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a541ce11-bea2-4732-ad22-d065e995226e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c46d937-1bf1-45af-a5c9-3571f1876768")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a43055a4-f0ac-42b4-b578-d366a0ad820f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -1.7)
+		(end -1.4 -1.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c0e8f5ee-e505-45da-941b-6c6e15f314cd")
+	)
+	(fp_rect
+		(start -2.5 -1.4)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d93922e5-a9a9-41a3-a29d-04ba39a82aaa")
+	)
+	(fp_rect
+		(start -0.9 -2.3)
+		(end 0.9 -1.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0180e2e9-b5e9-4ab9-b284-3af311ff06cd")
+	)
+	(fp_rect
+		(start 1.4 -1.7)
+		(end 2.5 -1.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "81715d2a-0965-4b68-9a85-a8d6d269934a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32218a0a-e2f2-4c68-9396-4e80158a739d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.4 0.6)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ac49bf4c-9f9a-48e9-9424-0eaf77e47be8")
+	)
+	(pad "2" smd rect
+		(at 1.4 0.6)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "86f8c8e4-02b4-4a81-a1a2-9799c4c8a6b1")
+	)
+	(pad "SH" thru_hole circle
+		(at -1.85 -0.75)
+		(size 1 1)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50916a77-147b-4339-ba6f-366872195dc4")
+	)
+	(pad "SH" smd rect
+		(at 0 0.75)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "36d5eadf-0f82-4db3-b41b-b10a84c98970")
+	)
+	(pad "SH" thru_hole circle
+		(at 1.85 -0.75)
+		(size 1 1)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e13f6567-0144-492c-be81-baa6fe06777e")
+	)
+	(embedded_fonts no)
+	(model "${ONEKIWI_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SKTDLDE010.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

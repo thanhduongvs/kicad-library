@@ -1,0 +1,226 @@
+(footprint "SOIC8_3.9x4.9_P1.27_SGD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOIC SO")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "cd87a8ba-a52a-4371-bac7-107af5dac97c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "SOIC8_3.9x4.9_P1.27_SGD"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "b19a7e24-d01c-4894-8cdb-7ae4319fcf82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8952810d-42fa-4dfc-98d5-294fb52422e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bea21b6-ca29-47ed-b565-0d7c8105d37e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.032 -2.54)
+		(end 2.032 2.54)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cb9bf42c-f561-456a-83c9-b72c345f27a4")
+	)
+	(fp_poly
+		(pts
+			(xy -4.064 -1.905) (xy -4.572 -1.397) (xy -4.572 -2.413)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dddf2d2d-0255-4868-9ae0-f0afb155933e")
+	)
+	(fp_rect
+		(start -4.064 -2.794)
+		(end 4.064 2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "01765db5-f0ac-43ed-bfbd-df9e2c150b33")
+	)
+	(fp_line
+		(start -1.95 -1.475)
+		(end -0.975 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "977bee5a-06f6-4144-b0cc-6fbbbb59ba6b")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ffbee59-7231-490a-8a18-c21db9302e27")
+	)
+	(fp_line
+		(start -0.975 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0b43a0c-e1ce-46f7-88d8-f5713f257a6d")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58234a56-3e8c-4243-a966-7d52110403d3")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44d0a6a4-d544-495d-807b-f9507af65dcb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "577b5928-77b8-4c74-964f-056db08c2993")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "D1" smd roundrect
+		(at 3.048 -1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "3c359586-0f02-4172-a5d7-3993eec9ab4c")
+	)
+	(pad "D1" smd roundrect
+		(at 3.048 -0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "6458d666-9044-4434-a1fa-060cdf0edc2b")
+	)
+	(pad "D2" smd roundrect
+		(at 3.048 0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "6bdf92db-6a4a-4b5b-8c93-b809bc342436")
+	)
+	(pad "D2" smd roundrect
+		(at 3.048 1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "23c2f3f0-ddbb-4954-aa24-620db0d40c44")
+	)
+	(pad "G1" smd roundrect
+		(at -3.048 -0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "e0fb3228-c650-449c-bcee-4c0ef3229adf")
+	)
+	(pad "G2" smd roundrect
+		(at -3.048 1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "c1a4339d-81ac-401b-b5d8-b8a284b774e5")
+	)
+	(pad "S1" smd roundrect
+		(at -3.048 -1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "f28f0111-9845-4f2a-8083-39c54877f0f7")
+	)
+	(pad "S2" smd roundrect
+		(at -3.048 0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "09d2f3e5-947c-4b9d-90c5-ea3643b30cfb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

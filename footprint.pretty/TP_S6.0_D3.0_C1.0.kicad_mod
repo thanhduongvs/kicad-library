@@ -1,0 +1,113 @@
+(footprint "TP_S6.0_D3.0_C1.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7333455e-b716-4135-bb4f-382724c1c421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TP_S6.0_D3.0_C1.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "7c3ea770-7a6d-4770-9987-2a030ced8141")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a46f2a8-67e4-45f3-8e1a-c461a7dc1d9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3180f9aa-96e6-4c9b-971d-146f5cf589e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 3.2 -2.2) (xy 3.2 3.2) (xy -3.2 3.2) (xy -3.2 -2.2) (xy -2.2 -3.2) (xy 2.2 -3.2)
+		)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8eb66365-e0ea-42bf-9c32-17f562072384")
+	)
+	(fp_rect
+		(start -3.4 3.4)
+		(end 3.4 -3.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "597efd0f-965f-4ece-b2a8-a4dfac0bada3")
+	)
+	(fp_rect
+		(start -3.2 3.2)
+		(end 3.2 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6f11c266-628f-4586-8767-628082c2eef2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7594052-1286-4b44-bc08-b0790e1b96e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 6 6)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.16)
+		(chamfer top_left top_right)
+		(uuid "9b76a21d-7e30-4ce2-9df1-4bb34c660b9d")
+	)
+	(embedded_fonts no)
+)

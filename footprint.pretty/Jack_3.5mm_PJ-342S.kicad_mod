@@ -1,0 +1,278 @@
+(footprint "Jack_3.5mm_PJ-342S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PJ311 6pin SMD 3.5mm stereo headphones jack.")
+	(tags "headphones jack plug stereo 3.5mm PJ311")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "26cc0611-6f15-4f0e-8b90-c86a270e4945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_PJ-342S"
+		(at 0 6.1 0)
+		(layer "User.1")
+		(uuid "a2e57827-bac3-4a53-9872-4c5c6e690ba8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30ec6c80-95e5-419d-a5da-a0b9899d39a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83772842-3f6e-41b2-af5b-67ce963103ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4c8bed3-982d-443c-b5c7-24aac949a209")
+	)
+	(fp_line
+		(start -3.2 1.4)
+		(end -3.2 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1905fae7-21eb-437a-bfdd-eab3500ef393")
+	)
+	(fp_line
+		(start -3.2 4.4)
+		(end -3.2 3.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a3dc84a-9bc2-4e74-abfa-bf381769a809")
+	)
+	(fp_line
+		(start -3.2 10)
+		(end -3.2 6.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3d0988a-658e-4b01-8947-c4d047a1125a")
+	)
+	(fp_line
+		(start -2.4 -2)
+		(end 2.4 -2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adca051c-6d0d-4c5a-8d27-4eb9d930fdee")
+	)
+	(fp_line
+		(start -2.4 0)
+		(end -2.4 -2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "556b7626-55a8-4759-a7ed-b5f8ec2343d1")
+	)
+	(fp_line
+		(start 2.2 12.2)
+		(end -3.2 12.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b82d79fe-b318-4c7e-91fd-b8a2d982c6f3")
+	)
+	(fp_line
+		(start 2.4 -2)
+		(end 2.4 0.000001)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e492ceb-80c2-46c8-b0da-093607947966")
+	)
+	(fp_line
+		(start 3.2 0)
+		(end 3.2 1.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58a899ed-8a95-4c1c-a297-d0e1162d51c8")
+	)
+	(fp_line
+		(start 3.2 3.4)
+		(end 3.2 8.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53d989c9-f9aa-4dbe-ad19-d8b28d5c8935")
+	)
+	(fp_rect
+		(start -4.8 -2.2)
+		(end 4.8 12.6)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cce6b28f-e6a9-4238-a2a0-593f0c543045")
+	)
+	(fp_rect
+		(start -3.2 0)
+		(end 3.2 12.2)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "189a2a70-31b7-487d-8b71-0688cf695690")
+	)
+	(fp_rect
+		(start -2.4 -2)
+		(end 2.4 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "540e8766-7255-4175-9202-db495bf60f50")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.1 0)
+		(layer "F.Fab")
+		(uuid "ae156acd-fede-46f8-abca-92db1ee051af")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 2.4)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "628a0beb-fa0a-4327-a675-e64f82c13216")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 9.4)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c3d1da3a-ea7e-4b41-8ebf-fc6cc69ce2e5")
+	)
+	(pad "2" smd rect
+		(at -3.5 2.4)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "7deca281-0ee9-4647-aef4-2c31671ebb4e")
+	)
+	(pad "3" smd rect
+		(at 3.5 2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "e59a0885-df6c-4553-b52e-39f56a7a4d4d")
+	)
+	(pad "4" smd rect
+		(at -3.5 5.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "cdc3eee9-d43e-4ce6-80c2-387504f8f802")
+	)
+	(pad "5" smd rect
+		(at 3.5 9.4)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "54013e34-41eb-4505-a175-f3b8e735634e")
+	)
+	(pad "6" smd rect
+		(at -3.5 11)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "e6742686-55d7-4938-81f2-2a47f56c9f4f")
+	)
+	(pad "7" smd rect
+		(at 3.5 11.6)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "5a13773f-9426-48bd-b64c-511041936855")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ311_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${ONEKIWI_3DMODEL_DIR}/Connector_Audio.3dshapes/PJ-342B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

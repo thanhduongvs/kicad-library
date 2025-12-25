@@ -1,0 +1,196 @@
+(footprint "SOIC8_5.3x5.3_P1.27"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOIC SO")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "cd87a8ba-a52a-4371-bac7-107af5dac97c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "SOIC8_5.3x5.3_P1.27"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "b19a7e24-d01c-4894-8cdb-7ae4319fcf82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d153ef-dbc6-4fac-831b-cfe0d92349b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a216d5a3-c8c2-4bf2-823f-12abe8f11150")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.794 -2.794)
+		(end 2.794 2.794)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cb9bf42c-f561-456a-83c9-b72c345f27a4")
+	)
+	(fp_poly
+		(pts
+			(xy -3 -2) (xy -2.8 -2) (xy -2.794 -2.794) (xy -2 -2.8) (xy -2 -3) (xy -3 -3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b8d8c1b3-7aef-42d4-8ee6-fe6331dea243")
+	)
+	(fp_rect
+		(start -5.08 -3.048)
+		(end 5.08 3.048)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "01765db5-f0ac-43ed-bfbd-df9e2c150b33")
+	)
+	(fp_line
+		(start -2.794 -2.032)
+		(end -2.032 -2.794)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c32f1e2-5026-4a65-9d1f-d5b730445a0e")
+	)
+	(fp_rect
+		(start -2.794 -2.794)
+		(end 2.794 2.794)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "753e6a98-2ad7-4cd2-b93c-0962f87ae627")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "577b5928-77b8-4c74-964f-056db08c2993")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.95 -1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "f28f0111-9845-4f2a-8083-39c54877f0f7")
+	)
+	(pad "2" smd roundrect
+		(at -3.95 -0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "e0fb3228-c650-449c-bcee-4c0ef3229adf")
+	)
+	(pad "3" smd roundrect
+		(at -3.95 0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "09d2f3e5-947c-4b9d-90c5-ea3643b30cfb")
+	)
+	(pad "4" smd roundrect
+		(at -3.95 1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "c1a4339d-81ac-401b-b5d8-b8a284b774e5")
+	)
+	(pad "5" smd roundrect
+		(at 3.95 1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "23c2f3f0-ddbb-4954-aa24-620db0d40c44")
+	)
+	(pad "6" smd roundrect
+		(at 3.95 0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "6bdf92db-6a4a-4b5b-8c93-b809bc342436")
+	)
+	(pad "7" smd roundrect
+		(at 3.95 -0.635)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "6458d666-9044-4434-a1fa-060cdf0edc2b")
+	)
+	(pad "8" smd roundrect
+		(at 3.95 -1.905)
+		(size 1.524 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_paste_margin 0.0762)
+		(uuid "3c359586-0f02-4172-a5d7-3993eec9ab4c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

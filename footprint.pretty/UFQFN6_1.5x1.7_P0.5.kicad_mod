@@ -1,0 +1,174 @@
+(footprint "UFQFN6_1.5x1.7_P0.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "758cb620-834d-4090-bfe1-a5c52e8b2291")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "UFQFN6_1.5x1.7_P0.5"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "e879f0bd-b3db-4cf9-baaf-31c3f7ca81e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5d87721-81df-49c1-994d-d0687c1ede00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adcbfef0-6016-44f3-aa0c-6389c0b1dce1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.762 1.016)
+		(end 0.762 1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3340dc48-df60-42c9-8272-dace82498ede")
+	)
+	(fp_line
+		(start 0.762 -1.016)
+		(end -0.762 -1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "619613dc-f472-43dd-abf8-08224a9a1f25")
+	)
+	(fp_poly
+		(pts
+			(xy -1.524 -0.508) (xy -2.032 0) (xy -2.032 -1.016)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7af7e76f-8c61-475f-b63f-d80f47514121")
+	)
+	(fp_rect
+		(start -1.778 -1.27)
+		(end 1.778 1.27)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "be90fd9b-f585-44e6-adbe-86da67c13549")
+	)
+	(fp_rect
+		(start -0.8 -0.923)
+		(end 0.762 0.889)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "db4eca4e-016b-4483-b741-1b40183d53d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "98e3202c-872e-4597-b1db-690b083d5e35")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.762 -0.508)
+		(size 1.016 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "3e930cb7-0d30-4fc4-b647-a8124ddb0f8f")
+	)
+	(pad "2" smd rect
+		(at -0.762 0)
+		(size 1.016 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "3cd102c3-0e8c-4ed1-a7e4-e09f7506a5c9")
+	)
+	(pad "3" smd rect
+		(at -0.762 0.508)
+		(size 1.016 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "8a85da26-c0a4-4b45-acd0-36afb067cb00")
+	)
+	(pad "4" smd rect
+		(at 0.762 0.508)
+		(size 1.016 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "4dbb1b82-eec6-4f2c-b4fd-958e40f92798")
+	)
+	(pad "5" smd rect
+		(at 0.762 0)
+		(size 1.016 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "900059e6-6695-4415-a398-86753f90ec1a")
+	)
+	(pad "6" smd rect
+		(at 0.762 -0.508)
+		(size 1.016 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "2d111600-2612-480c-b211-0d433571f81b")
+	)
+	(embedded_fonts no)
+	(model "${ONEKIWI_3DMODEL_DIR}/Package_SMD.3dshapes/UFQFN6_1.5x1.7_P0.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

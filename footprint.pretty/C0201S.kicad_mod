@@ -1,0 +1,123 @@
+(footprint "C0201S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "425f6d61-dfba-4a94-9703-968b00b8621f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "C0201S"
+		(at 0 0.1524 0)
+		(layer "User.1")
+		(uuid "7d7e6829-f236-4351-a29b-4576bc564f42")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91a83ea6-8795-40e3-8f81-775f16a2f71b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dbf134d-3a58-4b90-9603-e3e0737d90a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.1)
+		(end 0 0.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac14ab30-d677-4c31-8e03-3fb37206cd7d")
+	)
+	(fp_rect
+		(start -0.5588 -0.3048)
+		(end 0.5588 0.3048)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3a7154ef-7a41-4a18-b23d-741128c7f687")
+	)
+	(fp_rect
+		(start -0.5 -0.2)
+		(end 0.5 0.2)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec8f02af-b6e6-46b1-81b3-848f485dbcc8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "59b7d457-6134-44e4-bafc-19d1f24c902f")
+		(effects
+			(font
+				(size 0.1524 0.1524)
+				(thickness 0.0381)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.2794 0)
+		(size 0.381 0.3556)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "961b94e5-5792-4f44-9ec7-2befb7a33c8b")
+	)
+	(pad "2" smd rect
+		(at 0.2794 0)
+		(size 0.381 0.3556)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0508)
+		(uuid "f02c01bc-9f6e-472e-a4e5-713002a00e74")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

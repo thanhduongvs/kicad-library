@@ -1,0 +1,194 @@
+(footprint "ANT_2450AD18A7250"
+	(version 20240225)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(tags "antenna")
+	(property "Reference" "REF**"
+		(at 0.127 0 0)
+		(layer "F.SilkS")
+		(uuid "bf9a2355-82f5-445c-80df-8d3e4b394016")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "ANT_2450AD18A7250"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "338719f3-4d9e-4c9b-84d5-957bda5d0d25")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" "ANT_2450AD18A7250"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfd9cbc7-98e2-4bd5-a57b-07c388fc64b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53ad0874-0f71-4b4e-938a-291b76de6491")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "254e94d6-2ba7-4dd9-8c1f-1087ab693a78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.032 -0.889)
+		(end -1.778 -1.143)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a773609-af98-4774-a657-859096ecae39")
+	)
+	(fp_line
+		(start -2.032 0.889)
+		(end -1.778 1.143)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccd1d4d2-9ed5-4b14-a5fb-0c6b321fbb35")
+	)
+	(fp_rect
+		(start -2.032 -1.143)
+		(end 2.032 1.143)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d684f628-52ec-4ae5-bb33-cedf3e6f12be")
+	)
+	(fp_rect
+		(start -2.286 -1.27)
+		(end 2.286 1.27)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a650fc99-e4f3-4b1f-9c22-d1a1b3480668")
+	)
+	(fp_line
+		(start -2.032 -0.508)
+		(end -1.524 -1.016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8112fb54-444a-42ac-9560-445d7b263059")
+	)
+	(fp_line
+		(start -2.032 1.016)
+		(end -2.032 -0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61a97bbd-00e6-4d36-a392-d89ca97e1be0")
+	)
+	(fp_line
+		(start -1.524 -1.016)
+		(end 2.032 -1.016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51fbb620-9c8c-4a80-84bf-5801aa9d4f8e")
+	)
+	(fp_line
+		(start 2.032 -1.016)
+		(end 2.032 1.016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7af6f84d-4c6d-4fbe-9ec3-1e4887b02c21")
+	)
+	(fp_line
+		(start 2.032 1.016)
+		(end -2.032 1.016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99ce0376-bdca-40a8-b473-08b3ab9524a4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f20bcfeb-4542-4151-ba13-04433687d50d")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 0)
+		(size 1.016 1.778)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "a0bbbd0e-e15d-4e15-97c9-d552328b5607")
+	)
+	(pad "2" smd rect
+		(at 1.27 0)
+		(size 1.016 1.778)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "b6242db3-8906-4b2a-bc91-aaa8ecf7775e")
+	)
+	(model "${ONEKIWI_3DMODEL_DIR}/RF_Antenna.3dshapes/ANT_2450AD18A7250.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

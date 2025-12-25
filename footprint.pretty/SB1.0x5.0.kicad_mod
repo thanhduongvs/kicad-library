@@ -1,0 +1,122 @@
+(footprint "SB1.0x5.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "ferrite bead")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "a12c907f-6753-49f7-98da-f5e82f0d4fa1")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "SB1.0x5.0"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "1c54c02c-2389-4c0a-aab4-48fb2dc63c96")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "283790d4-5094-48a4-ba18-1fee0ff9ed44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7500de57-4f88-428f-ba2d-efc7c7548a8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4 -2.6)
+		(end 1.4 2.6)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "91439daa-c318-4a4b-9bea-8d746072e161")
+	)
+	(fp_rect
+		(start -1.4 -2.6)
+		(end 1.4 2.6)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a4f750d-22d3-4f39-8b85-77841bd02d7b")
+	)
+	(fp_rect
+		(start -1.4 -2.6)
+		(end 1.4 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ebce74a7-1d25-46a6-85c1-bb67c32a9234")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "316a7d75-5614-4085-aa6e-5f54014630ae")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 1 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dba6daca-b6cd-4cae-9ffc-bbd7ae7605b3")
+	)
+	(pad "2" smd rect
+		(at 0.7 0)
+		(size 1 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7282ad40-2f1f-4ef9-9d35-a19ddb4330b5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

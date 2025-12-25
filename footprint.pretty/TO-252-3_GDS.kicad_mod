@@ -1,0 +1,146 @@
+(footprint "TO-252-3_GDS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "11fba65e-3fe1-4b82-8092-e5c3a051073b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-252-3_GDS"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "34430766-70be-414a-80e4-1f984976b5d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7156ba1f-b27e-41ca-8034-c2a3e382eb4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7158f30-06f9-4aef-b737-525e9fd0339c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.4 -6)
+		(end 3.4 2.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0a3362a3-b09c-4cc1-88ee-d4021b7fee65")
+	)
+	(fp_rect
+		(start -3.6 -6.2)
+		(end 3.6 6)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6dd14b04-c631-4b04-8f7b-859142f95678")
+	)
+	(fp_rect
+		(start -3.6 -6.2)
+		(end 3.6 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "36428c4b-84c8-477f-b1fb-4cfa05d139e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a425048-0184-4a41-9588-8610ff20b7f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "D" smd rect
+		(at 0 -2.35)
+		(size 6.25 6.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "acc5ae3f-ba4a-428d-b3ad-5b3f3b43cded")
+	)
+	(pad "G" smd rect
+		(at -2.286 4.25)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "efe6bfa9-f320-4018-a8f3-29689e7069e9")
+	)
+	(pad "S" smd rect
+		(at 2.286 4.25)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "5dd2f804-1f99-4e5f-8d8a-91716d5c6d29")
+	)
+	(embedded_fonts no)
+	(model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/TO-252-2.step"
+		(offset
+			(xyz 0 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.step"
+		(offset
+			(xyz 0 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

@@ -1,0 +1,145 @@
+(footprint "SK6812MINI-E_FLIP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "71db1b58-bb00-421f-a03f-933dbba687e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK6812MINI-E_FLIP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "c8ea5078-994e-4700-a5e2-ffa579f5dffa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6591dd1-6d9c-47e9-bf83-1369a9ce8ef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14fd42c3-a45e-4ca1-aa8a-82d51f2d74eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.9 1.7)
+		(end 1.9 -1.7)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1bb4bb5e-8a57-44fa-9883-6b96ba74d6eb")
+	)
+	(fp_rect
+		(start -1.8 -1.6)
+		(end 1.8 1.6)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "f6174278-5b0c-456c-a598-a9cb4d31b5b2")
+	)
+	(fp_rect
+		(start -3.6 1.9)
+		(end 3.6 -1.9)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "707de3d9-77f1-4001-b0c7-198e6a6ffae7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f61b5d8-b31c-40f5-bda3-c35774e31337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.8 -0.75)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a11c759a-0731-410a-9c4f-832c01f92142")
+	)
+	(pad "2" smd rect
+		(at 2.8 0.75)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0ecbe5c6-badf-4086-baef-82f13b2b3e88")
+	)
+	(pad "3" smd roundrect
+		(at -2.8 0.75)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer bottom_left)
+		(thermal_bridge_angle 45)
+		(uuid "573c322d-5aae-4722-accf-ee8c39009ac9")
+	)
+	(pad "4" smd rect
+		(at -2.8 -0.75)
+		(size 1.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2b0adf50-ce89-46d7-84a3-6ea30a757647")
+	)
+	(embedded_fonts no)
+	(model "${ONEKIWI_3DMODEL_DIR}/LED_SMD.3dshapes/SK6812MINI-E.stp"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+)

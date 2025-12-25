@@ -1,0 +1,146 @@
+(footprint "KF_5.08_2_RA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
+	(tags "terminal block bornier2")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "3b0beefe-3285-4e54-b3ce-ec2544c3e1b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KF_5.08_2_RA"
+		(at 0 3.81 0)
+		(layer "User.1")
+		(uuid "00feb1e2-1269-4312-b5dc-3a40b0b72e6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd9b8eb-cc91-429e-a4fc-d0faf9feba76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf51462d-0b68-4a79-9b49-a9a0444757b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.08 1.905)
+		(end 5.08 1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc00f9f1-ee5a-4c73-b3b8-107a7b9b0381")
+	)
+	(fp_line
+		(start 0 1.016)
+		(end 0 -10.668)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f49630c4-5fdf-493e-a94d-e193c3574a34")
+	)
+	(fp_rect
+		(start -5.08 2.54)
+		(end 5.08 -11.43)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "61f9b603-b2b4-4c9e-9429-15f478df315c")
+	)
+	(fp_rect
+		(start -5.4 2.8)
+		(end 5.4 -11.684)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4bbbd115-a5f5-4f63-adc9-630ffb9c2476")
+	)
+	(fp_line
+		(start -5.08 2.55)
+		(end 5.08 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e11bb8f-5496-4ec5-b3e4-490b7ce3ba0a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6b841eef-78e3-46ac-8811-f59b50448afa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 3.048 3.048)
+		(drill 1.397)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b30f2a2-e1ac-4670-8147-b256bdff51ae")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 3.048 3.048)
+		(drill 1.397)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6adc5a65-2ac0-48c8-8ef7-21435c0e001d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl"
+		(offset
+			(xyz 2.539999962 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

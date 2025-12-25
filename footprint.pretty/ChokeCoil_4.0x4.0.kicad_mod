@@ -1,0 +1,209 @@
+(footprint "ChokeCoil_4.0x4.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fffa13b0-6f14-4c9a-aa38-5e474ab1fc3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ChokeCoil_4.0x4.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "f533fbb8-0c3f-4ab6-b402-afbb07458c8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8345adf-fd7a-4197-bafc-aca7ff4b0ceb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32055675-6bb4-49f5-ab7e-1610ce368a42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -0.3)
+		(end -2 0.3)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35f5f19b-4725-4648-9142-f69c38154f9d")
+	)
+	(fp_line
+		(start -0.6 -2)
+		(end 0.6 -2)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "baa945a8-5e1c-4f93-831d-d7f4c08586ee")
+	)
+	(fp_line
+		(start -0.6 2)
+		(end 0.6 2)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d17f71d-7203-46ab-9fa0-1616beb7cc3b")
+	)
+	(fp_line
+		(start 2 -0.3)
+		(end 2 0.3)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b92a0e2a-f811-4fdc-8a71-2f418dc8d88f")
+	)
+	(fp_rect
+		(start -2 -0.3)
+		(end -1.7 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ecafe765-e9e4-46fd-96f0-7f69a7e8a5c7")
+	)
+	(fp_poly
+		(pts
+			(xy -2.6 -1.2) (xy -3.2 -1.8) (xy -3.2 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "51ce9d18-66a9-4f29-b439-e45d26bc0c61")
+	)
+	(fp_rect
+		(start -2.6 -2.2)
+		(end 2.6 2.2)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f40e1760-86c1-4525-b0b4-538ffadf3ba7")
+	)
+	(fp_rect
+		(start -2.3 -1.9)
+		(end 2.3 1.9)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b0c4f39-4702-4a17-b107-b1e61cd5bbd7")
+	)
+	(fp_poly
+		(pts
+			(xy -2.3 -1.9) (xy -2.3 -1.1) (xy -1.5 -1.9)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "58a5eb4c-9be2-4205-86d6-4ae8de489cfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0a00489-915d-4030-823a-6538251224d7")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1905)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.6 -1.2)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(thermal_bridge_angle 45)
+		(uuid "99904772-d3a6-4fe1-9415-a28bd92727a0")
+	)
+	(pad "2" smd rect
+		(at 1.6 -1.2)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(thermal_bridge_angle 45)
+		(uuid "553bb469-ff8f-4a12-b6eb-e7c0c0b66da9")
+	)
+	(pad "3" smd rect
+		(at 1.6 1.2)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(thermal_bridge_angle 45)
+		(uuid "52843070-62f2-410a-a9c0-e631ee93bdb6")
+	)
+	(pad "4" smd rect
+		(at -1.6 1.2)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(thermal_bridge_angle 45)
+		(uuid "4344b9b5-02d4-45ea-964e-4dffbf89aeb6")
+	)
+	(embedded_fonts no)
+	(model ":ONEKIWI_3DMODEL_DIR:ChokeCoil.3dshapes/DLW44SM242SK2.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

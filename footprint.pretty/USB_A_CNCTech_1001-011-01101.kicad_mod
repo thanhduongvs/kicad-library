@@ -1,0 +1,325 @@
+(footprint "USB_A_CNCTech_1001-011-01101"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf")
+	(tags "USB-A")
+	(property "Reference" "REF**"
+		(at 1.016 0 0)
+		(layer "F.SilkS")
+		(uuid "01fc4136-4c24-4e4c-bd0d-13a97447daf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_A_CNCTech_1001-011-01101"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "c1037131-7073-4a1f-9327-c4a0eda6f529")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bce2a636-bf4a-4528-b7b8-89abee34ed21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37cacf03-c27d-4ef9-9563-0cafd8e59168")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.064 -6.096)
+		(end -2.032 -6.096)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63218bd6-2aa2-420f-bb70-811192efd477")
+	)
+	(fp_line
+		(start -4.064 -4.572)
+		(end -4.064 -6.096)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b84a9afb-6669-4835-b040-211119591c13")
+	)
+	(fp_line
+		(start -4.064 4.572)
+		(end -4.064 6.096)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b658d441-c5a6-4654-9898-39ea236aac2d")
+	)
+	(fp_line
+		(start -4.064 6.096)
+		(end -2.032 6.096)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22a5ca06-218a-430e-a412-d7d30cb07094")
+	)
+	(fp_line
+		(start 2.032 -6.096)
+		(end 17.272 -6.096)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f8e6f02-26c4-47b3-8b8c-c95998e6a682")
+	)
+	(fp_line
+		(start 2.032 6.096)
+		(end 17.272 6.096)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5830b911-6b5b-4581-a05d-28922d8bae84")
+	)
+	(fp_line
+		(start 17.272 -6.096)
+		(end 17.272 6.096)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fde3fa98-4565-4edb-803d-ae65da8abaf3")
+	)
+	(fp_line
+		(start 3.048 -7.112)
+		(end 3.048 7.112)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "d1e8a8e4-5d55-453b-a2e4-1ce7f0d5a216")
+	)
+	(fp_rect
+		(start 17.78 -7.112)
+		(end -4.572 7.112)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aae4b54d-80a3-461a-a8aa-7ef68fdf794e")
+	)
+	(fp_line
+		(start -1.9 6.025)
+		(end -1.9 -6.025)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b407b70a-fd19-4bc4-b230-9c2055764a58")
+	)
+	(fp_rect
+		(start -4.572 -3.81)
+		(end -2.032 -3.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "469fbdb2-0948-4a24-b5d0-a4d5a3b8adae")
+	)
+	(fp_rect
+		(start -4.572 -1.27)
+		(end -2.032 -0.762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "458b19e0-cb1b-4811-b6b0-02a18ea927e9")
+	)
+	(fp_rect
+		(start -4.572 0.762)
+		(end -2.032 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2fb68e4d-9977-4b7d-ab29-20004b3fae52")
+	)
+	(fp_rect
+		(start -4.572 3.302)
+		(end -2.032 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c130b00f-d8c6-4aa5-bdeb-15144ba2ca27")
+	)
+	(fp_rect
+		(start -1.9 -6.025)
+		(end 17.272 6.096)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "da5fcbbf-733c-4285-9133-790337118258")
+	)
+	(fp_circle
+		(center 0 -2.3)
+		(end 0.5 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cca34497-b967-4a49-b0e9-e9832b933a8b")
+	)
+	(fp_circle
+		(center 0 2.3)
+		(end 0.5 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d99e065-57f2-4d54-a165-4c354fafdca1")
+	)
+	(fp_text user "PCB Edge"
+		(at 3.556 0 90)
+		(layer "Dwgs.User")
+		(uuid "5d78449f-fa2a-4177-a110-4b6506243606")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "5d093d4c-058c-415e-8e65-9089878bc1aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -2.286)
+		(size 1.143 1.143)
+		(drill 1.143)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3f980514-0a68-4ef9-bf1b-5db1328a12ee")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 2.286)
+		(size 1.143 1.143)
+		(drill 1.143)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d87be3b8-b8d3-4669-9477-e7abb69f2b13")
+	)
+	(pad "1" smd rect
+		(at -2.794 -3.500001)
+		(size 2.54 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "4af4627c-8b10-4964-a752-0f27f0d9975c")
+	)
+	(pad "2" smd rect
+		(at -2.794 -1)
+		(size 2.54 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "2dbb8979-e068-4f96-b15e-57a1053f04ec")
+	)
+	(pad "3" smd rect
+		(at -2.794 1)
+		(size 2.54 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "034be30a-68b5-490b-affa-745139d90dc8")
+	)
+	(pad "4" smd rect
+		(at -2.794 3.500001)
+		(size 2.54 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "082e66f1-db12-4581-9168-50a6dbb7ac85")
+	)
+	(pad "SH" thru_hole oval
+		(at 0 -5.715)
+		(size 3.556 2.032)
+		(drill oval 2.54 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "187e1c7b-a6b7-4a33-a169-8cea2ad53f1b")
+	)
+	(pad "SH" thru_hole oval
+		(at 0 5.715)
+		(size 3.556 2.032)
+		(drill oval 2.54 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7d8dc47-e1b0-498f-9e3e-93fe7c4b6f13")
+	)
+	(embedded_fonts no)
+	(model "${ONEKIWI_3DMODEL_DIR}/usb.3dshapes/USB-AM-S-F-B-SM1.stp"
+		(offset
+			(xyz 8.382 0 -1.524)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

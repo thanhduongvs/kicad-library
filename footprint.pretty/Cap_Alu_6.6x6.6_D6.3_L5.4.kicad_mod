@@ -1,0 +1,244 @@
+(footprint "Cap_Alu_6.6x6.6_D6.3_L5.4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Aluminum Electrolytic SMD, body Ø8.0mm x H10.5mm, lead pitch ~6.2mm, Pad1 is Positive (+)")
+	(tags "capacitor electrolytic SMD 8x10.5 8mm can")
+	(property "Reference" "REF**"
+		(at 0 -5.9 0)
+		(layer "F.SilkS")
+		(uuid "cd3659d5-dd86-4575-8faa-dc60f3721c16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cap_Alu_6.6x6.6_D6.3_L5.4"
+		(at 0 5.9 0)
+		(layer "F.Fab")
+		(uuid "a28201a7-6d00-4ef3-9b6c-414e22181238")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a21f19c-a529-49fe-a235-5f7784905607")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cfa79e2-c054-4968-b772-2701e561cc9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -2.2)
+		(end -3.2 -0.8)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86ad06cc-6d81-4711-a87f-313c8c62ac24")
+	)
+	(fp_line
+		(start -3.2 0.8)
+		(end -3.2 2.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "293664f6-12c8-437d-a256-5b795e0f65fc")
+	)
+	(fp_line
+		(start -3.2 2.2)
+		(end -2.2 3.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b4364b3-1cca-455e-9d62-fa8ae8177037")
+	)
+	(fp_line
+		(start -2.2 -3.2)
+		(end -3.2 -2.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc546db0-75ac-41be-8b15-24c8b0edd363")
+	)
+	(fp_line
+		(start -2.2 3.2)
+		(end 3.2 3.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2525d585-a573-4760-ac0e-61bc20ef4919")
+	)
+	(fp_line
+		(start -1.8 -1.4)
+		(end -0.6 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5babea7-28ca-4269-b603-441ebf2ec83f")
+	)
+	(fp_line
+		(start -1.2 -2)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff0dc2fe-4fb0-4f3c-aa0c-ec140716e4a3")
+	)
+	(fp_line
+		(start 3.2 -3.2)
+		(end -2.2 -3.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66343226-46f1-4538-bc5d-168106901265")
+	)
+	(fp_line
+		(start 3.2 -0.8)
+		(end 3.2 -3.2)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bf9d14a-0020-4aa0-823e-84d1097d99d1")
+	)
+	(fp_line
+		(start 3.2 3.2)
+		(end 3.2 0.8)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9682f834-2b2d-4faf-b5f0-f2583358a63e")
+	)
+	(fp_arc
+		(start -2.919229 -0.778461)
+		(mid -0.011157 -3.02122)
+		(end 2.9134 -0.8)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd9f4324-f32b-4738-8dfd-4a93c8bca203")
+	)
+	(fp_arc
+		(start 2.732496 1.006709)
+		(mid -0.108726 2.910012)
+		(end -2.8 0.8)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6e41594-0398-4b74-be9a-b8886cbc4643")
+	)
+	(fp_rect
+		(start -4.4 -3.4)
+		(end 4.4 3.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1ade8129-629f-41cf-bc77-bd05a74fdc05")
+	)
+	(fp_line
+		(start 3.8 -1.2)
+		(end 3.8 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50d6984e-7bd5-476a-bcf4-f9b45f9f9087")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "599dc45d-aad0-4f07-a888-f87f8da2c6a0")
+	)
+	(fp_text user "1+"
+		(at -3.1 -2.2 0)
+		(layer "F.Fab")
+		(uuid "5f9e98e6-d3a7-41c3-8a72-f70f4fb370f6")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6a7f9815-e837-44cc-892d-42f881408cb3")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "N" smd rect
+		(at 2.8 0)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a35aacba-fa5d-412a-a441-ec7c5f3fd686")
+	)
+	(pad "P" smd rect
+		(at -2.8 0)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5fbb793f-0c7c-46f1-94a7-9dad5909e245")
+	)
+	(embedded_fonts no)
+)

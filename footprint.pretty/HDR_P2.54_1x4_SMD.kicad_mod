@@ -1,0 +1,149 @@
+(footprint "HDR_P2.54_1x4_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x20 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(uuid "9d42311e-c80e-4f4e-a045-9ee2291af5cd")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(property "Value" "HDR_P2.54_1x4_SMD"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "e158be4f-ab22-4699-a740-7492a9ed5b77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "HDR_P2.54_1x4_SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8af43785-33fa-44dd-b2dc-b7df1042bc67")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03e90e48-d229-405b-b5c9-0b26b4fbb21e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26d5a643-dc04-4d0a-ae96-017acbf45c52")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.962 -4.626)
+		(end -0.762 -4.826)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cef442e2-67e2-4714-9725-4fc625ca0971")
+	)
+	(fp_rect
+		(start -1 -4.826)
+		(end 1 4.826)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "50793c52-9e6f-4c25-b14f-27dadbc472e8")
+	)
+	(fp_rect
+		(start -1.143 -4.953)
+		(end 1.143 4.953)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ee0168f1-435d-49c6-94f1-aff93df2966f")
+	)
+	(fp_rect
+		(start -1 4.73)
+		(end 1 -4.826)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5b3c4d46-652a-4a93-8dd3-3a4c643f762e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.27 90)
+		(layer "F.Fab")
+		(uuid "d4a77f69-cf47-4b2b-b641-656d15ad0a0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3.81)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "d41f469e-5a9d-4e42-b3f8-598a5c547295")
+	)
+	(pad "2" smd rect
+		(at 0 -1.27)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "b22851ae-5362-40ba-ab2f-e6b41b30a7e0")
+	)
+	(pad "3" smd rect
+		(at 0 1.27)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "55557334-b3ae-4d1c-970d-e9260327a469")
+	)
+	(pad "4" smd rect
+		(at 0 3.81)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "47f78ee1-ec36-47cd-9bb3-4399fb4ea738")
+	)
+)

@@ -1,0 +1,220 @@
+(footprint "TO-277B_AC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-227B https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/DST2050S.pdf")
+	(tags "TO-277B")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "c5cf17f8-439b-482c-a751-fd9ea644d293")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-277B_AC"
+		(at 0 0 90)
+		(layer "User.1")
+		(uuid "138eaa79-6a97-4ee1-b3bb-2efb9feae8e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e85c057-59a0-4f95-a467-eb878e75bb61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8fd8eb6-028e-41a6-9b3e-0cf3f3e7f55d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.286 -2.794)
+		(end -2.286 2.794)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13c13a76-1ec2-426f-80ad-aa5e2839b21f")
+	)
+	(fp_line
+		(start -2.286 2.794)
+		(end -1.778 2.794)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bd82fdb-8af9-41cd-b053-dba9e2709b81")
+	)
+	(fp_line
+		(start -1.524 -2.794)
+		(end -2.286 -2.794)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5eed628-b112-4f80-af7f-d93ce5ff9eef")
+	)
+	(fp_line
+		(start 1.778 2.794)
+		(end 2.286 2.794)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e25b1fab-425e-4f28-ab86-7c76d8d6fdcd")
+	)
+	(fp_line
+		(start 2.286 -2.794)
+		(end 1.524 -2.794)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b0d878f-65b0-4329-92b9-f4661af29209")
+	)
+	(fp_line
+		(start 2.286 2.794)
+		(end 2.286 -2.794)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9cfe0f1-f094-4aa0-9cfa-8340e41fea9a")
+	)
+	(fp_rect
+		(start -2.54 4.064)
+		(end 2.54 -4.064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "905664a8-b7e9-4a46-b9a0-7c6acfcdfaca")
+	)
+	(fp_line
+		(start -1.99 -1.69)
+		(end -1.99 2.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8c7b800-eaff-413a-a7b7-2be6696df91c")
+	)
+	(fp_line
+		(start -1.99 -1.69)
+		(end -0.99 -2.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bda665e2-cc4d-47c0-bd4e-2828e8ce1053")
+	)
+	(fp_line
+		(start -1.99 2.69)
+		(end 1.99 2.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa106d1d-7b68-4ed1-bf3b-f7336170ce96")
+	)
+	(fp_line
+		(start 1.99 -2.69)
+		(end -1 -2.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95758137-4cb1-4f94-993d-a6da588ef04e")
+	)
+	(fp_line
+		(start 1.99 2.69)
+		(end 1.99 -2.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a2cbe15-11ac-4aa1-9e55-4de236d9c068")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "e23558e6-8ff7-461a-b77a-9cec28561f5b")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at -1.016 -3.175)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "523989d7-4812-4def-87cb-81c5ee7f4b88")
+	)
+	(pad "A" smd rect
+		(at 1.016 -3.175)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "52cbbb21-ef64-49c2-8d14-c8f9a655467b")
+	)
+	(pad "C" smd rect
+		(at 0 1.27)
+		(size 3.175 5.0546)
+		(layers "F.Cu" "F.Mask")
+		(solder_paste_margin 0.0762)
+		(uuid "be698cdd-216a-4886-a808-e21119886831")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-277B.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

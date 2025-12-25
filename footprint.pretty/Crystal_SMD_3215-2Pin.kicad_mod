@@ -1,0 +1,156 @@
+(footprint "Crystal_SMD_3215-2Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
+	(tags "SMD SMT Crystal")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "e0ddd908-1774-4b43-bfe0-a77c04e334a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_3215-2Pin"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "1078156b-a71f-47ff-9151-797b5ccf4850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72704073-1f45-4494-a679-da5aac73430e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee209c66-3e59-4efa-ad53-a7073065c950")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.508 0)
+		(end -0.254 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f3c43ec-a815-4859-b079-8f05200eda27")
+	)
+	(fp_line
+		(start 0.508 0)
+		(end 0.254 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb17f08e-2c6e-4f04-8740-769b7a3ec72e")
+	)
+	(fp_rect
+		(start -2.032 -1.143)
+		(end 2.032 1.143)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "decb57c2-f6ab-4f91-9b29-bcc5f5ecf5da")
+	)
+	(fp_rect
+		(start -0.254 -0.762)
+		(end 0.254 0.762)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8d5f6de9-c412-4ca9-b749-b6be1678be9f")
+	)
+	(fp_rect
+		(start -2.032 -1.143)
+		(end 2.032 1.143)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "56740876-17b2-4b2a-8cd1-4341cb33bceb")
+	)
+	(fp_rect
+		(start -1.7 -0.8)
+		(end 1.7 0.8)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "414f5389-8047-487a-8f72-7ee70ce46640")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a3bdede-ad83-4a8a-9c36-846ccee5f81d")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.27 0)
+		(size 1.016 1.778)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "94b1ab61-3216-44de-afda-8fa290e4795c")
+	)
+	(pad "2" smd rect
+		(at -1.27 0)
+		(size 1.016 1.778)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "93d4fb70-c970-43b5-a41b-84f58d1af8dc")
+	)
+	(embedded_fonts no)
+	(model "${ONEKIWI_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

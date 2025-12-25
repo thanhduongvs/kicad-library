@@ -1,0 +1,119 @@
+(footprint "BLX-A_5.0x20.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2628dd8-503f-4d8b-945a-4c8be7d5381e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BLX-A_5.0x20.0"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dcea1b53-5e11-44b3-b30e-d5b5f620041b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b94a99da-695b-494b-9b29-015434cf69db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c3e38cb-468d-4b4c-b8c1-2212aab39f65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -13.5 -4.8)
+		(end 13.5 4.8)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d591a52e-9170-4fcf-876a-db9ac3c3e80f")
+	)
+	(fp_rect
+		(start -10.2 -3.8)
+		(end 10.2 3.8)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb2e1450-7010-418e-a2c0-03e67bf2af84")
+	)
+	(fp_rect
+		(start -9 -2.5)
+		(end -7.5 2.5)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bc82bd5e-17a8-461e-98cb-0a32c0b2bf2e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2bac6b5-27bc-4dff-bca8-eb24b23c9851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -11 0)
+		(size 1.2 2.3)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aaa8af13-2f78-4bef-bc10-d64d008922c9")
+	)
+	(pad "2" thru_hole oval
+		(at 11 0)
+		(size 1.2 2.3)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "826433f7-6034-4789-8115-207b698ba014")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,247 @@
+(footprint "PLT09HN2003R0P1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29c1b70c-e513-4e58-8f70-a18508255ceb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PLT09HN2003R0P1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9462d2fb-e628-4703-9625-37add49194ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PLT09HN2003R0P1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0277d334-0231-4556-b438-8737688373c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d03e607-1a35-4685-9200-479a78a13753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "955a1a2d-3c45-442c-8217-ed7a47214037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7 6)
+		(end -7 -6)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01c8e4d3-b5da-464a-a6b0-44552ce83228")
+	)
+	(fp_line
+		(start -6.5 -6.5)
+		(end 6.5 -6.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0450a3dd-c101-496c-bf79-01665be6c5c0")
+	)
+	(fp_line
+		(start 6.5 6.5)
+		(end -6.5 6.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b928550-b460-403e-9407-adc8da50d0b1")
+	)
+	(fp_line
+		(start 7 -6)
+		(end 7 6)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d693a41d-20ba-4e49-b30a-17629a7e67c9")
+	)
+	(fp_arc
+		(start -7 -6)
+		(mid -6.853553 -6.353553)
+		(end -6.5 -6.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c567164-6c2f-4796-89a8-b81258b5c983")
+	)
+	(fp_arc
+		(start -6.5 6.5)
+		(mid -6.853553 6.353553)
+		(end -7 6)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5be22b5-6d2e-4676-8941-88b0b1ade435")
+	)
+	(fp_arc
+		(start 6.5 -6.5)
+		(mid 6.853553 -6.353553)
+		(end 7 -6)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b1e831c-2ef1-4a01-a458-2fd0dff692cc")
+	)
+	(fp_arc
+		(start 7 6)
+		(mid 6.853553 6.353553)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0edeee98-c920-4bd0-88f8-aa5b80882d8c")
+	)
+	(fp_poly
+		(pts
+			(xy -7 -6) (xy -6.5 -6) (xy -6.5 -6.5)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a05ef414-9794-4b54-8237-0b598127473f")
+	)
+	(fp_rect
+		(start -7.2 -6.7)
+		(end 7.2 6.7)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "dd8f8551-bae5-49da-b32a-9d397cecd0c8")
+	)
+	(fp_rect
+		(start -7 -6.5)
+		(end 7 6.5)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2db08ce3-4923-49d6-be44-ebfbd7dd3eda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "121c32c0-1f94-4143-b014-865d675db8f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -5)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin 0.0762)
+		(uuid "1b167c77-2514-4741-a035-47b366c19a3c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -5)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin 0.0762)
+		(uuid "39c926ac-03d9-4fe8-a70c-02081e9b1ad3")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 5)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin 0.0762)
+		(uuid "d5c20ed2-245f-4ac0-803b-4e259235fa66")
+	)
+	(pad "4" thru_hole circle
+		(at -2.5 5)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin 0.0762)
+		(uuid "be59ee62-5feb-42a3-8654-4ed4d842a420")
+	)
+	(model "${ONEKIWI_3DMODEL_DIR}/ChokeCoil.3dshapes/PLT09HN2003R0P1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

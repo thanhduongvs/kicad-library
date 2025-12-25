@@ -1,0 +1,172 @@
+(footprint "Crystal_SMD_2016-4Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "a202f73f-4d4e-428a-b89d-5a01a6ae9268")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_2016-4Pin"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "0862a1b0-c9b4-403a-82ae-9fb15160764b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a847c6cb-d6b2-4dbd-a6a4-6c025d5c2a73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b07f509-c355-411d-aeb3-0b3a417d8cb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.651 0.508)
+		(end -1.651 1.27)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cfee980-9899-4968-8080-4cfb9aa98880")
+	)
+	(fp_line
+		(start -1.651 1.27)
+		(end -0.889 1.27)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0040358a-2369-4745-a04e-a69cd33059c1")
+	)
+	(fp_rect
+		(start -1.397 -1.016)
+		(end 1.397 1.016)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2b58e571-a1bd-4a12-93a8-7599d7e1bf44")
+	)
+	(fp_rect
+		(start -1.778 -1.27)
+		(end 1.778 1.27)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "af898a8a-e992-4ec6-b9f8-27a113c3dbf9")
+	)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7cbcd534-33fc-472f-a514-0fbbcb403f87")
+	)
+	(fp_poly
+		(pts
+			(xy -1 0.6) (xy -1 0.8) (xy -0.8 0.8)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "bfe2aa11-9063-4810-8fb8-04ba64f54d68")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "94c290e0-1259-4635-a02e-342c261bc9ce")
+		(effects
+			(font
+				(size 0.381 0.381)
+				(thickness 0.09525)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.762 0.508)
+		(size 0.762 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "1147ce8a-6a1b-452e-9ebe-d234decbc282")
+	)
+	(pad "2" smd rect
+		(at 0.762 0.508)
+		(size 0.762 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "bf3dd48c-556d-47a0-8af3-461dbbff3833")
+	)
+	(pad "3" smd rect
+		(at 0.762 -0.508)
+		(size 0.762 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "19fcecf1-ce77-4675-8a90-021c170c213b")
+	)
+	(pad "4" smd rect
+		(at -0.762 -0.508)
+		(size 0.762 0.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0.0762)
+		(uuid "4fecd6dc-f538-4453-9a35-d68f6c683434")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

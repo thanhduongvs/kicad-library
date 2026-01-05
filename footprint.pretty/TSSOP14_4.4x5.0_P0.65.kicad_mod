@@ -234,7 +234,7 @@
 		(uuid "9ced2b62-8669-4ec4-a43c-e50a6da41aec")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP14_4.4x5.0_P0.65.step"
+	(model "${LIB_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP14_4.4x5.0_P0.65.step"
 		(offset
 			(xyz 0 0 0)
 		)

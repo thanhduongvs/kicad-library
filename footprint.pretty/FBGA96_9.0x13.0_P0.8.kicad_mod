@@ -805,7 +805,7 @@
 		(uuid "d2fc067a-377a-4c29-bc57-a706ba6a05a7")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA96_7.5x13.0_P0.8.step"
+	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA96_7.5x13.0_P0.8.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)

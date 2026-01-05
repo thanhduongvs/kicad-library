@@ -330,7 +330,7 @@
 		(uuid "43443926-158b-4a35-b853-d743e33bae03")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/usb.3dshapes/USB_C_Receptacle_Amphenol_12402082E512A.stp"
+	(model "${LIB_3DMODEL_DIR}/usb.3dshapes/USB_C_Receptacle_Amphenol_12402082E512A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

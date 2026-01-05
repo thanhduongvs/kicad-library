@@ -292,7 +292,7 @@
 		(remove_unused_layers no)
 		(uuid "94f53401-d164-42dc-b63f-cf57b04714eb")
 	)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_RA_P2.54mm_08Pin.stp"
+	(model "${LIB_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_RA_P2.54mm_08Pin.stp"
 		(offset
 			(xyz 0 0 0)
 		)

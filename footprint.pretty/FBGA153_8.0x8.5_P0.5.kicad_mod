@@ -1208,7 +1208,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "7cb45811-da2f-4df0-a321-e2a777e6810c")
 	)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/WFBGA153_13x11P5_P0.5S.step"
+	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/WFBGA153_13x11P5_P0.5S.step"
 		(offset
 			(xyz 0 0 0)
 		)

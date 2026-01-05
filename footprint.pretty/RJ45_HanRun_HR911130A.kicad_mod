@@ -375,7 +375,7 @@
 		(uuid "d29fc167-471d-4138-9f2e-7f904636340d")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_Ethernet.3dshapes/HR911130A.step"
+	(model "${LIB_3DMODEL_DIR}/Connector_Ethernet.3dshapes/HR911130A.step"
 		(offset
 			(xyz 7.9 11 13.5)
 		)

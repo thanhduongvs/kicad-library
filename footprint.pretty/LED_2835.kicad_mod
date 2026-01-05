@@ -186,7 +186,7 @@
 		(uuid "85e3145e-9765-495c-a978-e648b2f8b6cf")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/LED_SMD.3dshapes/LED_2835.stp"
+	(model "${LIB_3DMODEL_DIR}/LED_SMD.3dshapes/LED_2835.stp"
 		(offset
 			(xyz -1.75 -1.4 0)
 		)

@@ -1243,12 +1243,12 @@
     (solder_paste_margin 0.0762) (tstamp 5b8f2078-153b-4444-98e2-c5909bbb19a8))
   (pad "Y34" smd circle (at 9.056 1.132) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 57f9a9a6-fb6a-403a-8a8c-5a3f1156f46b))
-  (model ":ONEKIWI_3DMODEL_DIR:Package_BGA.3dshapes/FBGA609_21.0x21.0_P0.8.stp" hide
+  (model ":LIB_3DMODEL_DIR:Package_BGA.3dshapes/FBGA609_21.0x21.0_P0.8.stp" hide
     (offset (xyz -10.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ":ONEKIWI_3DMODEL_DIR:Package_BGA.3dshapes/FBGA609_21.0x21.0_P0.8.step"
+  (model ":LIB_3DMODEL_DIR:Package_BGA.3dshapes/FBGA609_21.0x21.0_P0.8.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

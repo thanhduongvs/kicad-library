@@ -385,7 +385,7 @@
 		(uuid "fc6ffbfa-0f63-4c53-b669-c4036e94886c")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_HDMI.3dshapes/HDMI-101S.step"
+	(model "${LIB_3DMODEL_DIR}/Connector_HDMI.3dshapes/HDMI-101S.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -164,7 +164,7 @@
 		(uuid "b7832c1f-738b-4340-ab1c-695f836e506b")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Resistor_SMD.3dshapes/R3920.step"
+	(model "${LIB_3DMODEL_DIR}/Resistor_SMD.3dshapes/R3920.step"
 		(offset
 			(xyz -5 -2.5 0)
 		)

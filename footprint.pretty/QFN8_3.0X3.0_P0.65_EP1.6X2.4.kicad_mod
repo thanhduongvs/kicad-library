@@ -55,7 +55,7 @@
     (solder_paste_margin 0.0762) (tstamp a7e6cf4d-a59d-40cc-a7f0-60f6e4cc6390))
   (pad "9" smd rect (at -0.5 0.7) (size 0.6 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp e4141c63-a603-46a4-ae34-43547b268809))
-  (model "${ONEKIWI_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN8_3.0X3.0_P0.65_EP1.6X2.4.step"
+  (model "${LIB_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN8_3.0X3.0_P0.65_EP1.6X2.4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

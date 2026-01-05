@@ -3325,7 +3325,7 @@
 		(uuid "248416a1-a0b2-4ac9-82b1-818142bb0b39")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA456_15.0x15.0_P0.5.stp"
+	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA456_15.0x15.0_P0.5.stp"
 		(offset
 			(xyz 0 0 0)
 		)

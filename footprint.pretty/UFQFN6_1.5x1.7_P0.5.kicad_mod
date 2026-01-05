@@ -160,7 +160,7 @@
 		(uuid "2d111600-2612-480c-b211-0d433571f81b")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_SMD.3dshapes/UFQFN6_1.5x1.7_P0.5.step"
+	(model "${LIB_3DMODEL_DIR}/Package_SMD.3dshapes/UFQFN6_1.5x1.7_P0.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

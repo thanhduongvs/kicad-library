@@ -1380,7 +1380,7 @@
 		(uuid "0885fb22-91ba-4fca-a97d-5f1fb49a3772")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/OneKiwi-SOM.3dshapes/som-rzv2l-lfbga456-v1.0.step"
+	(model "${LIB_3DMODEL_DIR}/OneKiwi-SOM.3dshapes/som-rzv2l-lfbga456-v1.0.step"
 		(offset
 			(xyz -25 -25 0)
 		)

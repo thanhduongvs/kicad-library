@@ -174,7 +174,7 @@
     (solder_paste_margin 0.0762) (tstamp ee7eb6c7-062e-415b-88ce-6980feda5308))
   (pad "65" smd rect (at -1.27 -1.27 270) (size 1.016 1.016) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp f9c34f9b-9bf6-47dd-8bb0-de2901e00728))
-  (model "${ONEKIWI_3DMODEL_DIR}/Package_SMD.3dshapes/HTQFP64_10x10_P0.5.step"
+  (model "${LIB_3DMODEL_DIR}/Package_SMD.3dshapes/HTQFP64_10x10_P0.5.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -287,7 +287,7 @@
 		(uuid "bf43474e-43cb-4bd5-b072-7fac0582677f")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step"
+	(model "${LIB_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step"
 		(offset
 			(xyz 0 0 0)
 		)

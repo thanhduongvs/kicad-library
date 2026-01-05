@@ -197,7 +197,7 @@
 		(uuid "f935dd0c-d25a-4389-b502-ee281f1cff47")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Encoder.3dshapes/SRBE110301.step"
+	(model "${LIB_3DMODEL_DIR}/Encoder.3dshapes/SRBE110301.step"
 		(offset
 			(xyz 0 0 0)
 		)

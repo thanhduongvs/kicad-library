@@ -226,7 +226,7 @@
 		(uuid "337df14b-dc73-4aae-aa0e-7bd23eac281f")
 	)
 	(embedded_fonts no)
-	(model ":ONEKIWI_3DMODEL_DIR:Capacitor_SMD.3dshapes/C0805_3P.STEP"
+	(model ":LIB_3DMODEL_DIR:Capacitor_SMD.3dshapes/C0805_3P.STEP"
 		(offset
 			(xyz 0 0 0.9652)
 		)

@@ -224,7 +224,7 @@
 		(uuid "40595047-0b59-4a92-836b-69e0ea952753")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_DC.3dshapes/DC-091-A200.step"
+	(model "${LIB_3DMODEL_DIR}/Connector_DC.3dshapes/DC-091-A200.step"
 		(offset
 			(xyz 0 0 0.8)
 		)

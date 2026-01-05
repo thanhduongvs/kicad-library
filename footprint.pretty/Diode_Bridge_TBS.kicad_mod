@@ -42,7 +42,7 @@
     (solder_paste_margin 0.0762) (tstamp 37db5421-991a-472f-a072-22219e0064c0))
   (pad "4" smd rect locked (at 4.572 -2.54) (size 1.524 2.54) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 0d8e84d0-690b-445b-9070-5512c9667e63))
-  (model "${ONEKIWI_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_TBS.STEP"
+  (model "${LIB_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Diotec_TBS.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

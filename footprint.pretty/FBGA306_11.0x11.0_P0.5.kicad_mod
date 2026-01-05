@@ -1954,7 +1954,7 @@
 		(uuid "28815af6-e79a-4c0e-b204-0d42be803681")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA306_11.0x11.0_P0.5.step"
+	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA306_11.0x11.0_P0.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

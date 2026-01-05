@@ -311,7 +311,7 @@
 		(uuid "f7d8dc47-e1b0-498f-9e3e-93fe7c4b6f13")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/usb.3dshapes/USB-AM-S-F-B-SM1.stp"
+	(model "${LIB_3DMODEL_DIR}/usb.3dshapes/USB-AM-S-F-B-SM1.stp"
 		(offset
 			(xyz 8.382 0 -1.524)
 		)

@@ -143,7 +143,7 @@
 		(uuid "0f3de986-0086-4aff-bada-80cbc214f80e")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin.step"
+	(model "${LIB_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin.step"
 		(offset
 			(xyz 0 0 0)
 		)

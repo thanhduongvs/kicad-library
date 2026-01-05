@@ -248,7 +248,7 @@
 		(uuid "de912aae-aebd-445f-8b29-ac97fec326e3")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Capacitor_SMD.3dshapes/WCAP-PSLP_WE_875105344007.stp"
+	(model "${LIB_3DMODEL_DIR}/Capacitor_SMD.3dshapes/WCAP-PSLP_WE_875105344007.stp"
 		(offset
 			(xyz 0 0 0)
 		)

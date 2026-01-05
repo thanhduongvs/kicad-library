@@ -257,7 +257,7 @@
 		(uuid "179da77b-4e31-4e01-b69e-9458fee3d05a")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_USB.3dshapes/GCT_USB4216-03-A.stp"
+	(model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/GCT_USB4216-03-A.stp"
 		(offset
 			(xyz 0 -5.25 1.7)
 		)

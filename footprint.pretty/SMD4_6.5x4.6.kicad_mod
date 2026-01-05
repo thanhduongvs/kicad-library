@@ -174,7 +174,7 @@
 		(uuid "357d22b4-b66e-4a7d-8b1d-559be69baaf6")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_SMD.3dshapes/SMD4_6.5x4.6mm.STEP"
+	(model "${LIB_3DMODEL_DIR}/Package_SMD.3dshapes/SMD4_6.5x4.6mm.STEP"
 		(offset
 			(xyz 0 0 2.032)
 		)

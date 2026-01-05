@@ -1,4 +1,4 @@
-(footprint "SSOP8_2.95×2.80_P0.65"
+(footprint "SSOP8_2.95x2.80_P0.65"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SSOP8_2.95×2.80_P0.65"
+	(property "Value" "SSOP8_2.95x2.80_P0.65"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "User.1")
@@ -178,7 +178,7 @@
 		(uuid "2646e995-885f-4d17-abd3-b3a2350c04e2")
 	)
 	(embedded_fonts no)
-	(model ":ONEKIWI_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SSOP8_2.95×2.80_P0.65.step"
+	(model ":LIB_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SSOP8_2.95×2.80_P0.65.step"
 		(offset
 			(xyz 0 0 0)
 		)

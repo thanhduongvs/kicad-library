@@ -279,7 +279,7 @@
 		(uuid "8b7ddb2d-efa3-4ace-ad06-6deb718eff69")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_USB.3dshapes/USB4105-GF-A.STEP"
+	(model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/USB4105-GF-A.STEP"
 		(offset
 			(xyz 0 -7 0)
 		)

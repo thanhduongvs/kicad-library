@@ -98,7 +98,7 @@
 		(uuid "5ff49f84-c39d-44e5-b025-fcb8d6ec976a")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_JST.3dshapes/JST_VH_B4P-VH_1x04_P3.96mm_Vertical.stp"
+	(model "${LIB_3DMODEL_DIR}/Connector_JST.3dshapes/JST_VH_B4P-VH_1x04_P3.96mm_Vertical.stp"
 		(offset
 			(xyz 0 0 0)
 		)

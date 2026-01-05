@@ -761,7 +761,7 @@
 		(uuid "dd51596d-5348-475c-a798-e653b1b0388b")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_WE_632722200212.step"
+	(model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_WE_632722200212.step"
 		(offset
 			(xyz 0 -11 3.66)
 		)

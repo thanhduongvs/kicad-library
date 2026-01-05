@@ -920,7 +920,7 @@
     (solder_paste_margin 0.0762) (tstamp 806912cb-d296-4528-93e8-dffb2a42bc5e))
   (pad "Y22" smd circle (at 8.4 6.8) (size 0.33 0.33) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 11b5c00e-3db6-459a-9516-d6471f154972))
-  (model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA448_18x18_P0.8.stp"
+  (model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA448_18x18_P0.8.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

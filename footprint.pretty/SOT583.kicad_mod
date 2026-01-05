@@ -180,7 +180,7 @@
 		(uuid "2248a027-bfd0-4f85-a076-545a8a93aed7")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT583.stp"
+	(model "${LIB_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT583.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -322,7 +322,7 @@
 		(uuid "11875b62-80d8-4ffe-9e19-ac35c8d884dd")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/XQFN16_1.8x2.4_P0.4.STEP"
+	(model "${LIB_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/XQFN16_1.8x2.4_P0.4.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

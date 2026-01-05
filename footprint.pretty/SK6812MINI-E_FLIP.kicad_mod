@@ -131,7 +131,7 @@
 		(uuid "2b0adf50-ce89-46d7-84a3-6ea30a757647")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/LED_SMD.3dshapes/SK6812MINI-E.stp"
+	(model "${LIB_3DMODEL_DIR}/LED_SMD.3dshapes/SK6812MINI-E.stp"
 		(offset
 			(xyz 0 0 -0.5)
 		)

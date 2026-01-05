@@ -247,7 +247,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "32d5cfe4-8153-4489-8d10-ef2d6174b978")
 	)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_DC.3dshapes/PJ-002A-SMT.step"
+	(model "${LIB_3DMODEL_DIR}/Connector_DC.3dshapes/PJ-002A-SMT.step"
 		(offset
 			(xyz 0 11 0)
 		)

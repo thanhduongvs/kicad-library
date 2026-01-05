@@ -185,7 +185,7 @@
 		(uuid "c177aed2-61b4-4fd5-b860-6547aa646a33")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/RF_Antenna.3dshapes/RF-SMD_FRF05002-JSS103M.step"
+	(model "${LIB_3DMODEL_DIR}/RF_Antenna.3dshapes/RF-SMD_FRF05002-JSS103M.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -38,7 +38,7 @@
   (pad "A" smd rect locked (at -0.889 2.794) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp f941aeb4-526e-4da7-a601-b505dcc5c6c5))
   (pad "K" smd rect locked (at 0 -1.143) (size 3.556 5.08) (layers "F.Cu" "F.Mask") (tstamp 36e055a6-6301-4c91-8b18-86eb9c7dcf2d))
-  (model "${ONEKIWI_3DMODEL_DIR}/Diode_SMD.3dshapes/D_PowerDI-5.step"
+  (model "${LIB_3DMODEL_DIR}/Diode_SMD.3dshapes/D_PowerDI-5.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

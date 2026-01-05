@@ -148,7 +148,7 @@
 		(uuid "e13f6567-0144-492c-be81-baa6fe06777e")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SKTDLDE010.step"
+	(model "${LIB_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SKTDLDE010.step"
 		(offset
 			(xyz 0 0 0)
 		)

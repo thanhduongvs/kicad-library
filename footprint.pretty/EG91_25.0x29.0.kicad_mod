@@ -238,7 +238,7 @@
   (pad "106" smd roundrect (at 11.15 -13.15) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0)
     (chamfer_ratio 0.5) (chamfer top_right)
     (solder_paste_margin 0.0762) (tstamp e52464a6-bc97-48d3-9144-ab51cb1c0bc6))
-  (model "${ONEKIWI_3DMODEL_DIR}/Quectel.3dshapes/EG91-E.stp"
+  (model "${LIB_3DMODEL_DIR}/Quectel.3dshapes/EG91-E.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

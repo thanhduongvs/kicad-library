@@ -874,7 +874,7 @@
 		(uuid "6cdad962-312d-4be5-86b9-f9b330169e07")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_SMD.3dshapes/VFBGA98_7x7_P0.5.step"
+	(model "${LIB_3DMODEL_DIR}/Package_SMD.3dshapes/VFBGA98_7x7_P0.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -334,7 +334,7 @@
 		(uuid "9ee1de50-288c-4fc1-8127-9e3c73ed0845")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_HDMI.3dshapes/HDMI_A_Molex_208658-1001_Horizontal.stp"
+	(model "${LIB_3DMODEL_DIR}/Connector_HDMI.3dshapes/HDMI_A_Molex_208658-1001_Horizontal.stp"
 		(offset
 			(xyz 0 -1.7 7)
 		)

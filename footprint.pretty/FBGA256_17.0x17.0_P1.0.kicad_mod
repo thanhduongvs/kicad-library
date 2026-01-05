@@ -1916,7 +1916,7 @@
 		(solder_paste_margin 0.0508)
 		(uuid "8c51378e-2697-4467-ae69-7d8c261f336e")
 	)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA256_17.0x17.0_P1.0.step"
+	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA256_17.0x17.0_P1.0.step"
 		(offset
 			(xyz 0 0 0)
 		)

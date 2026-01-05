@@ -1139,7 +1139,7 @@
 		(uuid "02e19958-9583-4c5a-a81b-293088bd73a8")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/OneKiwi-SOM.3dshapes/som-stm32mp13xxae.step"
+	(model "${LIB_3DMODEL_DIR}/OneKiwi-SOM.3dshapes/som-stm32mp13xxae.step"
 		(offset
 			(xyz -22.5 -22.5 0)
 		)

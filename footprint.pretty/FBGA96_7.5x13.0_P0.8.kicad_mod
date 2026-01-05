@@ -217,7 +217,7 @@
     (solder_paste_margin 0.0762) (tstamp 175eeb26-fe10-463f-b959-9af1a9b57e3c))
   (pad "T9" smd circle (at 3.2 6) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp d2fc067a-377a-4c29-bc57-a706ba6a05a7))
-  (model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA96_7.5x13.0_P0.8.step"
+  (model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA96_7.5x13.0_P0.8.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

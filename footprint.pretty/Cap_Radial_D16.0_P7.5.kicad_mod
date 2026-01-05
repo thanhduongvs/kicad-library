@@ -1114,7 +1114,7 @@
 		(uuid "6256f40c-eccb-4bac-8e16-71be935802ec")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D16.0mm_P7.50mm.step"
+	(model "${LIB_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D16.0mm_P7.50mm.step"
 		(offset
 			(xyz -3.75 0 0)
 		)

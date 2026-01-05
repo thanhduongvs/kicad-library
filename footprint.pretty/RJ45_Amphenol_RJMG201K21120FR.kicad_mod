@@ -310,7 +310,7 @@
 		(uuid "d29fc167-471d-4138-9f2e-7f904636340d")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Connector_Ethernet.3dshapes/RJMG201K21120FR.step"
+	(model "${LIB_3DMODEL_DIR}/Connector_Ethernet.3dshapes/RJMG201K21120FR.step"
 		(offset
 			(xyz 0 -6.3 0)
 		)

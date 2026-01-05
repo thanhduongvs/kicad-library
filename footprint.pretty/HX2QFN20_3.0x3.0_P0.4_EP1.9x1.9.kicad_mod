@@ -94,7 +94,7 @@
     (solder_paste_margin 0.0762) (tstamp 53243587-9d7e-4194-8bda-b3e2fd6c08ad))
   (pad "21" smd rect (at 0 0 90) (size 1.397 1.397) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp b2b96e1b-d267-4fd4-9ad2-c5d347aa879a))
-  (model "${ONEKIWI_3DMODEL_DIR}/Package_SMD.3dshapes/HX2QFN20_3x3_P0.4.step"
+  (model "${LIB_3DMODEL_DIR}/Package_SMD.3dshapes/HX2QFN20_3x3_P0.4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

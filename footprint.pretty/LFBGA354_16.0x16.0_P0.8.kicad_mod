@@ -755,7 +755,7 @@
     (solder_paste_margin 0.0762) (tstamp 935adf6d-57a9-49de-9f02-1bd977ca9e5e))
   (pad "W19" smd circle (at 7.2 7.2) (size 0.33 0.33) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 9c386c79-8215-45d3-aaf7-d93256453e87))
-  (model "${ONEKIWI_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA354_16.0x16.0_P0.8.stp"
+  (model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA354_16.0x16.0_P0.8.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

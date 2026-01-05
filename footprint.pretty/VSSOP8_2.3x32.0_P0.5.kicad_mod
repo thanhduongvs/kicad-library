@@ -180,7 +180,7 @@
 		(uuid "f0a867f7-c936-40d9-ae4d-8e3ccb600460")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP8_2.3x32.0_P0.5.step"
+	(model "${LIB_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP8_2.3x32.0_P0.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

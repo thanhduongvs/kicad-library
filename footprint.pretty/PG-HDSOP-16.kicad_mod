@@ -69,7 +69,7 @@
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp e51ef5e9-71da-4d9c-97f0-62a0a77426b1))
   (pad "S" smd rect (at -7.2 3) (size 1.6 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 18e1c45a-e32f-4a85-83a7-f6761797b1bf))
-  (model ":ONEKIWI_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/PG-HDSOP-16-2.STEP"
+  (model ":LIB_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/PG-HDSOP-16-2.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

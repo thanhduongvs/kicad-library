@@ -233,7 +233,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "be59ee62-5feb-42a3-8654-4ed4d842a420")
 	)
-	(model "${ONEKIWI_3DMODEL_DIR}/ChokeCoil.3dshapes/PLT09HN2003R0P1.step"
+	(model "${LIB_3DMODEL_DIR}/ChokeCoil.3dshapes/PLT09HN2003R0P1.step"
 		(offset
 			(xyz 0 0 0)
 		)

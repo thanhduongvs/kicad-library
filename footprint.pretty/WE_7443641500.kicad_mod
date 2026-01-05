@@ -172,7 +172,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "50c716b4-2506-4769-a58e-174afb440614")
 	)
-	(model "${ONEKIWI_3DMODEL_DIR}/Inductor_SMD.3dshapes/WE_7443641500.stp"
+	(model "${LIB_3DMODEL_DIR}/Inductor_SMD.3dshapes/WE_7443641500.stp"
 		(offset
 			(xyz 0 0 9)
 		)

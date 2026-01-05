@@ -54,7 +54,7 @@
   (pad "S1" thru_hole oval locked (at 7.3 4.36) (size 0.9 1.7) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp 4c931e9f-f1ac-43bb-b095-9e828ac7e0b6))
   (pad "S1" thru_hole oval locked (at -1.35 0.98) (size 0.9 2.4) (drill oval 0.6 2.1) (layers *.Cu *.Mask) (tstamp 7c02a982-bdd0-4fd6-98ba-587df9578e51))
   (pad "S1" thru_hole oval locked (at -1.35 4.36) (size 0.9 1.7) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp 8ee03bf6-c44e-4729-8ed3-53ba8a8f8189))
-  (model "${ONEKIWI_3DMODEL_DIR}/Connector_USB.3dshapes/USB4085-GF-A.stp"
+  (model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/USB4085-GF-A.stp"
     (offset (xyz 3.048 -7.874 -0.254))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -252,7 +252,7 @@
 		(uuid "d22ad877-b8e0-434e-978b-ca7a8c62aa11")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Button_Switch_TH.3dshapes/TC-1109DE-C-G.step"
+	(model "${LIB_3DMODEL_DIR}/Button_Switch_TH.3dshapes/TC-1109DE-C-G.step"
 		(offset
 			(xyz 0 0 0)
 		)

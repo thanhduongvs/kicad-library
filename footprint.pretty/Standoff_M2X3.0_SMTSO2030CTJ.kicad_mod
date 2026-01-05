@@ -86,7 +86,7 @@
 		(uuid "e3bc5055-b026-4126-bb7f-8545575d4cd3")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Standoff.3dshapes/SMD_BD5.6-L5.6-W5.6-D3.6.step"
+	(model "${LIB_3DMODEL_DIR}/Standoff.3dshapes/SMD_BD5.6-L5.6-W5.6-D3.6.step"
 		(offset
 			(xyz 0 0 0)
 		)

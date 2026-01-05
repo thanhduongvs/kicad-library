@@ -163,7 +163,7 @@
 		(uuid "fe0666ee-0c33-4ec6-b361-9c45f699e237")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Inductor_SMD.3dshapes/WE_744373560033.stp"
+	(model "${LIB_3DMODEL_DIR}/Inductor_SMD.3dshapes/WE_744373560033.stp"
 		(offset
 			(xyz 0 0 0)
 		)

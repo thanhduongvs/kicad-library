@@ -39,7 +39,7 @@
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp fcc77147-9185-4359-9c65-6fea10c0edd2))
   (pad "P" smd rect (at 0 1.1) (size 1.5 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 475ada6b-2aef-49da-b87c-cb24f9948eef))
-  (model ":ONEKIWI_3DMODEL_DIR:Buzzer.3dshapes/CUI_DEVICES_CMT-322-65-SMT-TR.step"
+  (model ":LIB_3DMODEL_DIR:Buzzer.3dshapes/CUI_DEVICES_CMT-322-65-SMT-TR.step"
     (offset (xyz -0.4064 1.778 -0.508))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

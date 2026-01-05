@@ -104,7 +104,7 @@
 		(uuid "c4414abc-56af-4860-9016-bba4558d8d5f")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Inductor_SMD.3dshapes/WE-MAPI_744383350056HT.stp"
+	(model "${LIB_3DMODEL_DIR}/Inductor_SMD.3dshapes/WE-MAPI_744383350056HT.stp"
 		(offset
 			(xyz 0 0 1.5)
 		)

@@ -440,7 +440,7 @@
 		(uuid "3570ff12-3891-46b1-a5a8-d1debef472e5")
 	)
 	(embedded_fonts no)
-	(model "${ONEKIWI_3DMODEL_DIR}/Module_Wifi.3dshapes/SKI.WB800DCS.2.step"
+	(model "${LIB_3DMODEL_DIR}/Module_Wifi.3dshapes/SKI.WB800DCS.2.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1bd2efee-1de7-4dc6-aa61-b1a96119b681")
@@ -160,4 +160,15 @@
 		(uuid "9fa91ad8-8438-4ef4-a5e2-0aa77d6af517")
 	)
 	(embedded_fonts no)
+	(model "${LIB_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP8_2.3x2.0_P0.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

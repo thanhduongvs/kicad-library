@@ -152,14 +152,14 @@
 		(at -2.89 0.5)
 		(size 0.65 0.65)
 		(drill 0.65)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "87d61928-0f5e-4f55-b94d-64550a43618a")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.89 0.5)
 		(size 0.65 0.65)
 		(drill 0.65)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "d283b2fd-522b-4430-a6d9-62957e93c877")
 	)
 	(pad "A1" smd rect
@@ -254,6 +254,12 @@
 		(remove_unused_layers no)
 		(uuid "c1a31fbf-38e8-4013-adbd-3939582d6b25")
 	)
+	(pad "SH" smd oval
+		(at -4.32 0)
+		(size 1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb457cb1-9e91-4bf3-8a84-fc4327a47309")
+	)
 	(pad "SH" thru_hole oval
 		(at -4.32 4.18)
 		(size 1 1.8)
@@ -261,6 +267,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2901c1ca-62e8-4da3-92a1-14c7fe318ef1")
+	)
+	(pad "SH" smd oval
+		(at -4.32 4.18)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccaa6120-3c82-493a-a788-afbbb4164803")
 	)
 	(pad "SH" thru_hole oval
 		(at 4.32 0)
@@ -270,6 +282,12 @@
 		(remove_unused_layers no)
 		(uuid "ee65ff53-fa9e-43f3-ae3f-42c73d445649")
 	)
+	(pad "SH" smd oval
+		(at 4.32 0)
+		(size 1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68843c64-3ed5-4cb1-b5fe-3dfe2bc08df7")
+	)
 	(pad "SH" thru_hole oval
 		(at 4.32 4.18)
 		(size 1 1.8)
@@ -277,6 +295,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8b7ddb2d-efa3-4ace-ad06-6deb718eff69")
+	)
+	(pad "SH" smd oval
+		(at 4.32 4.18)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0da3b3aa-e3d5-4eeb-bb4e-e3b473b8e4b2")
 	)
 	(embedded_fonts no)
 	(model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/USB4105-GF-A.STEP"

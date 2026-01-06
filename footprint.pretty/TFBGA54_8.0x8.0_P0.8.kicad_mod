@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4.826 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "82977b64-f591-43a8-98c4-804634c05fe4")
@@ -506,4 +506,15 @@
 		(uuid "b52228a8-d77f-42d3-8c39-624655faf523")
 	)
 	(embedded_fonts no)
+	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA54_8.0x8.0_P0.8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

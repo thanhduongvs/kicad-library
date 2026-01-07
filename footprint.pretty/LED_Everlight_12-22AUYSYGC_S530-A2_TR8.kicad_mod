@@ -183,7 +183,7 @@
 		(uuid "cbd82442-ce06-4443-83bd-efadf2889602")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/LED_SMD.3dshapes/12-22AUYSYGC.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/LED_SMD.3dshapes/12-22AUYSYGC.step"
 		(offset
 			(xyz 0 0 0)
 		)

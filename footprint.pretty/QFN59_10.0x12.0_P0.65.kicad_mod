@@ -754,7 +754,7 @@
 			)
 		)
 	)
-	(model "${LIB_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN59_MPM3695GRF-25.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_DFN_QFN.3dshapes/QFN59_MPM3695GRF-25.step"
 		(offset
 			(xyz -37 -12 0)
 		)

@@ -180,7 +180,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "b6242db3-8906-4b2a-bc91-aaa8ecf7775e")
 	)
-	(model "${LIB_3DMODEL_DIR}/RF_Antenna.3dshapes/ANT_2450AD18A7250.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/RF_Antenna.3dshapes/ANT_2450AD18A7250.stp"
 		(offset
 			(xyz 0 0 0)
 		)

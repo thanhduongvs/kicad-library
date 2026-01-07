@@ -766,7 +766,7 @@
 		(uuid "7ec0214c-7034-46a3-b1fd-1f380842abb7")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_LGA.3dshapes/SiP-LGA86_7.3x11.0.STEP"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_LGA.3dshapes/SiP-LGA86_7.3x11.0.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

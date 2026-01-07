@@ -287,7 +287,7 @@
 		(uuid "ef506149-20b3-4ae3-b401-32290cd62251")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step"
 		(offset
 			(xyz 0 0 0)
 		)

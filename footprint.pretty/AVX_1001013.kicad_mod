@@ -156,7 +156,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "b41104d0-7c74-4626-8d8c-2f636cacf22a")
 	)
-	(model "${LIB_3DMODEL_DIR}/RF_Antenna.3dshapes/AVX_1001013.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/RF_Antenna.3dshapes/AVX_1001013.stp"
 		(offset
 			(xyz 0 0 0)
 		)

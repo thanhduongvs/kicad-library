@@ -443,7 +443,7 @@
 		(uuid "576472b1-d2c8-4904-b1a9-17b3a90e58b7")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/TYPE-C-31-M-04.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_USB.3dshapes/TYPE-C-31-M-04.step"
 		(offset
 			(xyz 0 -0.6 0)
 		)

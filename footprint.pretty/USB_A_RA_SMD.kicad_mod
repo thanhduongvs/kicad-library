@@ -280,7 +280,7 @@
 		(uuid "5676191b-2981-4aeb-ae2d-d17089caf8f1")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/usb.3dshapes/USB-AM-S-F-B-SM1.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/usb.3dshapes/USB-AM-S-F-B-SM1.stp"
 		(offset
 			(xyz 0 12.7 -1.778)
 		)

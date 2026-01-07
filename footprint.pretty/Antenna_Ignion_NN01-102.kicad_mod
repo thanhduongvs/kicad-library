@@ -123,7 +123,7 @@
 		(uuid "72354f89-3e43-455f-a402-8b4be7db44f0")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/RF_Antenna.3dshapes/ANT_NN01-102.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/RF_Antenna.3dshapes/ANT_NN01-102.stp"
 		(offset
 			(xyz 0 0 0)
 		)

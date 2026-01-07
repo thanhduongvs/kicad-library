@@ -293,7 +293,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "978ab8cd-e500-4d0d-96bc-7f8fb3d167f2")
 	)
-	(model "${LIB_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/LFPAK56D.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_TO_SOT_SMD.3dshapes/LFPAK56D.step"
 		(offset
 			(xyz 0 0 0)
 		)

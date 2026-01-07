@@ -9748,7 +9748,7 @@
 		(uuid "85740c9c-c226-49dd-86b6-815ee7b5612c")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/HFBGA1368_19.0x19.0_P0.5.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/HFBGA1368_19.0x19.0_P0.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

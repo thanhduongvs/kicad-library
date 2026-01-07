@@ -2,10 +2,7 @@
 
 ### Config path
 
-- **LIB_SYMBOL_DIR** : *path/to/kicad-library/symbol*
-- **LIB_FOOTPRINT_DIR** : *path/to/kicad-library/footprint.pretty*
-- **LIB_3DMODEL_DIR** : *path/to/kicad-library/3dmodels*
-- **LIB_TEMPLATE_DIR** : *path/to/kicad-library/sheet*
+- **KICAD_LIB_PATH** : *path/to/kicad-library*
 
 ## KiPart
 https://github.com/devbisme/KiPart

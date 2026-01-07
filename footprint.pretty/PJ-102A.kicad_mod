@@ -362,7 +362,7 @@
 		(remove_unused_layers no)
 		(uuid "0e44316c-8911-42cb-bc20-ea130827a431")
 	)
-	(model "${LIB_3DMODEL_DIR}/Connector_DC.3dshapes/PJ-102A.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_DC.3dshapes/PJ-102A.step"
 		(offset
 			(xyz 0 -6.4 0)
 		)

@@ -754,7 +754,7 @@
 		(uuid "7d533785-5466-43f5-8a28-a3aa30545688")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN76_9.0x9.0_P0.4_EP5.3x5.3.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_DFN_QFN.3dshapes/QFN76_9.0x9.0_P0.4_EP5.3x5.3.stp"
 		(offset
 			(xyz 0 0 0)
 		)

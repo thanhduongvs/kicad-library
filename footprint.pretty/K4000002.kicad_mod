@@ -30,7 +30,7 @@
   (pad "5" thru_hole circle (at -2.25 2.25) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 630a7d09-f258-4f4c-9414-f10f55c4996d))
   (pad "6" thru_hole circle (at 0 4) (size 1.8 1.8) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 71dcdce9-742e-4829-b7f7-07dbab357bdd))
   (pad "7" thru_hole circle (at 0 -4) (size 1.8 1.8) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp e04af564-a1f0-4dbe-a69d-b2b971ac7c93))
-  (model ":LIB_3DMODEL_DIR:Transformers.3dshapes/K4000002.step"
+  (model ":KICAD_LIB_PATH:3dmodels/Transformers.3dshapes/K4000002.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

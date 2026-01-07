@@ -153,7 +153,7 @@
 		(uuid "bfcdb8c8-c56a-4a1f-9183-976d2c4c6bbb")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_SKSCLDE010.STEP"
+	(model "${KICAD_LIB_PATH}/3dmodels/Button_Switch_SMD.3dshapes/SW_SPST_SKSCLDE010.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

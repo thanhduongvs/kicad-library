@@ -172,7 +172,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "23e129cd-d0f0-434b-a4f1-8acc62a4edfb")
 	)
-	(model "${LIB_3DMODEL_DIR}/Inductor_SMD.3dshapes/Sunlord_SWPA5040.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Inductor_SMD.3dshapes/Sunlord_SWPA5040.step"
 		(offset
 			(xyz 0 0 0)
 		)

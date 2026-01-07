@@ -33,7 +33,7 @@
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 8cc2a15d-c2c2-4256-909c-0db6489706a3))
   (pad "2" smd rect (at 8 0) (size 4 4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp c86bfd4f-dd18-4cd5-a1bd-effe0b9c92ee))
-  (model ":LIB_3DMODEL_DIR:Inductor_SMD.3dshapes/L_18.3x18.2_H8.9.step"
+  (model ":KICAD_LIB_PATH:3dmodels/Inductor_SMD.3dshapes/L_18.3x18.2_H8.9.step"
     (offset (xyz -9.1 -9.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

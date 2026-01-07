@@ -32,7 +32,7 @@
     (solder_paste_margin 0.0762) (tstamp 194459e9-3994-4a19-8e66-7c73fcc13902))
   (pad "2" smd rect (at 2.54 0) (size 1.524 2.667) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 31deaccc-aad3-4862-9683-89ed37a0e163))
-  (model "${LIB_3DMODEL_DIR}/RF_Antenna.3dshapes/ANT_NN01-102.stp"
+  (model "${KICAD_LIB_PATH}/3dmodels/RF_Antenna.3dshapes/ANT_NN01-102.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

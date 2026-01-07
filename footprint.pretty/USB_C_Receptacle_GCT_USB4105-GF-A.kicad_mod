@@ -303,7 +303,7 @@
 		(uuid "0da3b3aa-e3d5-4eeb-bb4e-e3b473b8e4b2")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/USB4105-GF-A.STEP"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_USB.3dshapes/USB4105-GF-A.STEP"
 		(offset
 			(xyz 0 -7 0)
 		)

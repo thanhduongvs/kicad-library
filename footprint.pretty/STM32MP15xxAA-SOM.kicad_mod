@@ -1778,7 +1778,7 @@
 		(uuid "b3507463-6bfc-4639-a47f-3a22f5e93f36")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/module/SMT32MP15xxAA-SOM.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/module/SMT32MP15xxAA-SOM.step"
 		(offset
 			(xyz -43 -37 0)
 		)

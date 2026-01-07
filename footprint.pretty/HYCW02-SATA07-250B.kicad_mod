@@ -281,7 +281,7 @@
 		(uuid "0438e90f-179b-4404-8c05-320280611768")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_SATA.3dshapes/SAT3M2132072TR.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_SATA.3dshapes/SAT3M2132072TR.step"
 		(offset
 			(xyz -0.5 -2.2 0)
 		)

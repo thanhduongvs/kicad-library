@@ -160,7 +160,7 @@
 		(uuid "44edbbda-814d-47d3-a762-917ef7f9c5c0")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_SMD.3dshapes/UFQFN6_1.5x1.7_P0.5.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_SMD.3dshapes/UFQFN6_1.5x1.7_P0.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

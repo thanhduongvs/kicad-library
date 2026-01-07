@@ -195,7 +195,7 @@
 		(uuid "4344b9b5-02d4-45ea-964e-4dffbf89aeb6")
 	)
 	(embedded_fonts no)
-	(model ":LIB_3DMODEL_DIR:ChokeCoil.3dshapes/DLW44SM242SK2.STEP"
+	(model ":KICAD_LIB_PATH:3dmodels/ChokeCoil.3dshapes/DLW44SM242SK2.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

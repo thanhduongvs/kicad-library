@@ -160,7 +160,7 @@
 		(uuid "9fa91ad8-8438-4ef4-a5e2-0aa77d6af517")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP8_2.3x2.0_P0.5.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_SO.3dshapes/VSSOP8_2.3x2.0_P0.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

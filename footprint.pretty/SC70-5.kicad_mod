@@ -164,7 +164,7 @@
 		(uuid "c0d962c6-3342-4c14-8390-2a97bfd74097")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SC70-5.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_TO_SOT_SMD.3dshapes/SC70-5.step"
 		(offset
 			(xyz 0 0 0)
 		)

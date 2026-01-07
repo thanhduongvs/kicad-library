@@ -3233,7 +3233,7 @@
 		(uuid "f585b008-67f2-4dea-a81b-ca8884b2f0cf")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/LFBGA448_18x18_P0.8.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/LFBGA448_18x18_P0.8.stp"
 		(offset
 			(xyz 0 0 0)
 		)

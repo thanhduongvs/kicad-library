@@ -391,7 +391,7 @@
 		(uuid "a86c113f-9e7f-410c-92cd-fdc733302c4f")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_Card.3dshapes/MEM2075-00-140-01-A.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_Card.3dshapes/MEM2075-00-140-01-A.stp"
 		(offset
 			(xyz 8.001 -13.208 0)
 		)

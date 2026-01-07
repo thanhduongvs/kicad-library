@@ -1267,7 +1267,7 @@
     (solder_paste_margin 0.0762) (tstamp 5e066307-342f-4a72-9907-10f597d70604))
   (pad "Y25" smd circle (at 7.8 4.55) (size 0.3048 0.3048) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 947a64cb-7c62-4698-b9f0-99573741f65e))
-  (model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA621_17.0x17.0_P0.65.step"
+  (model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/FBGA621_17.0x17.0_P0.65.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

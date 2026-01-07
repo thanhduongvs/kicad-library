@@ -289,7 +289,7 @@
 		(uuid "8b4b1622-796f-4585-b05d-0241eb6ff422")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Lumberg_2486_01_Horizontal.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_USB.3dshapes/USB_Mini-B_Lumberg_2486_01_Horizontal.step"
 		(offset
 			(xyz 0 5.08 0)
 		)

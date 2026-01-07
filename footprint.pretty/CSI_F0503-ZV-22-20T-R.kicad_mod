@@ -389,7 +389,7 @@
 		(uuid "48784364-13d1-4522-bac7-f04af86c947f")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/F0503-ZV-22-20T-R.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_FFC-FPC.3dshapes/F0503-ZV-22-20T-R.step"
 		(offset
 			(xyz 0 0 0)
 		)

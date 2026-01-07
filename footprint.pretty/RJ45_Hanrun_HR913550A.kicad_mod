@@ -294,7 +294,7 @@
 		(uuid "414899e5-0d7c-48c7-9e46-676316a7fa59")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_Ethernet.3dshapes/HR913550A.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_Ethernet.3dshapes/HR913550A.step"
 		(offset
 			(xyz 8 11 13.5)
 		)

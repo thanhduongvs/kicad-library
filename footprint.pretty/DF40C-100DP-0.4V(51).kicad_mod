@@ -811,7 +811,7 @@
 		(uuid "49a68588-f739-4e68-b5c5-599ed99acc62")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/DF40C-100DP-0.4V(51).stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_FFC-FPC.3dshapes/DF40C-100DP-0.4V(51).stp"
 		(offset
 			(xyz 6.731 -0.889 0.635)
 		)

@@ -362,7 +362,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "f8337add-8b6e-4585-81a2-2e35b3bb00c1")
 	)
-	(model "${LIB_3DMODEL_DIR}/Connector_DisplayPort.3dshapes/DisplayPort_RA_SMD.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_DisplayPort.3dshapes/DisplayPort_RA_SMD.stp"
 		(offset
 			(xyz 0 0 3.5)
 		)
@@ -373,7 +373,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${LIB_3DMODEL_DIR}/Connector_DisplayPort.3dshapes/DPF20102711TR.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_DisplayPort.3dshapes/DPF20102711TR.stp"
 		(hide yes)
 		(offset
 			(xyz 8.4 0 5)

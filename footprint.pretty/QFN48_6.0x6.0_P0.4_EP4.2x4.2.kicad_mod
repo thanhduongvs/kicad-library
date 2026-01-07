@@ -667,7 +667,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "c8663b82-e6c1-4796-b4c9-87b338667a1f")
 	)
-	(model ":LIB_3DMODEL_DIR:Package_DFN_QFN.3dshapes/TQFN48_6.0x6.0_P0.4_EP4.4x4.4.stp"
+	(model ":KICAD_LIB_PATH:3dmodels/Package_DFN_QFN.3dshapes/TQFN48_6.0x6.0_P0.4_EP4.4x4.4.stp"
 		(offset
 			(xyz 0 0 0)
 		)

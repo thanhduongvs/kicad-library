@@ -262,7 +262,7 @@
 		(uuid "c84d8764-4d6a-48a5-a87e-474fe94ca8e9")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_RA_SMD_P1.0mm_04Pin.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_JST.3dshapes/JST_SH_RA_SMD_P1.0mm_04Pin.step"
 		(offset
 			(xyz -1.5 1.5 0)
 		)

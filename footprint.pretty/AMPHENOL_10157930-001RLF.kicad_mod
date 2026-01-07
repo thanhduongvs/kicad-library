@@ -950,7 +950,7 @@
 		(uuid "58824650-4629-4e98-9cfa-946b42fc3dde")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_PCIe.3dshapes/PCIe_M.2_Key_M_MDT320M03001.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_PCIe.3dshapes/PCIe_M.2_Key_M_MDT320M03001.step"
 		(offset
 			(xyz 0 0 3.8)
 		)

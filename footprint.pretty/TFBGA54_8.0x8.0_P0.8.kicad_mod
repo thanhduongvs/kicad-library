@@ -506,7 +506,7 @@
 		(uuid "b52228a8-d77f-42d3-8c39-624655faf523")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA54_8.0x8.0_P0.8.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/TFBGA54_8.0x8.0_P0.8.step"
 		(offset
 			(xyz 0 0 0)
 		)

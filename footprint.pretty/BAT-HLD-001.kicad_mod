@@ -26,7 +26,7 @@
     (solder_paste_margin 0.0762) (tstamp 927f7624-3654-45b2-9b68-06d23bb8c5eb))
   (pad "2" smd circle (at 0 0) (size 16.256 16.256) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 0f6c24bb-bfb5-4595-8bef-79042e5e7fc5))
-  (model "${LIB_3DMODEL_DIR}/Battery.3dshapes/CR2032_closed_battery_BH.step"
+  (model "${KICAD_LIB_PATH}/3dmodels/Battery.3dshapes/CR2032_closed_battery_BH.step"
     (offset (xyz 0 0 3.302))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

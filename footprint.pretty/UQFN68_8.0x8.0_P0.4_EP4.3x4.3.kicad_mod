@@ -820,7 +820,7 @@
 		(uuid "19c009f3-70f1-4185-abe8-630fbd325c4a")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN68_8.0x8.0_P0.4.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_DFN_QFN.3dshapes/UQFN68_8.0x8.0_P0.4.step"
 		(offset
 			(xyz 0 0 0)
 		)

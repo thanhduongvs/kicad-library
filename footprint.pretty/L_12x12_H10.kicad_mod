@@ -85,7 +85,7 @@
     (solder_paste_margin 0.0762) (tstamp 1b94ec8f-7099-4ae3-b51b-5cf8ead793fe))
   (pad "2" smd rect locked (at 5.08 0) (size 3.048 5.588) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 9e1d02cf-4e52-45c2-ae59-e9f95e921384))
-  (model "${LIB_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H10mm.stp"
+  (model "${KICAD_LIB_PATH}/3dmodels/Inductor_SMD.3dshapes/L_12x12mm_H10mm.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

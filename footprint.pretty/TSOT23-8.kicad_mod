@@ -188,7 +188,7 @@
 		(uuid "6b7a2ee1-7710-407f-bd9d-ea204bf624a4")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT23-8.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_TO_SOT_SMD.3dshapes/TSOT23-8.step"
 		(offset
 			(xyz 0 0 0)
 		)

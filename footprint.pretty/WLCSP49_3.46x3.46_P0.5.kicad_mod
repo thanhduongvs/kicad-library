@@ -522,7 +522,7 @@
 		(uuid "30c7e59b-b76c-45f8-8aa3-f848ae0087f3")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Package_CSP.3dshapes/WLCSP49_3.46x3.46_P0.5.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_CSP.3dshapes/WLCSP49_3.46x3.46_P0.5.stp"
 		(offset
 			(xyz 0 0 0.25)
 		)

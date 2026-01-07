@@ -2667,7 +2667,7 @@
 		(uuid "8ac1f917-0ee2-431e-ae3e-0a2bb93320fe")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
+	(model "${KICAD_LIB_PATH}/3dmodels/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

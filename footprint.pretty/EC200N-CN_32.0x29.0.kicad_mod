@@ -381,7 +381,7 @@
       )
     )
   )
-  (model "${LIB_3DMODEL_DIR}/Quectel.3dshapes/Quectel_EC200N-CN.stp"
+  (model "${KICAD_LIB_PATH}/3dmodels/Quectel.3dshapes/Quectel_EC200N-CN.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

@@ -46,7 +46,7 @@
     (solder_paste_margin 0.0762) (tstamp 9e491735-6dc6-48e2-9bd3-9c7078798e9f))
   (pad "10" smd rect (at 0 0.75) (size 0.25 0.3) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 25794841-da53-4a6a-aedf-84797c427816))
-  (model "${LIB_3DMODEL_DIR}/Package_LGA.3dshapes/LGA10_2x2.STEP"
+  (model "${KICAD_LIB_PATH}/3dmodels/Package_LGA.3dshapes/LGA10_2x2.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

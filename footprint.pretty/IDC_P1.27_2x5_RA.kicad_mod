@@ -191,7 +191,7 @@
 		(uuid "d8a5573f-d304-4de7-9c9b-da0b7c8fcbd8")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC_P1.27_2x5_RA.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_IDC.3dshapes/IDC_P1.27_2x5_RA.step"
 		(offset
 			(xyz 0 0 0)
 		)

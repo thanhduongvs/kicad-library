@@ -33,7 +33,7 @@
   (pad "2" thru_hole circle locked (at -2.54 0) (size 2.286 2.286) (drill 1.27) (layers *.Cu *.Mask) (tstamp cea489e4-8f7f-45d9-b47e-a7a925df91a6))
   (pad "3" thru_hole circle locked (at 2.54 0) (size 2.286 2.286) (drill 1.27) (layers *.Cu *.Mask) (tstamp 36caff0b-222f-40e6-ae2d-d8cf8a240994))
   (pad "4" thru_hole circle locked (at 7.62 0) (size 2.286 2.286) (drill 1.27) (layers *.Cu *.Mask) (tstamp ada3823e-4634-4137-a34d-55efdf8c68fd))
-  (model "${LIB_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_KBL608.step"
+  (model "${KICAD_LIB_PATH}/3dmodels/Diode_THT.3dshapes/Diode_Bridge_KBL608.step"
     (offset (xyz 0 4.064 8.89))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

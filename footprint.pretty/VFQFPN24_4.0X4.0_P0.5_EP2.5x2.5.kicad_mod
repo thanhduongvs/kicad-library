@@ -393,7 +393,7 @@
 		(uuid "6558bf02-dc98-4dc5-ae59-746154e57293")
 	)
 	(embedded_fonts no)
-	(model ":LIB_3DMODEL_DIR:Package_DFN_QFN.3dshapes/VFQFPN24_4.0X4.0_P0.5_EP2.5x2.5.step"
+	(model ":KICAD_LIB_PATH:3dmodels/Package_DFN_QFN.3dshapes/VFQFPN24_4.0X4.0_P0.5_EP2.5x2.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

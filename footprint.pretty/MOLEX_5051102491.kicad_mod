@@ -706,7 +706,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "e1707e67-6285-44fe-9222-0f559862cfc2")
 	)
-	(model "${LIB_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Molex_5051102491.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_FFC-FPC.3dshapes/Molex_5051102491.step"
 		(offset
 			(xyz 0 1.5 0)
 		)

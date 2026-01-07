@@ -154,7 +154,7 @@
 		(uuid "6256f40c-eccb-4bac-8e16-71be935802ec")
 	)
 	(embedded_fonts no)
-	(model ":LIB_3DMODEL_DIR:Capacitor_TH.3dshapes/Cap_Radial_D16.0_P7.5.step"
+	(model ":KICAD_LIB_PATH:3dmodels/Capacitor_TH.3dshapes/Cap_Radial_D16.0_P7.5.step"
 		(offset
 			(xyz 0 0 12)
 		)

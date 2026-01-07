@@ -457,7 +457,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${LIB_3DMODEL_DIR}/Module_Wifi.3dshapes/QFN-44_L12.0-W12.0-P0.90-TL_AP6212.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Module_Wifi.3dshapes/QFN-44_L12.0-W12.0-P0.90-TL_AP6212.step"
 		(offset
 			(xyz 0 0 0)
 		)

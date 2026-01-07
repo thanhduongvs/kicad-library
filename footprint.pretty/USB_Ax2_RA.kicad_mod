@@ -291,7 +291,7 @@
 		(uuid "b3d2027e-de47-49a0-a733-ad2068c67c6d")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/usb.3dshapes/USB2.0x2-RA.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/usb.3dshapes/USB2.0x2-RA.stp"
 		(offset
 			(xyz 0 7.4 7)
 		)

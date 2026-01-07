@@ -393,7 +393,7 @@
 		(uuid "6f79b139-0413-4267-ba4d-ff7fa946f276")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/Connector_Coaxial.3dshapes/CON-EDGE-S.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_Coaxial.3dshapes/CON-EDGE-S.stp"
 		(offset
 			(xyz -4.572 0 0)
 		)

@@ -791,7 +791,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "e293f4d1-aa17-4341-badc-d530ab76830d")
 	)
-	(model "${LIB_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA96_8X14_P0.8.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/FBGA96_8X14_P0.8.step"
 		(offset
 			(xyz 0 0 0)
 		)

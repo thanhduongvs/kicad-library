@@ -219,7 +219,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${LIB_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_3.0x4.0_2Pin.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Button_Switch_SMD.3dshapes/SW_SPST_3.0x4.0_2Pin.step"
 		(offset
 			(xyz 0 0 0)
 		)

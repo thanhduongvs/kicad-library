@@ -161,7 +161,7 @@
 		(uuid "2cbf8700-c456-4eb2-b1f3-c0b2bb47b6a9")
 	)
 	(embedded_fonts no)
-	(model "${LIB_3DMODEL_DIR}/ChokeCoil.3dshapes/Bourns_SRF4532-110Y.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/ChokeCoil.3dshapes/Bourns_SRF4532-110Y.stp"
 		(offset
 			(xyz 2.3 0 1.4)
 		)

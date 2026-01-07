@@ -114,7 +114,7 @@
     (solder_paste_margin 0.0762) (tstamp 0ee1c3fc-4a15-4f20-a6c7-ab94b0e48ff9))
   (pad "44" smd roundrect (at 4.318 -6.6675) (size 1.524 0.3048) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5)
     (solder_paste_margin 0.0762) (tstamp 2b03c35d-55fc-42d1-aae4-0fe7e2af668f))
-  (model "${LIB_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-44_6.1x14mm_P0.635mm.stp"
+  (model "${KICAD_LIB_PATH}/3dmodels/Package_SO.3dshapes/HTSSOP-44_6.1x14mm_P0.635mm.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

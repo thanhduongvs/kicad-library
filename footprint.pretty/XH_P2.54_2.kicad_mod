@@ -256,7 +256,7 @@
 		(remove_unused_layers no)
 		(uuid "fd4eab63-df0a-4111-95ea-264d18462de5")
 	)
-	(model "${LIB_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_P2.54mm_02Pin.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_JST.3dshapes/JST_XH_P2.54mm_02Pin.stp"
 		(offset
 			(xyz 0 0 0)
 		)

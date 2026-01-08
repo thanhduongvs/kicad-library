@@ -299,7 +299,7 @@
 		(uuid "f9ba83e8-7fdd-4e65-8d0a-6bbbd709e09d")
 	)
 	(embedded_fonts no)
-	(model ":KICAD_LIB_PATH:3dmodels/Package_BGA.3dshapes/TBGA24_6.0x8.0_P1.0.STEP"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/TBGA24_6.0x8.0_P1.0.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

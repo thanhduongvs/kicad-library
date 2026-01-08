@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Feed Through Capacitors")
 	(property "Reference" "REF**"
-		(at 0 -1.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "701f77c7-26ee-4160-8ed4-4174654f37dd")
@@ -216,7 +216,7 @@
 		(uuid "337df14b-dc73-4aae-aa0e-7bd23eac281f")
 	)
 	(embedded_fonts no)
-	(model ":KICAD_LIB_PATH:3dmodels/Capacitor_SMD.3dshapes/C0504_3P.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Capacitor_SMD.3dshapes/C0504_3P.step"
 		(offset
 			(xyz 0 0 0)
 		)

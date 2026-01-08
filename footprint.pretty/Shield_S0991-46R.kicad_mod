@@ -23,7 +23,7 @@
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp b7de8126-871f-46a1-bab6-b747e787b89e))
   (pad "1" smd rect (at 2.25 0) (size 2.2 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 523b1fb7-56e3-467b-9ec0-e355be4e0edb))
-  (model ":KICAD_LIB_PATH:3dmodels/Shield.3dshapes/S0991-46R.stp"
+  (model "${KICAD_LIB_PATH}/3dmodels/Shield.3dshapes/S0991-46R.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

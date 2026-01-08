@@ -2143,7 +2143,7 @@
 		(uuid "fabdc0a2-fdfc-44e1-aae2-49d2693edf10")
 	)
 	(embedded_fonts no)
-	(model ":KICAD_LIB_PATH:3dmodels/Package_BGA.3dshapes/LFBGA289_14.0x14.0_P0.8.stp"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/LFBGA289_14.0x14.0_P0.8.stp"
 		(offset
 			(xyz 0 0 0)
 		)

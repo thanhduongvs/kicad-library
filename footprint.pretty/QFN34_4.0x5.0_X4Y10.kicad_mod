@@ -111,7 +111,7 @@
     (solder_paste_margin 0.0762) (tstamp 9f429325-2e8d-4ee0-86b2-8d4b8e44933c))
   (pad "34" smd rect (at -0.3 -0.75) (size 0.254 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 0ac7daf3-7bd1-4bfc-9497-18e8e89a577e))
-  (model ":KICAD_LIB_PATH:3dmodels/Package_DFN_QFN.3dshapes/QFN34_4.0x5.0_X4Y10.step"
+  (model "${KICAD_LIB_PATH}/3dmodels/Package_DFN_QFN.3dshapes/QFN34_4.0x5.0_X4Y10.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

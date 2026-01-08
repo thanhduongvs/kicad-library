@@ -161,7 +161,7 @@
 		(uuid "23e129cd-d0f0-434b-a4f1-8acc62a4edfb")
 	)
 	(embedded_fonts no)
-	(model ":KICAD_LIB_PATH:3dmodels/Inductor_SMD.3dshapes/L_6.0x6.0_H4.5.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Inductor_SMD.3dshapes/L_6.0x6.0_H4.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -57,7 +57,7 @@
     (solder_paste_margin 0.0762) (tstamp 1c4a1cd0-4bcc-45dc-95f5-3149b9aab5fd))
   (pad "P" smd rect (at -5.5 0) (size 4 2) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 6af5b1f5-3acf-4058-871c-e3e5b2e9a899))
-  (model ":KICAD_LIB_PATH:3dmodels/Capacitor_SMD.3dshapes/Cap_Alu_13.0x13.0_D12.5L13.5.STEP"
+  (model "${KICAD_LIB_PATH}/3dmodels/Capacitor_SMD.3dshapes/Cap_Alu_13.0x13.0_D12.5L13.5.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

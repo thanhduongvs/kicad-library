@@ -125,7 +125,7 @@
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 06819e78-9618-4c05-91aa-0ff3e915de20))
   (pad "39" smd rect (at 0.95 1.65) (size 1.3 1.3) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 29cb99ee-b370-49dc-9125-b677e2b762c9))
-  (model ":KICAD_LIB_PATH:3dmodels/Package_SO.3dshapes/HTSSOP38_4.4x9.7_P0.5_EP3.2x4.6.stp"
+  (model "${KICAD_LIB_PATH}/3dmodels/Package_SO.3dshapes/HTSSOP38_4.4x9.7_P0.5_EP3.2x4.6.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

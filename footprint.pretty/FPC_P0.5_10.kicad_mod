@@ -53,7 +53,7 @@
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 9a638e4b-edbf-4522-af13-f70e535823d2))
   (pad "SH" smd rect (at 3.79 -2.325) (size 2 3) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (thermal_bridge_angle 45) (tstamp 06e371a6-2b3c-4b18-91e3-fd8154e1668a))
-  (model ":KICAD_LIB_PATH:3dmodels/Connector_FFC-FPC.3dshapes/FPC_P0.5_10.stp"
+  (model "${KICAD_LIB_PATH}/3dmodels/Connector_FFC-FPC.3dshapes/FPC_P0.5_10.stp"
     (offset (xyz 0 5 1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

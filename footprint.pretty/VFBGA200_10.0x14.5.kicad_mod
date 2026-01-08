@@ -1531,7 +1531,7 @@
 		(uuid "c241dbde-5ca4-4cde-9cde-113b1808b8f8")
 	)
 	(embedded_fonts no)
-	(model ":KICAD_LIB_PATH:3dmodels/Package_BGA.3dshapes/VFBGA200_10.0x14.5.step"
+	(model "${KICAD_LIB_PATH}/3dmodels/Package_BGA.3dshapes/VFBGA200_10.0x14.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

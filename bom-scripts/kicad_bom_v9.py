@@ -88,12 +88,12 @@ out.writerow([
     'Package',  # E.g. SMD, 0805, SOT-23-5
     'Description',  # Auto-populated by KiCad
     'Assembly',
-    'Distributor',
-    'Distributor Part#',
-    'Distributor#2',
-    'Distributor Part#2',
     'Manufacturer',
-    'Manufacturer Part#',
+    'Manufacturer Part',
+    'Distributor',
+    'Distributor Part',
+    'Distributor Alternate',
+    'Distributor Part Alternate',
     'Quantity',  # Quantity of each part
 ])
 
@@ -133,12 +133,12 @@ for group in grouped:
             footprint,
             c.getField("Description"),
             "",
-            c.getField("Distributor"),
-            c.getField("Distributor Part#"),
-            c.getField("Distributor#2"),
-            c.getField("Distributor Part#2"),
             c.getField("Manufacturer"),
-            c.getField("Manufacturer Part#"),
+            c.getField("Manufacturer Part"),
+            c.getField("Distributor"),
+            c.getField("Distributor Part"),
+            c.getField("Distributor Alternate"),
+            c.getField("Distributor Part Alternate"),
             quantity,
         ])
 
@@ -168,12 +168,12 @@ for group in grouped:
             footprint,
             c.getField("Description"),
             "DNP",
-            c.getField("Distributor"),
-            c.getField("Distributor Part#"),
-            c.getField("Distributor#2"),
-            c.getField("Distributor Part#2"),
             c.getField("Manufacturer"),
-            c.getField("Manufacturer Part#"),
+            c.getField("Manufacturer Part"),
+            c.getField("Distributor"),
+            c.getField("Distributor Part"),
+            c.getField("Distributor Alternate"),
+            c.getField("Distributor Part Alternate"),
             quantity,
         ])
 

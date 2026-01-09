@@ -18,14 +18,16 @@ https://github.com/devbisme/KiPart
 
 ## Schematic Field name Template
 - Assembly
-- Category
 - Description
-- Distributor
-- Distributor Part#
-- Manufacturer
-- Manufacturer Part#
-
+- Category
 - Package
+- Manufacturer
+- Manufacturer Part
+- Distributor
+- Distributor Part
+- Distributor Alternate
+- Distributor Part Alternate
+
 - Power
 - Voltage
 - Current

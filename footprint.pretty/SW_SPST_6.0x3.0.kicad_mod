@@ -1,0 +1,229 @@
+(footprint "SW_SPST_6.0x3.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Light Touch Switch")
+	(tags "thegioiic")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(layer "F.SilkS")
+		(uuid "5a7acf08-4e61-4a8f-b1d9-9068c2873d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPST_6.0x3.0"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "8ae9c8f3-aa24-4f96-bada-9569d77b3f23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.thegioiic.com/nut-nhan-3x6mm-cao-2-5mm-2-chan-smd-dau-trang"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eec0c61d-67ee-4b32-a202-e8c46b539335")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d2de2da-3345-4f2d-bb94-3edde877300d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 1.2)
+		(end -3.1 -1.2)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d502f5d0-113e-44b8-9ce8-8fbc29e1263b")
+	)
+	(fp_line
+		(start -2.8 -1.5)
+		(end 2.8 -1.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f09d95a-a161-4525-ae0f-838dd009c1b4")
+	)
+	(fp_line
+		(start 2.8 1.5)
+		(end -2.8 1.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd90a053-17d0-4dce-ab9d-56a50f2b2c76")
+	)
+	(fp_line
+		(start 3.1 -1.2)
+		(end 3.1 1.2)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09e9e6fa-d3a6-40ef-9f9a-78d9d7fcdf43")
+	)
+	(fp_rect
+		(start -2.3 -1.1)
+		(end 2.3 1.1)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1b0dd0c2-e430-4f60-a86b-ac941a28ff3e")
+	)
+	(fp_arc
+		(start -3.1 -1.2)
+		(mid -3.012132 -1.412132)
+		(end -2.8 -1.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14d9c32c-6aea-424a-89af-f6cec72007cb")
+	)
+	(fp_arc
+		(start -2.8 1.5)
+		(mid -3.012132 1.412132)
+		(end -3.1 1.2)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "96a1700a-a49d-4ce5-a641-498224cda272")
+	)
+	(fp_arc
+		(start 2.8 -1.5)
+		(mid 3.012132 -1.412132)
+		(end 3.1 -1.2)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80d4e987-645c-452f-aae0-9a030c70399a")
+	)
+	(fp_arc
+		(start 3.1 1.2)
+		(mid 3.012132 1.412132)
+		(end 2.8 1.5)
+		(stroke
+			(width 0.1778)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "726fcdb1-0ba1-43f2-a0be-e3d138e5d2a9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.762 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2891126c-2946-428c-9ceb-ee1a65ad94cc")
+	)
+	(fp_rect
+		(start -4.6 1.7)
+		(end 4.6 -1.7)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "410782ec-e1b8-4c5d-afb9-650e824f8e17")
+	)
+	(fp_rect
+		(start -3 -1.5)
+		(end 3 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3be42800-eeb0-481a-b7d0-f6893926ab88")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe225b2d-c7a6-4aa7-af98-d4a6f5d59a82")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b695528d-fc4f-491c-a387-ad545211c3e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.9 0)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0da7ab0f-04da-4bd9-929f-02cafd6ec162")
+	)
+	(pad "2" smd rect
+		(at 3.9 0)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2061a94-6304-4415-833e-f1e97985b7c8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

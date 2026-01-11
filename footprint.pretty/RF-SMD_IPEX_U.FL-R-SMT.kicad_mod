@@ -1,0 +1,199 @@
+(footprint "RF-SMD_IPEX_U.FL-R-SMT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1 Male Pin IPEX Board Side 1.25mm -40℃~+90℃ 6GHz 50Ω 2mm SMD Coaxial Connector (RF) Assemblies ROHS")
+	(tags "SMD Coaxial Connector")
+	(property "Reference" "REF**"
+		(at 0 -4.76 0)
+		(layer "F.SilkS")
+		(uuid "3fa90eca-0cae-401b-9b09-58c10d215e17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RF-SMD_IPEX_U.FL-R-SMT"
+		(at 0 0 0)
+		(layer "User.1")
+		(uuid "1e818e11-a35b-410d-b68e-e7b82c78b6e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0541186f-43fe-4b85-ab88-d2f84014c7e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e947338-726a-4048-bbe0-c4362e376a41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 1.3)
+		(end -1.8 1.3)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa15bc0a-3ee3-4eb1-9cad-0c8fb3d5ec44")
+	)
+	(fp_line
+		(start -0.4 -1.3)
+		(end -1.8 -1.3)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d119d5c-a24d-426b-9e0c-8e7f2449cca3")
+	)
+	(fp_line
+		(start -0.4 -1.3)
+		(end -0.4 -1.6)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61879477-bffc-4a32-bd0b-6f9df85756f7")
+	)
+	(fp_line
+		(start 0.4 -1.6)
+		(end -0.4 -1.6)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc4082b9-6b4e-4912-9795-9667908599ca")
+	)
+	(fp_line
+		(start 0.4 -1.3)
+		(end 0.4 -1.6)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41a5dc9a-5f66-40fe-9b0e-2add1a837ec1")
+	)
+	(fp_line
+		(start 1.8 -1.3)
+		(end 0.4 -1.3)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39d84b0a-4c48-47c2-9169-488780119be2")
+	)
+	(fp_line
+		(start 1.8 1.3)
+		(end 0.7 1.3)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08c355e2-dc67-4f58-84e3-382cd203ac60")
+	)
+	(fp_rect
+		(start -2.1 -1.8)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bc3e5987-2c09-4981-a327-5cdb7bf78a11")
+	)
+	(fp_rect
+		(start -2 -1.6)
+		(end 2 1.6)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "73d5fd85-3d6b-43c3-ba7b-caf7d1016812")
+	)
+	(fp_circle
+		(center 1.5 0.79)
+		(end 1.53 0.79)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cf640262-2d01-4263-8c3a-4687936ff605")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d82e2758-69fd-41a1-a33d-6f0abaf9d105")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.525)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a71453a2-338a-4675-9b8a-349cd8a922a2")
+	)
+	(pad "2" smd rect
+		(at -1.47 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89e209c6-7a1e-45a3-b798-64a6872dfd7b")
+	)
+	(pad "2" smd rect
+		(at 1.47 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c177aed2-61b4-4fd5-b860-6547aa646a33")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB_PATH}/3dmodels/RF_Antenna.3dshapes/RF-SMD_FRF05002-JSS103M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

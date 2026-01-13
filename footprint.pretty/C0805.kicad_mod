@@ -192,14 +192,12 @@
 		(at -0.9 0)
 		(size 0.9 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0254)
 		(uuid "e9b8ddec-f586-405b-905d-71736cae2810")
 	)
 	(pad "2" smd rect
 		(at 0.9 0)
 		(size 0.9 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0254)
 		(uuid "b0eeeff6-7015-4223-b0f3-0d6ab63f20dd")
 	)
 	(zone

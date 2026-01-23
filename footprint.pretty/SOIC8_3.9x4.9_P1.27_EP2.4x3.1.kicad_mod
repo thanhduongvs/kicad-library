@@ -6,9 +6,9 @@
 	(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SOIC SO")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -3.556 0)
 		(layer "F.SilkS")
-		(uuid "5ee59fe4-3723-4513-bd6a-2a0817e631bd")
+		(uuid "cd87a8ba-a52a-4371-bac7-107af5dac97c")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -19,7 +19,7 @@
 	(property "Value" "SOIC8_3.9x4.9_P1.27_EP2.4x3.1"
 		(at 0 0 0)
 		(layer "User.1")
-		(uuid "0279e21d-1b20-42fe-9654-3462b693bc23")
+		(uuid "b19a7e24-d01c-4894-8cdb-7ae4319fcf82")
 		(effects
 			(font
 				(size 1 1)
@@ -29,10 +29,9 @@
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6b895d81-7fd5-4305-9ba4-ed118aef3e3b")
+		(uuid "5bbe30c1-a2ce-45a5-ab51-b81149547189")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,10 +41,9 @@
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a322959-bba0-4885-bb34-1220f108dd3c")
+		(uuid "df528a89-2ecf-44f5-b4ce-df029432f3bb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,47 +52,39 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -2.2 -2.7)
-		(end -1.6 -2.7)
-		(stroke
-			(width 0.1778)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fe70cc73-015f-418f-bfec-ac2e40412729")
-	)
-	(fp_line
-		(start -2.2 -2)
-		(end -2.2 -2.7)
-		(stroke
-			(width 0.1778)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e51ee790-197f-467e-bab3-e2f469356d6e")
-	)
 	(fp_rect
-		(start -2 -2.5)
-		(end 2 2.5)
+		(start -2.3 -2.5)
+		(end 2.3 2.5)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "37f46029-3675-4731-962e-9af791c82267")
+		(uuid "cb9bf42c-f561-456a-83c9-b72c345f27a4")
+	)
+	(fp_poly
+		(pts
+			(xy -2.3 -2.5) (xy -2.3 -1.5) (xy -1.3 -2.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "98c1b37c-ac50-49f4-ade3-878d9b40520f")
 	)
 	(fp_rect
-		(start -3.8 -2.794)
-		(end 3.8 2.794)
+		(start -3.6 -2.7)
+		(end 3.6 2.7)
 		(stroke
 			(width 0.0254)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7fec11c4-0cf6-48f7-a1df-3e6be27221f6")
+		(uuid "01765db5-f0ac-43ed-bfbd-df9e2c150b33")
 	)
 	(fp_line
 		(start -1.95 -1.475)
@@ -104,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2d97f35b-6c2b-4d42-9c5c-587dd9f6ea29")
+		(uuid "977bee5a-06f6-4144-b0cc-6fbbbb59ba6b")
 	)
 	(fp_line
 		(start -1.95 2.45)
@@ -114,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b302bf93-9946-4145-b71e-80330fec4fd5")
+		(uuid "9ffbee59-7231-490a-8a18-c21db9302e27")
 	)
 	(fp_line
 		(start -0.975 -2.45)
@@ -124,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "744dcb6f-5485-4a2a-aa15-5de0104a078e")
+		(uuid "b0b43a0c-e1ce-46f7-88d8-f5713f257a6d")
 	)
 	(fp_line
 		(start 1.95 -2.45)
@@ -134,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f353c118-a72f-4653-9585-6bfe9399b925")
+		(uuid "58234a56-3e8c-4243-a966-7d52110403d3")
 	)
 	(fp_line
 		(start 1.95 2.45)
@@ -144,12 +134,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d95db8d0-5ca8-4cbc-bea3-864f8deb8804")
+		(uuid "44d0a6a4-d544-495d-807b-f9507af65dcb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "c6d8d69d-a037-4ac8-950b-2e28f27c2e79")
+		(uuid "577b5928-77b8-4c74-964f-056db08c2993")
 		(effects
 			(font
 				(size 0.98 0.98)
@@ -159,75 +149,75 @@
 	)
 	(pad "1" smd rect
 		(at -3 -1.905)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fd9431e7-6f91-406c-8437-85db1928da78")
+		(uuid "f28f0111-9845-4f2a-8083-39c54877f0f7")
 	)
 	(pad "2" smd rect
 		(at -3 -0.635)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ec4038ca-5729-453b-9853-ed3c3859d562")
+		(uuid "e0fb3228-c650-449c-bcee-4c0ef3229adf")
 	)
 	(pad "3" smd rect
 		(at -3 0.635)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "389b6caa-0c3c-4809-b1cc-8217f1217864")
+		(uuid "09d2f3e5-947c-4b9d-90c5-ea3643b30cfb")
 	)
 	(pad "4" smd rect
 		(at -3 1.905)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "82174571-c04a-4837-a2a7-c1d43354071b")
+		(uuid "c1a4339d-81ac-401b-b5d8-b8a284b774e5")
 	)
 	(pad "5" smd rect
 		(at 3 1.905)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9f8290a3-688d-4340-b73c-dc78a3407ef1")
+		(uuid "23c2f3f0-ddbb-4954-aa24-620db0d40c44")
 	)
 	(pad "6" smd rect
 		(at 3 0.635)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "543a1dfe-b23f-4b91-a98c-31a27441dc0a")
+		(uuid "6bdf92db-6a4a-4b5b-8c93-b809bc342436")
 	)
 	(pad "7" smd rect
 		(at 3 -0.635)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6ec6d6db-3fb2-4954-8bc5-e22acbd6f973")
+		(uuid "6458d666-9044-4434-a1fa-060cdf0edc2b")
 	)
 	(pad "8" smd rect
 		(at 3 -1.905)
-		(size 1.2 0.5)
+		(size 1 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "99d4d947-5bf9-4284-88c8-53bd21bffe11")
+		(uuid "3c359586-0f02-4172-a5d7-3993eec9ab4c")
 	)
 	(pad "9" smd rect
 		(at -0.7 -0.9)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3cda090e-cc3b-4e1c-8fc7-538daa1a78a6")
+		(uuid "50243375-fd5a-4188-9f75-805998f1e817")
 	)
 	(pad "9" smd rect
 		(at -0.7 0.9)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "78a6d9df-a3f6-4887-8fe0-6f60473f221c")
+		(uuid "b182b560-a987-407b-99e3-59582509d94b")
 	)
 	(pad "9" smd rect
 		(at 0.7 -0.9)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f2c28bef-9e66-418b-bad2-6adf184604ab")
+		(uuid "11b2e31e-808f-4aa1-8044-5a96a5c2908e")
 	)
 	(pad "9" smd rect
 		(at 0.7 0.9)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f93f3f91-83f9-4ee1-9e62-4581f393c2dd")
+		(uuid "cc9d43dd-eb20-4898-9a19-e69ec0b03a79")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"

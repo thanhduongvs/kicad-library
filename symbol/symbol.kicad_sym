@@ -5548,8 +5548,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
-				(length 7.62)
+				(at -10.16 2.54 0)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -5566,8 +5566,8 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
-				(length 7.62)
+				(at -10.16 -2.54 0)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -5584,8 +5584,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 10.16 270)
-				(length 5.08)
+				(at 0 7.62 270)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -5602,8 +5602,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 90)
-				(length 5.08)
+				(at 0 -7.62 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -5620,8 +5620,8 @@
 				)
 			)
 			(pin output inverted
-				(at 12.7 0 180)
-				(length 7.62)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -12573,6 +12573,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory_1" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -21253,6 +21262,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "0402"
 			(at 2.54 -7.62 0)
 			(effects
@@ -21463,6 +21481,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -21679,6 +21706,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "0805"
 			(at 2.54 -7.62 0)
 			(effects
@@ -21884,6 +21920,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -22095,6 +22140,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "1210"
 			(at 2.54 -7.62 0)
 			(effects
@@ -22297,6 +22351,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -22879,6 +22942,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SSOP24_3.9x8.7"
 			(at 0 1.27 0)
 			(effects
@@ -23453,6 +23525,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "MSOP10_3.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -23791,6 +23872,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 0 1.27 0)
 			(effects
@@ -24081,6 +24171,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -24407,6 +24506,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -25554,6 +25662,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SSOP10_3.9x4.9"
 			(at 0 1.27 0)
 			(effects
@@ -25876,6 +25993,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26320,6 +26446,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -26793,6 +26928,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27295,6 +27439,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -27887,6 +28040,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -28096,6 +28258,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -28888,6 +29059,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -29709,6 +29889,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -30559,6 +30748,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -31467,6 +31665,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32407,6 +32614,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -32645,6 +32861,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -32915,6 +33140,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -33214,6 +33448,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -33542,6 +33785,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -33899,6 +34151,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -34285,6 +34546,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -34700,6 +34970,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -35434,6 +35713,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -36284,6 +36572,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -37250,6 +37547,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -38274,6 +38580,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -39356,6 +39671,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -40496,6 +40820,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -41697,6 +42030,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -41964,6 +42306,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -43281,6 +43632,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -43606,6 +43966,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -45503,6 +45872,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -45886,6 +46264,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -48363,6 +48750,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -48804,6 +49200,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -51861,6 +52266,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -52360,6 +52774,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -52920,6 +53343,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -53538,6 +53970,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -54211,6 +54652,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -54891,6 +55341,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -55630,6 +56089,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -56186,6 +56654,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -56649,6 +57126,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -57244,6 +57730,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -57681,6 +58176,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -57915,6 +58419,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -58165,6 +58678,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -58396,6 +58918,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -58838,6 +59369,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -59047,6 +59587,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -59294,6 +59843,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -59817,6 +60375,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -60365,6 +60932,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -60904,6 +61480,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -62670,6 +63255,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
@@ -63269,6 +63863,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -63514,6 +64117,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -63825,6 +64437,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -64126,6 +64747,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -64706,6 +65336,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -64980,6 +65619,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -66853,6 +67501,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -69928,6 +70585,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -72982,6 +73648,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -73412,6 +74087,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -74439,6 +75123,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TDFN6_3.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -74693,6 +75386,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -74965,6 +75667,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -75377,6 +76088,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -75794,6 +76514,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23"
 			(at 15.24 -5.08 0)
 			(effects
@@ -76192,6 +76921,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-6"
 			(at 0 1.27 0)
 			(effects
@@ -76449,6 +77187,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -76670,6 +77417,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -77016,6 +77772,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -77356,6 +78121,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -77706,6 +78480,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -77946,6 +78729,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -78174,6 +78966,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -78390,6 +79191,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -78934,6 +79744,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -79853,6 +80672,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-23-6"
 			(at 0 0 0)
 			(effects
@@ -80036,6 +80864,15 @@
 		)
 		(property "Category" "IC"
 			(at 25.4 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80556,6 +81393,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -81148,6 +81994,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -83933,6 +84788,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UFQFN6_1.5x1.7"
 			(at 0 1.27 0)
 			(effects
@@ -84191,6 +85055,15 @@
 			)
 		)
 		(property "Category" "ESD Protection"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -85303,6 +86176,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -87383,6 +88265,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 0 1.27 0)
 			(effects
@@ -87833,6 +88724,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -88434,6 +89334,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UFDFN6_1.0x1.45"
 			(at 0 1.27 0)
 			(effects
@@ -88937,6 +89846,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -90249,6 +91167,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -92033,6 +92960,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN28_4.0x4.0"
 			(at 0 0 0)
 			(effects
@@ -92700,6 +93636,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 15.24 -11.43 0)
 			(effects
@@ -93106,6 +94051,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-6"
 			(at 0 1.27 0)
 			(effects
@@ -93342,6 +94296,15 @@
 			)
 		)
 		(property "Category" " Isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -93593,6 +94556,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -94024,6 +94996,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 5.08 -8.89 0)
 			(effects
@@ -94449,6 +95430,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -94879,6 +95869,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23"
 			(at 5.08 -7.62 0)
 			(effects
@@ -95250,6 +96249,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23"
 			(at 5.08 -7.62 0)
 			(effects
@@ -95618,6 +96626,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "DFN10_3.0x3.0_P0.5"
 			(at 0 1.27 0)
 			(effects
@@ -95958,6 +96975,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -96417,6 +97443,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -96910,6 +97945,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -97229,6 +98273,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -97572,6 +98625,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -98867,6 +99929,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -99029,6 +100100,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -99285,6 +100365,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -99589,6 +100678,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -99920,6 +101018,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -100162,6 +101269,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -101186,6 +102302,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -102728,6 +103853,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -104753,6 +105887,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN48_7.0x7.0"
 			(at 0 1.27 0)
 			(effects
@@ -105889,6 +107032,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN48_6.0x6.0"
 			(at 0 1.27 0)
 			(effects
@@ -106984,6 +108136,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -111908,6 +113069,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -116951,6 +118121,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "FBGA196_15.0x15.0"
 			(at 0 1.27 0)
 			(effects
@@ -120973,6 +122152,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -127338,6 +128526,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN32_5.0x5.0"
 			(at 0 1.27 0)
 			(effects
@@ -128074,6 +129271,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN32_5.0x5.0"
 			(at 0 1.27 0)
 			(effects
@@ -128804,6 +130010,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -129486,6 +130701,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -129642,6 +130866,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -130240,6 +131473,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -130844,6 +132086,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -131146,6 +132397,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -131609,6 +132869,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -131943,6 +133212,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -132171,6 +133449,15 @@
 			)
 		)
 		(property "Category" " Isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -132418,6 +133705,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -132776,6 +134072,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -133360,6 +134665,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -133561,6 +134875,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -133794,6 +135117,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -134034,6 +135366,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -136119,6 +137460,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -136471,6 +137821,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -137114,6 +138473,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "VSSOP10_3.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -137454,6 +138822,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -137740,6 +139117,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSSOP8_4.4x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -138023,6 +139409,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -138330,6 +139725,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_5.3x5.3"
 			(at 0 1.27 0)
 			(effects
@@ -138613,6 +140017,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -138917,6 +140330,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -140034,6 +141456,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN24_4.0x4.0"
 			(at 0 1.27 0)
 			(effects
@@ -140620,6 +142051,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UTQFN10_1.4x1.8"
 			(at 0 0 0)
 			(effects
@@ -141151,6 +142591,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TDFN8_2.0x2.0"
 			(at 0 1.27 0)
 			(effects
@@ -141455,6 +142904,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TDFN8_2.0x2.0"
 			(at 0 1.27 0)
 			(effects
@@ -141756,6 +143214,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -142603,6 +144070,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TQFN15_3.5x3.5"
 			(at 0 1.27 0)
 			(effects
@@ -143012,6 +144488,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -144046,6 +145531,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -144366,6 +145860,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -144707,6 +146210,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -144942,6 +146454,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -145395,6 +146916,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -145649,6 +147179,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -146069,6 +147608,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -146521,6 +148069,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -146798,6 +148355,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -147286,6 +148852,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -148022,6 +149597,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -149054,6 +150638,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "0402"
 			(at 2.54 -7.62 0)
 			(effects
@@ -149291,6 +150884,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -149534,6 +151136,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "0805"
 			(at 2.54 -7.62 0)
 			(effects
@@ -149771,6 +151382,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -150014,6 +151634,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "1210"
 			(at 2.54 -7.62 0)
 			(effects
@@ -150244,6 +151873,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -152856,6 +154494,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "AA"
 			(at 0 0 0)
 			(effects
@@ -153010,6 +154657,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -154362,6 +156018,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -155287,6 +156952,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -155731,6 +157405,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -156001,6 +157684,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -156227,6 +157919,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -156468,6 +158169,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -156981,6 +158691,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -157327,6 +159046,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -157679,6 +159407,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -158025,6 +159762,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -158508,6 +160254,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -159088,6 +160843,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -159338,6 +161102,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -159554,6 +161327,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -159987,6 +161769,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -160179,6 +161970,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -160429,6 +162229,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -160700,6 +162509,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TO-263-5"
 			(at 0 1.27 0)
 			(effects
@@ -160968,6 +162786,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 2.54 -13.97 0)
 			(effects
@@ -161205,6 +163032,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -161512,6 +163348,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -162836,6 +164681,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -164761,6 +166615,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -168547,6 +170410,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LGA14_3.0x2.5"
 			(at 0 1.27 0)
 			(effects
@@ -168941,6 +170813,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LGA14_3.0x2.5"
 			(at 0 1.27 0)
 			(effects
@@ -169323,6 +171204,15 @@
 			)
 		)
 		(property "Category" "Connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -171381,6 +173271,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN48_6.0x6.0"
 			(at 0 1.27 0)
 			(effects
@@ -172413,6 +174312,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -173739,6 +175647,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN64_7.5x7.5"
 			(at 0 1.27 0)
 			(effects
@@ -175062,6 +176979,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -175497,6 +177423,15 @@
 			)
 		)
 		(property "Category" "Connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -176886,6 +178821,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSOP−5"
 			(at 0 1.27 0)
 			(effects
@@ -177115,6 +179059,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -177404,6 +179357,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SO8N_3.9x4.9"
 			(at 0 1.27 0)
 			(effects
@@ -177679,6 +179641,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -182182,6 +184153,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN16_3.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -182741,6 +184721,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -183306,6 +185295,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -183754,6 +185752,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LGA10_2.0x2.0"
 			(at 0 1.27 0)
 			(effects
@@ -184063,6 +186070,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -184607,6 +186623,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -184890,6 +186915,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -185722,6 +187756,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 0 0 0)
 			(effects
@@ -186004,6 +188047,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -186369,6 +188421,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -186896,6 +188957,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -187125,6 +189195,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -187374,6 +189453,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23"
 			(at 0 1.27 0)
 			(effects
@@ -187513,6 +189601,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -188028,6 +190125,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-353"
 			(at 0 1.27 0)
 			(effects
@@ -188269,6 +190375,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-23-5"
 			(at 0 1.27 0)
 			(effects
@@ -188507,6 +190622,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -200739,6 +202863,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LFBGA196_12.0x12.0"
 			(at 0 1.27 0)
 			(effects
@@ -204480,6 +206613,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -208218,6 +210360,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -213805,6 +215956,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -214517,6 +216677,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -215753,6 +217922,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN8_3.0X3.0"
 			(at 0 1.27 0)
 			(effects
@@ -216057,6 +218235,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -216343,6 +218530,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSOT23-8"
 			(at 0 1.27 0)
 			(effects
@@ -216626,6 +218822,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -216933,6 +219138,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT583"
 			(at 0 0 0)
 			(effects
@@ -217219,6 +219433,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT563"
 			(at 0 1.27 0)
 			(effects
@@ -217466,6 +219689,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -218079,6 +220311,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN10_2.0x2.0"
 			(at 0 1.27 0)
 			(effects
@@ -218398,6 +220639,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -219011,6 +221261,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN10_1.4x1.8"
 			(at 0 1.27 0)
 			(effects
@@ -219496,6 +221755,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -220181,6 +222449,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC16WB_7.5x10.35"
 			(at 0 1.27 0)
 			(effects
@@ -220608,6 +222885,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -221604,6 +223890,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-6"
 			(at 0 1.27 0)
 			(effects
@@ -221854,6 +224149,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -222083,6 +224387,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -222333,6 +224646,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -223447,6 +225769,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -224779,6 +227110,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSSOP28_4.4x9.7"
 			(at 0 1.27 0)
 			(effects
@@ -225443,6 +227783,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 0 1.27 0)
 			(effects
@@ -225744,6 +228093,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -226483,6 +228841,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TQFN32_4.0x4.0"
 			(at 0 1.27 0)
 			(effects
@@ -227216,6 +229583,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -228434,6 +230810,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN22_3.0x5.0"
 			(at 0 1.27 0)
 			(effects
@@ -228987,6 +231372,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -229708,6 +232102,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "QFN29_5.0x4.0"
 			(at 0 1.27 0)
 			(effects
@@ -230369,6 +232772,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -231120,6 +233532,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSSOP20_4.4x6.5"
 			(at 0 0 0)
 			(effects
@@ -231567,6 +233988,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -234061,6 +236491,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -234380,6 +236819,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -234957,6 +237405,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-6"
 			(at 0 1.27 0)
 			(effects
@@ -235207,6 +237664,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -237078,6 +239544,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TBGA24_6.0x8.0"
 			(at 0 1.27 0)
 			(effects
@@ -237652,6 +240127,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "WSON8_8.0x6.0"
 			(at 0 1.27 0)
 			(effects
@@ -237959,6 +240443,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -238186,6 +240679,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -238652,6 +241154,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -239101,6 +241612,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -239474,6 +241994,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -240186,6 +242715,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -240472,6 +243010,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -240755,6 +243302,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -241096,6 +243652,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -241260,6 +243825,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -242216,6 +244790,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -243513,6 +246096,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -243800,6 +246392,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -244281,6 +246882,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -244701,6 +247311,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -244969,6 +247588,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -248173,6 +250801,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 2.54 -12.7 0)
 			(effects
@@ -248537,6 +251174,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 2.54 -12.7 0)
 			(effects
@@ -248898,6 +251544,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -249181,6 +251836,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -249616,6 +252280,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -249995,6 +252668,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -250719,6 +253401,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -251051,6 +253742,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -251427,6 +254127,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -253800,6 +256509,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "X"
 			(at 0 0 0)
 			(effects
@@ -254265,6 +256983,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -254507,6 +257234,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -254814,6 +257550,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "VSSOP8_2.3x32.0"
 			(at 0 1.27 0)
 			(effects
@@ -255097,6 +257842,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -256741,6 +259495,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -260388,6 +263151,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -260806,6 +263578,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -262229,6 +265010,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "VQFN40_6.0x6.0"
 			(at 0 1.27 0)
 			(effects
@@ -263415,6 +266205,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -265405,6 +268204,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSSOP16_4.4x5.0"
 			(at 0 1.27 0)
 			(effects
@@ -265825,6 +268633,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -266504,6 +269321,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -267089,6 +269915,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -267357,6 +270192,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -267821,6 +270665,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -268419,6 +271272,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -268693,6 +271555,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -269592,6 +272463,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "HVQFN40_6.0x6.0"
 			(at 0 1.27 0)
 			(effects
@@ -270476,6 +273356,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT886"
 			(at 0 1.27 0)
 			(effects
@@ -271348,6 +274237,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SSOP20_3.9x8.6"
 			(at 0 1.27 0)
 			(effects
@@ -271850,6 +274748,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -272513,6 +275420,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -273265,6 +276181,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TBGA24_6.0x8.0"
 			(at 0 1.27 0)
 			(effects
@@ -273846,6 +276771,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "0402"
 			(at 1.27 -7.62 0)
 			(effects
@@ -274096,6 +277030,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -274352,6 +277295,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "0805"
 			(at 1.27 -7.62 0)
 			(effects
@@ -274602,6 +277554,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -274858,6 +277819,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "1210"
 			(at 1.27 -7.62 0)
 			(effects
@@ -275101,6 +278071,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -275590,6 +278569,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -276610,6 +279598,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LFQFP48_7.0x7.0"
 			(at 0 1.27 0)
 			(effects
@@ -277602,6 +280599,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -278903,6 +281909,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -279132,6 +282147,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -280509,6 +283533,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -280795,6 +283828,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -281625,6 +284667,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -282931,6 +285982,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UFDFN10_2.5x1.0"
 			(at 17.78 -6.35 0)
 			(effects
@@ -284220,6 +287280,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC16_3.9x9.9"
 			(at 0 1.27 0)
 			(effects
@@ -284647,6 +287716,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -310678,6 +313756,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LFBGA456_15.0x15.0"
 			(at 0 1.27 0)
 			(effects
@@ -319278,6 +322365,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -329604,6 +332700,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -346129,6 +349234,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -347571,6 +350685,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -350642,6 +353765,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -353953,6 +357085,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -357001,6 +360142,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -357230,6 +360380,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -357465,6 +360624,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -357694,6 +360862,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -358279,6 +361456,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -359002,6 +362188,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -359874,6 +363069,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -362650,6 +365854,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -363149,6 +366362,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -363433,6 +366655,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -363863,6 +367094,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -364728,6 +367968,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -365341,6 +368590,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -365752,6 +369010,15 @@
 			)
 		)
 		(property "Category" "Relay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -366178,6 +369445,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -366540,6 +369816,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -366708,6 +369993,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -367285,6 +370579,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -367854,6 +371157,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "HX2QFN20_3.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -368378,6 +371690,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "HX2QFN20_3.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -368899,6 +372220,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23"
 			(at 0 1.27 0)
 			(effects
@@ -369092,6 +372422,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -369850,6 +373189,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -370135,6 +373483,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -374449,6 +377806,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "30.0x30.0"
 			(at 14.478 4.572 0)
 			(effects
@@ -377729,6 +381095,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -378230,6 +381605,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -378551,6 +381935,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -379497,6 +382890,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "PG-TSNP-6-12"
 			(at 0 1.27 0)
 			(effects
@@ -379753,6 +383155,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -380402,6 +383813,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "STQFN20_2.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -380904,6 +384324,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "STQFN20_2.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -381403,6 +384832,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -382016,6 +385454,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -382505,6 +385952,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -383127,6 +386583,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -383866,6 +387331,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -384682,6 +388156,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -384968,6 +388451,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -385218,6 +388710,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -385670,6 +389171,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-23-5"
 			(at 0 0 0)
 			(effects
@@ -385969,6 +389479,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -386198,6 +389717,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -386520,6 +390048,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "VSSOP8"
 			(at 0 1.27 0)
 			(effects
@@ -386802,6 +390339,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -386958,6 +390504,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -390426,6 +393981,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -392941,6 +396505,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -395606,6 +399179,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -397977,6 +401559,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -402601,6 +406192,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-6"
 			(at 10.16 16.51 0)
 			(effects
@@ -403296,6 +406896,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-23-6"
 			(at 0 0 0)
 			(effects
@@ -403984,6 +407593,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -404723,6 +408341,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSOT23-8L"
 			(at 0 0 0)
 			(effects
@@ -405009,6 +408636,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -405334,6 +408970,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -406847,6 +410492,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LQFP64_10.0x10.0"
 			(at 0 1.27 0)
 			(effects
@@ -408154,6 +411808,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "LQFP48_7.0x7.0"
 			(at 0 0 0)
 			(effects
@@ -409237,6 +412900,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -410552,6 +414224,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -411864,6 +415545,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UFQFPN48_7.0x7.0"
 			(at 0 1.27 0)
 			(effects
@@ -412888,6 +416578,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -413621,6 +417320,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -414645,6 +418353,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -419594,6 +423311,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -424988,6 +428714,15 @@
 		)
 		(property "Category" "IC"
 			(at 1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431684,6 +435419,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -439951,6 +443695,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -444461,6 +448214,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -451036,6 +454798,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -459303,6 +463074,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TFBGA436_18.0x18.0"
 			(at 0 1.27 0)
 			(effects
@@ -467429,6 +471209,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UFQFPN48_7.0x7.0"
 			(at 0 1.27 0)
 			(effects
@@ -468474,6 +472263,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -469885,6 +473683,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -471253,6 +475060,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -472957,6 +476773,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UFQFPN48_7.0x7.0"
 			(at 0 1.27 0)
 			(effects
@@ -473992,6 +477817,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSSOP20_4.4x6.5"
 			(at 0 1.27 0)
 			(effects
@@ -474560,6 +478394,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -476881,6 +480724,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -479490,6 +483342,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -479835,6 +483696,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -480353,6 +484223,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -480636,6 +484515,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -480986,6 +484874,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -481402,6 +485299,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -482214,6 +486120,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -483161,6 +487076,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -483712,6 +487636,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -483970,6 +487903,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -484291,6 +488233,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -484619,6 +488570,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -484870,6 +488830,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -485155,6 +489124,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -485404,6 +489382,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -485694,6 +489681,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -485904,6 +489900,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -486190,6 +490195,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -486657,6 +490671,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -486900,6 +490923,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -487149,6 +491181,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -487395,6 +491436,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -487611,6 +491661,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -488134,6 +492193,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -488925,6 +492993,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -489180,6 +493257,15 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -489488,6 +493574,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -492402,6 +496497,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "VSSOP8_3.0x3.0"
 			(at 0 1.27 0)
 			(effects
@@ -492688,6 +496792,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -492992,6 +497105,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -493302,6 +497424,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -493605,6 +497736,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -493913,6 +498053,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-6"
 			(at 0 1.27 0)
 			(effects
@@ -494163,6 +498312,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -494392,6 +498550,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -494642,6 +498809,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -494898,6 +499074,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -495151,6 +499336,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -495387,6 +499581,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -495842,6 +500045,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 0 1.27 0)
 			(effects
@@ -496146,6 +500358,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -497077,6 +501298,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "UQFN24_2.0x4.0"
 			(at 0 0 0)
 			(effects
@@ -497649,6 +501879,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23-5"
 			(at 0 1.27 0)
 			(effects
@@ -497878,6 +502117,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -498185,6 +502433,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-23-6"
 			(at 0 1.27 0)
 			(effects
@@ -498433,6 +502690,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-353"
 			(at 0 1.27 0)
 			(effects
@@ -498662,6 +502928,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -498948,6 +503223,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -499252,6 +503536,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -499577,6 +503870,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 0 0 0)
 			(effects
@@ -499875,6 +504177,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "WSON6_2.0x2.0"
 			(at 0 0 0)
 			(effects
@@ -500139,6 +504450,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -500738,6 +505058,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23"
 			(at 5.08 -5.08 0)
 			(effects
@@ -501000,6 +505329,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -501348,6 +505686,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT23"
 			(at 5.08 -2.54 0)
 			(effects
@@ -501610,6 +505957,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -501951,6 +506307,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -502870,6 +507235,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC8_3.9x4.9"
 			(at 0 1.27 0)
 			(effects
@@ -503150,6 +507524,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -503420,6 +507803,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOT-23-6L"
 			(at 0 1.27 0)
 			(effects
@@ -503685,6 +508077,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -504195,6 +508596,15 @@
 			)
 		)
 		(property "Category" "IC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -504902,6 +509312,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SSOP8_2.95×2.80"
 			(at 0 1.27 0)
 			(effects
@@ -505353,6 +509772,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -505810,6 +510238,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "X2SON8_1.2x1.8"
 			(at 0 1.27 0)
 			(effects
@@ -506264,6 +510701,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "SOIC14_3.9x8.65"
 			(at 0 1.27 0)
 			(effects
@@ -506658,6 +511104,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "TSSOP14_4.4x5.0"
 			(at 0 1.27 0)
 			(effects
@@ -507049,6 +511504,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -507580,6 +512044,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -507766,6 +512239,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -507948,6 +512430,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -508119,6 +512610,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -544198,6 +548698,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -544934,6 +549443,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -545599,6 +550117,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "VQFN8_6.0x5.0"
 			(at 0 1.27 0)
 			(effects
@@ -545902,6 +550429,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -546211,6 +550747,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -554852,6 +559397,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -567528,6 +572082,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" "FBGA306_11.0x11.0"
 			(at 0 1.27 0)
 			(effects
@@ -573805,6 +578368,15 @@
 				(hide yes)
 			)
 		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Package" ""
 			(at 0 0 0)
 			(effects
@@ -574115,6 +578687,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -574713,6 +579294,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -575470,6 +580060,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -576975,6 +581574,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

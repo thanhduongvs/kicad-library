@@ -1,92 +1,103 @@
+# -*- coding: utf-8 -*-
 #
-# Example python script to generate a BOM from a KiCad generic netlist
+# Custom BOM generator for KiCad in CSV format
 #
-# Example: Sorted and Grouped CSV BOM
+# Requirements:
+# 1. Sort by "Category" field
+# 2. Exclude components where Category == "PCB"
+# 3. Components with DNP (Do Not Populate) must be at the end of the list
+# 4. Insert a blank line before the DNP section
 #
 
-"""
-    @package
-    Output: CSV (comma-separated)
-    Grouped By: Value, Footprint, specified extra fields
-    Sorted By: Reference
-    Fields: Item, Category, Value, References, Package, Description, Assembly, Distributor, Distributor Part#, Manufacturer, Manufacturer Part#, Quantity
-    
-    Outputs components grouped by Value, Footprint, and specified extra fields.
-    Extra fields can be passed as command line arguments at the end, one field per argument.
-
-    Command line:
-    python "pathToFile/kicad_bom_v9.py" "%I" "%O.csv" "Extra_Field1" "Extra_Field2"
-"""
-
-# Import the KiCad python helper module and the csv formatter
-import kicad_netlist_reader_v7
-import kicad_utils_v7
+import kicad_netlist_reader_v9 as kicad_netlist_reader
+import kicad_utils_v9 as kicad_utils
 import csv
 import sys
 import os
 
-# Get extra fields from the command line
-extra_fields = sys.argv[3:]
+# Helper function to get clean footprint name (e.g., "Package_TO_SOT:SOT-23" -> "SOT-23")
+def get_clean_footprint(fp_string):
+    if ":" in fp_string:
+        return fp_string.split(":")[-1]
+    return fp_string
 
-def myEqu(self, other):
-    """myEqu is a more advanced equivalence function for components which is
-    used by component grouping. Normal operation is to group components based
-    on their Value and Footprint.
+# Get the input and output file paths from command line arguments
+input_file = sys.argv[1]
+output_path = sys.argv[2]
 
-    In this example of a more advanced equivalency operator we also compare the
-    Footprint, Value and all extra fields passed from the command line. If 
-    these fields are not used in some parts they will simply be ignored (they
-    will match as both will be empty strings).
+# --- DIRECTORY AND FILE HANDLING ---
+# Get the base directory of the project
+project_dir = os.path.dirname(output_path)
 
-    """
-    result = True
-    if self.getValue() != other.getValue():
-        result = False
-    elif self.getFootprint() != other.getFootprint():
-        result = False
-    else:
-        for field_name in extra_fields:
-            if self.getField(field_name) != other.getField(field_name):
-                result = False
+# Define the 'assembly' directory path
+assembly_dir = os.path.join(project_dir, 'assembly')
 
-    return result
+# Create 'assembly' folder if it doesn't exist
+if not os.path.exists(assembly_dir):
+    os.makedirs(assembly_dir)
 
-# Override the component equivalence operator - it is important to do this
-# before loading the netlist, otherwise all components will have the original
-# equivalency operator.
-kicad_netlist_reader_v7.comp.__eq__ = myEqu
+# Handle filename: starts with 'bom_' and ends with '.csv'
+filename = os.path.basename(output_path)
+if not filename.startswith('bom_'):
+    filename = 'bom_' + filename
 
-# Generate an instance of a generic netlist, and load the netlist tree from
-# the command line option. If the file doesn't exist, execution will stop
-net = kicad_netlist_reader_v7.netlist(sys.argv[1])
+if not filename.lower().endswith('.csv'):
+    filename += '.csv'
 
-# Open a file to write to, if the file cannot be opened output to stdout
-# instead
+# Set the final destination to be inside the assembly folder
+final_output = os.path.join(assembly_dir, filename)
+
+# Initialize the netlist reader
+net = kicad_netlist_reader.netlist(input_file)
+
+# Open the output file
 try:
-    dir = os.path.dirname(sys.argv[2])
-    name = os.path.basename(sys.argv[2])
-    name = "bom_" + name
-    pathfile = os.path.join(dir, "", name)
-    print ("Output: " + pathfile)
-
-    f = kicad_utils_v7.open_file_writeUTF8(pathfile, 'w')
-    #f = open(name, 'w', encoding="utf-8")
+    f = kicad_utils.open_file_writeUTF8(final_output, 'w')
 except IOError:
-    e = "Can't open output file for writing: " + pathfile
-    print(__file__, ":", e, sys.stderr)
+    print("Can't open output file for writing: " + final_output, file=sys.stderr)
     f = sys.stdout
 
-# Create a new csv writer object to use as the output formatter
-out = csv.writer(f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
+# Initialize CSV writer with standard formatting
+out = csv.writer(f, lineterminator='\n', delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
 
-# Output a CSV header
+# Get components from the netlist, excluding those marked "Exclude from BOM"
+components = net.getInterestingComponents(excludeBOM=True)
+
+# --- STEP 1: FILTERING ---
+# Filter out components with Category "PCB" (case-insensitive)
+filtered_components = []
+for c in components:
+    if c.getField("Category").upper() == "PCB":
+        continue
+    filtered_components.append(c)
+
+# --- STEP 2: GROUPING ---
+# Group components by Value, Footprint, and DNP status
+grouped = net.groupComponents(filtered_components)
+
+# --- STEP 3: SORTING LOGIC ---
+# Sort priority: 
+# 1st: DNP status (Non-DNP first, DNP last)
+# 2nd: Category name (Alphabetical)
+def sort_logic(group):
+    c = group[0]
+    # is_dnp will be 0 for false, 1 for true
+    is_dnp = 1 if (c.getDNPString() and c.getDNPString().strip() != "") else 0
+    category = c.getField("Category").strip().lower()
+    return (is_dnp, category)
+
+grouped.sort(key=sort_logic)
+
+# --- STEP 4: CSV OUTPUT ---
+# Write CSV Header
 out.writerow([
     'Item',
-    'Category',  # E.g. Electronics, Connector, Mechanical, PCB
-    'Value',  # E.g. 10k, 0.1uF
-    'References',  # E.g. U1, R1
-    'Package',  # E.g. SMD, 0805, SOT-23-5
-    'Description',  # Auto-populated by KiCad
+    'Category',
+    'Value',
+    'References',
+    'Package',
+    'Description',
+    'Quantity',
     'Assembly',
     'Manufacturer',
     'Manufacturer Part',
@@ -94,87 +105,44 @@ out.writerow([
     'Distributor Part',
     'Distributor Alternate',
     'Distributor Part Alternate',
-    'Quantity',  # Quantity of each part
 ])
 
-# Get all of the components in groups of matching parts + values
-# (see ky_generic_netlist_reader.py)
-grouped = net.groupComponents()
-
-# Output all of the component information
 item = 0
+dnp_separator_added = False
+
 for group in grouped:
-    refs = ""
+    c = group[0]
+    # Check if the current group is a DNP group
+    is_currently_dnp = bool(c.getDNPString() and c.getDNPString().strip())
+
+    # Insert a blank line before the first DNP component appears
+    if is_currently_dnp and not dnp_separator_added:
+        out.writerow([]) # Blank row
+        dnp_separator_added = True
+
     item += 1
-    quantity = 0
-
-    # Add the reference of every component in the group and keep a reference
-    # to the component so that the other data can be filled in once per group
-    for component in group:
-        if component.isDoNotPopulate() == False and component.getField("Category") != "PCB":
-            refs += component.getRef() + ", "
-            c = component
-            quantity += 1
-
-    if quantity > 0:
-        footprint = ""
-        try:
-            footprint = net.getGroupFootprint(group).split(":")[1]
-        except:
-            pass
-        cnt = len(refs)
-        refs = refs[:cnt-2]
-
-        out.writerow([
-            item,
-            c.getField("Category"),
-            c.getValue(),
-            refs,
-            footprint,
-            c.getField("Description"),
-            "",
-            c.getField("Manufacturer"),
-            c.getField("Manufacturer Part"),
-            c.getField("Distributor"),
-            c.getField("Distributor Part"),
-            c.getField("Distributor Alternate"),
-            c.getField("Distributor Part Alternate"),
-            quantity,
-        ])
-
-out.writerow(["","","","","","","","","","","","","","",])
-
-# add DNP
-for group in grouped:
-    refs = ""
-    quantity = 0
-    for component in group:
-        #if component.getField("Assembly") == "DNP":
-        if component.isDoNotPopulate() == True:
-            refs += component.getRef() + ", "
-            c = component
-            quantity += 1
-    cnt = len(refs)
-    refs = refs[:cnt-2]
+    refs = ", ".join([comp.getRef() for comp in group])
+    clean_fp = get_clean_footprint(c.getFootprint())
     
-    if cnt > quantity:
-        item += 1
-        footprint = net.getGroupFootprint(group).split(":")[1]
-        out.writerow([
-            item,
-            c.getField("Category"),
-            c.getValue(),
-            refs,
-            footprint,
-            c.getField("Description"),
-            "DNP",
-            c.getField("Manufacturer"),
-            c.getField("Manufacturer Part"),
-            c.getField("Distributor"),
-            c.getField("Distributor Part"),
-            c.getField("Distributor Alternate"),
-            c.getField("Distributor Part Alternate"),
-            quantity,
-        ])
+    # Prepare data row
+    row = [
+        item,
+        c.getField("Category"),
+        c.getValue(),
+        refs,
+        clean_fp,
+        c.getField("Description"),
+        len(group),
+        c.getDNPString(),
+        c.getField("Manufacturer"),
+        c.getField("Manufacturer Part"),
+        c.getField("Distributor"),
+        c.getField("Distributor Part"),
+        c.getField("Distributor Alternate"),
+        c.getField("Distributor Part Alternate"),
+    ]
+    out.writerow(row)
 
-#f.close()
+# Close file
+f.close()
+print(f"Success: BOM generated at {final_output}")

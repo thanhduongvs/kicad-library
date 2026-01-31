@@ -331,7 +331,7 @@ class comp():
     def __eq__(self, other):
         """ Equivalency operator, remember this can be easily overloaded
             2 components are equivalent ( i.e. can be grouped
-            if they have same value and same footprint
+            if they have same value and same footprint and are both set to be populated
 
             Override the component equivalence operator must be done before
             loading the netlist, otherwise all components will have the original
@@ -347,7 +347,8 @@ class comp():
         if self.getValue() == other.getValue():
             if self.getFootprint() == other.getFootprint():
                 if self.getRef().rstrip(string.digits) == other.getRef().rstrip(string.digits):
-                    result = True
+                    if self.getDNP() == other.getDNP():
+                        result = True
         return result
 
     def setLibPart(self, part):
@@ -404,6 +405,54 @@ class comp():
 
     def getRef(self):
         return self.element.get("comp", "ref")
+
+    '''
+    Return true if the component has the DNP property set
+    '''
+    def getDNP(self):
+        for child in self.element.getChildren( "property"):
+            try:
+                if child.attributes['name'] == 'dnp':
+                    return True
+            except KeyError:
+                continue
+
+        return False
+
+    '''
+    Return 'DNP' if the component has the DNP property set
+    '''
+    def getDNPString(self):
+        if self.getDNP():
+            return 'DNP'
+
+        return ''
+
+    '''
+    Return true if the component has the exclude from BOM property set
+    '''
+    def getExcludeFromBOM(self):
+        for child in self.element.getChildren( "property"):
+            try:
+                if child.attributes['name'] == 'exclude_from_bom':
+                    return True
+            except KeyError:
+                continue
+
+        return False
+
+    '''
+    Return true if the component has the exclude from Board property set
+    '''
+    def getExcludeFromBoard(self):
+        for child in self.element.getChildren( "property"):
+            try:
+                if child.attributes['name'] == 'exclude_from_board':
+                    return True
+            except KeyError:
+                continue
+
+        return False
 
     '''
     return the footprint name. if empty and aLibraryToo = True, return the
@@ -634,7 +683,7 @@ class netlist():
 
         return ret       # this is a python 'set'
 
-    def getInterestingComponents(self):
+    def getInterestingComponents(self, excludeBOM=False, excludeBoard=False, DNP=False):
         """Return a subset of all components, those that should show up in the BOM.
         Omit those that should not, by consulting the blacklists:
         excluded_values, excluded_refs, and excluded_footprints, which hold one
@@ -667,23 +716,26 @@ class netlist():
                 for refs in self.excluded_references:
                     if refs.match(c.getRef()):
                         exclude = True
-                        break;
+                        break
             if not exclude:
                 for vals in self.excluded_values:
                     if vals.match(c.getValue()):
                         exclude = True
-                        break;
+                        break
             if not exclude:
                 for mods in self.excluded_footprints:
                     if mods.match(c.getFootprint()):
                         exclude = True
-                        break;
+                        break
 
-            if not exclude:
-                # This is a fairly personal way to flag DNS (Do Not Stuff).  NU for
-                # me means Normally Uninstalled.  You can 'or in' another expression here.
-                if c.getField( "Installed" ) == 'NU':
-                    exclude = True
+            if excludeBOM and c.getExcludeFromBOM():
+                exclude = True
+
+            if excludeBoard and c.getExcludeFromBoard():
+                exclude = True
+
+            if DNP and c.getDNP():
+                exclude = True
 
             if not exclude:
                 ret.append(c)

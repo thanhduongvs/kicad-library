@@ -64,12 +64,13 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "EEPROM"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -82,7 +83,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -91,7 +92,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "24LC01BT-I/OT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -132,6 +133,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "EEPROM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -308,7 +318,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "DDR3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2195,7 +2205,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Clock Generator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2204,7 +2214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "VFQFPN24_4.0x4.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2213,7 +2223,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Renesas"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2222,7 +2232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "5L35023B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2263,6 +2273,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Clock Generator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2783,7 +2802,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Clock Generator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2801,7 +2820,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Renesas"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2810,7 +2829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "5P35023B-000NLGI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2851,6 +2870,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Clock Generator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3384,7 +3412,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "OR Gate"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3714,7 +3742,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Voltage Levels"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3732,7 +3760,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Nexperia"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3741,7 +3769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "74AVC4T245PW,118"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3786,7 +3814,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Noninverting Bidirectional"
+		(property "ki_keywords" "Noninverting Bidirectional Voltage Levels"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4169,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Hex Inverter"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4187,7 +4215,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Nexperia"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4196,7 +4224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "74HC04BQ"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4237,6 +4265,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Hex Inverter"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4590,7 +4627,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Hex Inverter"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4993,7 +5030,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Analog Multiplexer/Demultiplexer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5432,7 +5469,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NAND Gate"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5702,7 +5739,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "AND Gate"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5972,7 +6009,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Buffer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6398,7 +6435,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "EEPROM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6416,7 +6453,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6675,7 +6712,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Clock Generator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6693,7 +6730,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Renesas"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6702,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "9FGV0241"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6743,6 +6780,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Clock Generator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7279,7 +7325,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Diode Bridge"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7628,7 +7674,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Digital Isolators"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7646,7 +7692,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Analog Devices"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7969,7 +8015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MIPI/DSI Receiver with HDMI Transmitter"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7989,7 +8035,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "HDMI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8007,7 +8053,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Analog Devices"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8057,6 +8103,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "HDMI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9027,7 +9082,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "WiFi + Bluetooth"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9044,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "AMPAK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9053,7 +9108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "AP6212"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9094,6 +9149,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "WiFi Bluetooth"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10023,7 +10087,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "LDO Regulator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10246,7 +10310,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "LDO Regulator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10469,7 +10533,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Power Switch"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10487,7 +10551,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10708,7 +10772,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Power Switch"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10726,7 +10790,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10776,6 +10840,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Power Switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10949,7 +11022,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "PSRAM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10967,7 +11040,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "AP Memory"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10976,7 +11049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "APS1604M-3SQR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11017,6 +11090,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PSRAM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11262,7 +11344,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NFC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11280,7 +11362,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "ams OSRAM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11289,7 +11371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "AS3956-ATWM-I4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11593,7 +11675,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NOR FLASH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11611,7 +11693,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Renesas"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11945,7 +12027,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11954,7 +12036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "1001013"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12550,6 +12632,15 @@
 				(hide yes)
 			)
 		)
+		(property "Category" "Antenna"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
 		(property "SubCategory" ""
 			(at 0 0 0)
 			(effects
@@ -12566,24 +12657,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Category" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "SubCategory_1" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" ""
@@ -12758,7 +12831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Antenna"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12767,7 +12840,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NFC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13303,7 +13376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Antenna"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13312,7 +13385,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NFC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13824,7 +13897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "PCB"
+		(property "Category" "Antenna"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -13834,7 +13907,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "PCB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14010,7 +14083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14765,8 +14838,8 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
-			(at 0 0 0)
+		(property "SubCategory" "Jack 3.5mm"
+			(at 5.08 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14848,8 +14921,8 @@
 		)
 		(symbol "AudioJack4_0_1"
 			(rectangle
-				(start -6.35 4.445)
-				(end -5.08 -3.81)
+				(start -1.27 -5.715)
+				(end 0 -13.97)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -14860,7 +14933,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 7.62) (xy -5.08 4.445)
+					(xy 0 -2.54) (xy 0 -5.715)
 				)
 				(stroke
 					(width 0.1524)
@@ -14872,7 +14945,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 7.62) (xy 5.08 7.62)
+					(xy 0 -2.54) (xy 10.16 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -14883,8 +14956,8 @@
 				)
 			)
 			(rectangle
-				(start -5.08 -12.065)
-				(end -6.35 -6.985)
+				(start 0 -22.225)
+				(end -1.27 -17.145)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -14895,7 +14968,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy 0 -1.27) (xy 1.27 -2.54) (xy 5.08 -2.54)
+					(xy 3.81 -12.7) (xy 5.08 -11.43) (xy 6.35 -12.7) (xy 10.16 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -14906,8 +14979,8 @@
 				)
 			)
 			(rectangle
-				(start -1.27 -11.43)
-				(end -5.08 -7.62)
+				(start 3.81 -21.59)
+				(end 0 -17.78)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -14917,8 +14990,8 @@
 				)
 			)
 			(rectangle
-				(start 0 -11.43)
-				(end -1.27 -7.62)
+				(start 5.08 -21.59)
+				(end 3.81 -17.78)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -14929,8 +15002,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -11.43) (xy 1.27 -7.62) (xy 1.905 -7.62) (xy 2.54 -8.255) (xy 4.445 -7.62) (xy 5.715 -8.89)
-					(xy 5.715 -10.16) (xy 4.445 -11.43) (xy 2.54 -10.795) (xy 1.905 -11.43) (xy 1.27 -11.43)
+					(xy 6.35 -21.59) (xy 6.35 -17.78) (xy 6.985 -17.78) (xy 7.62 -18.415) (xy 9.525 -17.78) (xy 10.795 -19.05)
+					(xy 10.795 -20.32) (xy 9.525 -21.59) (xy 7.62 -20.955) (xy 6.985 -21.59) (xy 6.35 -21.59)
 				)
 				(stroke
 					(width 0.1524)
@@ -14941,8 +15014,8 @@
 				)
 			)
 			(rectangle
-				(start 1.27 -11.43)
-				(end 0 -7.62)
+				(start 6.35 -21.59)
+				(end 5.08 -17.78)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -14953,7 +15026,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 3.175 -1.27) (xy 1.905 -1.27) (xy 2.54 -2.54)
+					(xy 7.62 -12.7) (xy 8.255 -11.43) (xy 6.985 -11.43) (xy 7.62 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -14965,7 +15038,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 5.08) (xy -1.27 5.08) (xy -2.54 3.81) (xy -3.81 5.08)
+					(xy 10.16 -5.08) (xy 3.81 -5.08) (xy 2.54 -6.35) (xy 1.27 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -14977,7 +15050,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 0 2.54) (xy 0 3.81) (xy -0.635 3.81) (xy 0 5.08) (xy 0.635 3.81) (xy 0 3.81)
+					(xy 10.16 -7.62) (xy 5.08 -7.62) (xy 5.08 -6.35) (xy 4.445 -6.35) (xy 5.08 -5.08) (xy 5.715 -6.35)
+					(xy 5.08 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -14989,7 +15063,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -5.08) (xy -1.27 -5.08) (xy -2.54 -3.81) (xy -3.81 -5.08)
+					(xy 10.16 -15.24) (xy 3.81 -15.24) (xy 2.54 -13.97) (xy 1.27 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -15002,7 +15076,7 @@
 		)
 		(symbol "AudioJack4_1_0"
 			(text "2"
-				(at -3.175 -9.525 900)
+				(at 1.905 -19.685 900)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -15010,7 +15084,7 @@
 				)
 			)
 			(text "3"
-				(at -0.635 -9.525 900)
+				(at 4.445 -19.685 900)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -15018,7 +15092,7 @@
 				)
 			)
 			(text "4"
-				(at 0.635 -9.525 900)
+				(at 5.715 -19.685 900)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -15026,7 +15100,7 @@
 				)
 			)
 			(text "6"
-				(at 3.81 -9.525 900)
+				(at 8.89 -19.685 900)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -15037,7 +15111,7 @@
 		(symbol "AudioJack4_1_1"
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 0) (xy 5.08 0)
+					(xy 7.62 -11.43) (xy 7.62 -10.16) (xy 10.16 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -15048,7 +15122,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 7.62 180)
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "GND(MIC)"
 					(effects
@@ -15066,7 +15140,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 5.08 180)
+				(at 15.24 -5.08 180)
 				(length 5.08)
 				(name "RIGHT"
 					(effects
@@ -15084,7 +15158,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 2.54 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "DETECH"
 					(effects
@@ -15102,7 +15176,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "DETECH"
 					(effects
@@ -15120,7 +15194,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -2.54 180)
+				(at 15.24 -12.7 180)
 				(length 5.08)
 				(name "LEFT"
 					(effects
@@ -15138,7 +15212,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -5.08 180)
+				(at 15.24 -15.24 180)
 				(length 5.08)
 				(name "MIC(GND)"
 					(effects
@@ -15320,18 +15394,6 @@
 		(symbol "B0402_0_1"
 			(polyline
 				(pts
-					(xy -1.905 1.905) (xy -0.635 3.175) (xy 1.905 0.635) (xy 0.635 -0.635) (xy -1.905 1.905)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 2.54) (xy 0 2.5654)
 				)
 				(stroke
@@ -15356,6 +15418,18 @@
 			)
 		)
 		(symbol "B0402_1_1"
+			(polyline
+				(pts
+					(xy -1.905 1.905) (xy -0.635 3.175) (xy 1.905 0.635) (xy 0.635 -0.635) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -15442,7 +15516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15451,7 +15525,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Isolated Power"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15468,7 +15542,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "EVISUN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15477,7 +15551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "B0505S-1WR3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16147,7 +16221,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Audio Class AB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16751,7 +16825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual LED, common anode on pin 2"
+		(property "Description" ""
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -16839,15 +16913,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "LED diode bicolor dual"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17090,7 +17155,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "PMIC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17108,7 +17173,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Rohm Semiconductor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18663,7 +18728,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "EEPROM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18972,7 +19037,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19259,7 +19324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "FILTER LC"
+		(property "Category" "Filter"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -19269,7 +19334,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "EMI/RFI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19714,7 +19779,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "N-Channel"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22942,7 +23007,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB HUB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22960,7 +23025,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "WCH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23525,7 +23590,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB to UART"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23543,7 +23608,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "WCH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23872,7 +23937,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB to UART"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23890,7 +23955,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "CH340N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24179,7 +24244,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB Microcontroller"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24196,7 +24261,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "WCH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24489,7 +24554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Audio Single Chip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24509,7 +24574,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB Audio"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24527,7 +24592,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Cmedia"
 			(at 0 0 0)
 			(effects
 				(font
@@ -24577,6 +24642,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB Audio Single Chip"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -25662,7 +25736,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Battery Charging"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25680,7 +25754,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "CONSONANCE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25996,7 +26070,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26449,7 +26523,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26931,7 +27005,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -27442,7 +27516,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28040,7 +28114,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -28261,7 +28335,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29062,7 +29136,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29892,7 +29966,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30751,7 +30825,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31668,7 +31742,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32614,7 +32688,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32864,7 +32938,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33143,7 +33217,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33451,7 +33525,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33788,7 +33862,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34154,7 +34228,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34549,7 +34623,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34973,7 +35047,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35716,7 +35790,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -36575,7 +36649,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37550,7 +37624,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -38583,7 +38657,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -39674,7 +39748,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40823,7 +40897,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42030,7 +42104,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42309,7 +42383,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43632,7 +43706,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -43969,7 +44043,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45872,7 +45946,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -46267,7 +46341,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -48750,7 +48824,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49203,7 +49277,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52266,7 +52340,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52777,7 +52851,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53346,7 +53420,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -53973,7 +54047,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54655,7 +54729,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB to UART"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54673,7 +54747,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Silicon Labs"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55344,7 +55418,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Audio Codec"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55362,7 +55436,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Cirrus Logic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56089,7 +56163,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "FFC/FPC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56107,7 +56181,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "XFCN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56654,7 +56728,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Camera"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57119,7 +57193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57129,7 +57203,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57720,7 +57794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57730,7 +57804,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59590,7 +59664,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "SMA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -59846,7 +59920,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60378,7 +60452,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60932,7 +61006,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61473,7 +61547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "IC"
+		(property "Category" "Module"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -61501,7 +61575,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Google"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63237,16 +63311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63255,13 +63320,22 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Manufacturer" ""
@@ -65336,7 +65410,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "DC Power"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65345,7 +65419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "DC-091-A200"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65622,7 +65696,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "DRAM DDR4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67504,7 +67578,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70585,7 +70659,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Header"
 			(at 0 0 0)
 			(effects
 				(font
@@ -363077,7 +363151,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MPU"
 			(at 0 0 0)
 			(effects
 				(font
@@ -493577,7 +493651,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "eMMC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -511445,6 +511519,517 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TXS0108EPWR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXS0108EPWR"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:TSSOP20_4.4x6.5_P0.65"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "IC"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SubCategory" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP20_4.4x6.5"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Alternate" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Alternate" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TXS0108EPWR_0_1"
+			(rectangle
+				(start 0 0)
+				(end 20.32 -38.1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TXS0108EPWR_1_1"
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "VCCA/L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -27.94 0)
+				(length 2.54)
+				(name "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "OE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 2.54)
+				(name "VCCB/H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -10.16 180)
+				(length 2.54)
+				(name "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -12.7 180)
+				(length 2.54)
+				(name "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -15.24 180)
+				(length 2.54)
+				(name "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -17.78 180)
+				(length 2.54)
+				(name "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -20.32 180)
+				(length 2.54)
+				(name "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -22.86 180)
+				(length 2.54)
+				(name "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -25.4 180)
+				(length 2.54)
+				(name "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -27.94 180)
+				(length 2.54)
+				(name "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -33.02 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TXS0108ERGYR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -517061,7 +517646,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB Hub"
 			(at 0 0 0)
 			(effects
 				(font
@@ -517079,7 +517664,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -517088,7 +517673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "USB2514B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -517129,6 +517714,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB Hub"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -518332,7 +518926,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -518350,7 +518944,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -518359,7 +518953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "USBLC6-2SC6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -519216,7 +519810,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -519625,7 +520219,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -520616,7 +521210,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -521607,7 +522201,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -522154,7 +522748,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -522701,7 +523295,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -523112,7 +523706,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB Micro"
 			(at 0 0 0)
 			(effects
 				(font
@@ -523553,7 +524147,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB Mini"
 			(at 0 0 0)
 			(effects
 				(font
@@ -523994,7 +524588,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -524480,7 +525074,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -525208,7 +525802,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -525815,7 +526409,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -526902,7 +527496,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -527735,7 +528329,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -528745,7 +529339,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -529523,7 +530117,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -530610,7 +531204,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -531338,7 +531932,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532066,7 +532660,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "USB Mini"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532488,7 +533082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ultrasonic transducer"
+		(property "Description" ""
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -532508,7 +533102,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Speakers & Transducers"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532526,7 +533120,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "PUI Audio"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532535,7 +533129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "UTR-1440K-TT-R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532819,7 +533413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at -24.13 10.16 0)
 			(effects
 				(font
@@ -532837,7 +533431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -532846,7 +533440,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "VGA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -533528,7 +534122,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Power Management"
 			(at 0 0 0)
 			(effects
 				(font
@@ -533546,7 +534140,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "VPSC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -533555,7 +534149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "VPS8504B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -533791,7 +534385,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Power Transformers"
 			(at 0 0 0)
 			(effects
 				(font
@@ -533809,7 +534403,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "VPSC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -533818,7 +534412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "VPT85BB-02A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -534593,7 +535187,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NOR FLASH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -534611,7 +535205,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Winbond"
 			(at 0 0 0)
 			(effects
 				(font
@@ -534620,7 +535214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "W25Q128JVSIQ"
 			(at 0 0 0)
 			(effects
 				(font
@@ -534906,7 +535500,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NOR FLASH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -534924,7 +535518,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Winbond"
 			(at 0 0 0)
 			(effects
 				(font
@@ -534933,7 +535527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "W25Q32JVSS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535219,7 +535813,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "NOR FLASH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535237,7 +535831,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Winbond"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535246,7 +535840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "W25Q64JVZEIQ"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535532,7 +536126,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Ethernet"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535550,7 +536144,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "WIZNET"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535559,7 +536153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "W5500"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535600,6 +536194,15 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Ethernet"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -536558,7 +537161,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "SDRAM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -536576,7 +537179,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Winbond"
 			(at 0 0 0)
 			(effects
 				(font
@@ -536585,7 +537188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "W9825G6KH-5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -537675,7 +538278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Transformer"
+		(property "Category" "Ultrasonic Transformer"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -537703,8 +538306,8 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
+		(property "Manufacturer" "Coilcraft"
+			(at 7.62 -7.62 0)
 			(effects
 				(font
 					(size 1 1)
@@ -537712,7 +538315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "WA8351-AL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -537768,7 +538371,7 @@
 		)
 		(symbol "WA8351-AL_0_0"
 			(text "NC"
-				(at 0 -10.16 0)
+				(at 7.62 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -537778,9 +538381,9 @@
 		)
 		(symbol "WA8351-AL_0_1"
 			(arc
-				(start -1.27 3.81)
-				(mid -1.656 2.9336)
-				(end -2.54 2.5654)
+				(start 6.35 -3.81)
+				(mid 5.964 -4.6864)
+				(end 5.08 -5.0546)
 				(stroke
 					(width 0)
 					(type default)
@@ -537790,9 +538393,9 @@
 				)
 			)
 			(arc
-				(start -1.27 1.27)
-				(mid -1.656 0.3936)
-				(end -2.54 0.0254)
+				(start 6.35 -6.35)
+				(mid 5.964 -7.2264)
+				(end 5.08 -7.5946)
 				(stroke
 					(width 0)
 					(type default)
@@ -537802,9 +538405,9 @@
 				)
 			)
 			(arc
-				(start -1.27 -1.27)
-				(mid -1.656 -2.1464)
-				(end -2.54 -2.5146)
+				(start 6.35 -8.89)
+				(mid 5.964 -9.7664)
+				(end 5.08 -10.1346)
 				(stroke
 					(width 0)
 					(type default)
@@ -537814,9 +538417,9 @@
 				)
 			)
 			(arc
-				(start -1.27 -3.81)
-				(mid -1.656 -4.6864)
-				(end -2.54 -5.0546)
+				(start 6.35 -11.43)
+				(mid 5.964 -12.3064)
+				(end 5.08 -12.6746)
 				(stroke
 					(width 0)
 					(type default)
@@ -537826,9 +538429,9 @@
 				)
 			)
 			(arc
-				(start -2.54 5.08)
-				(mid -1.642 4.708)
-				(end -1.27 3.81)
+				(start 5.08 -2.54)
+				(mid 5.978 -2.912)
+				(end 6.35 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -537838,9 +538441,9 @@
 				)
 			)
 			(arc
-				(start -2.54 2.54)
-				(mid -1.642 2.168)
-				(end -1.27 1.27)
+				(start 5.08 -5.08)
+				(mid 5.978 -5.452)
+				(end 6.35 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -537850,9 +538453,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -1.642 -0.372)
-				(end -1.27 -1.27)
+				(start 5.08 -7.62)
+				(mid 5.978 -7.992)
+				(end 6.35 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -537862,9 +538465,9 @@
 				)
 			)
 			(arc
-				(start -2.54 -2.54)
-				(mid -1.642 -2.912)
-				(end -1.27 -3.81)
+				(start 5.08 -10.16)
+				(mid 5.978 -10.532)
+				(end 6.35 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -537875,7 +538478,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 5.08) (xy -0.635 -5.08)
+					(xy 6.985 -2.54) (xy 6.985 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -537887,7 +538490,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 -5.08) (xy 0.635 5.08)
+					(xy 8.255 -12.7) (xy 8.255 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -537898,9 +538501,9 @@
 				)
 			)
 			(arc
-				(start 1.2954 3.81)
-				(mid 1.6457 4.7117)
-				(end 2.54 5.08)
+				(start 8.9154 -3.81)
+				(mid 9.2657 -2.9083)
+				(end 10.16 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -537910,9 +538513,9 @@
 				)
 			)
 			(arc
-				(start 1.2954 1.27)
-				(mid 1.6457 2.1717)
-				(end 2.54 2.54)
+				(start 8.9154 -6.35)
+				(mid 9.2657 -5.4483)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -537922,9 +538525,9 @@
 				)
 			)
 			(arc
-				(start 1.2954 -1.27)
-				(mid 1.6457 -0.3683)
-				(end 2.54 0)
+				(start 8.9154 -8.89)
+				(mid 9.2657 -7.9883)
+				(end 10.16 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -537934,9 +538537,9 @@
 				)
 			)
 			(arc
-				(start 2.54 2.5654)
-				(mid 1.6599 2.9299)
-				(end 1.2954 3.81)
+				(start 10.16 -5.0546)
+				(mid 9.2799 -4.6901)
+				(end 8.9154 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -537946,9 +538549,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0.0254)
-				(mid 1.6599 0.3899)
-				(end 1.2954 1.27)
+				(start 10.16 -7.5946)
+				(mid 9.2799 -7.2301)
+				(end 8.9154 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -537958,9 +538561,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -2.5146)
-				(mid 1.6599 -2.1501)
-				(end 1.2954 -1.27)
+				(start 10.16 -10.1346)
+				(mid 9.2799 -9.7701)
+				(end 8.9154 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -537970,9 +538573,9 @@
 				)
 			)
 			(arc
-				(start 1.3208 -3.81)
-				(mid 1.6711 -2.9085)
-				(end 2.5654 -2.54)
+				(start 8.9408 -11.43)
+				(mid 9.2911 -10.5285)
+				(end 10.1854 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -537982,9 +538585,9 @@
 				)
 			)
 			(arc
-				(start 2.5654 -5.0546)
-				(mid 1.6849 -4.6905)
-				(end 1.3208 -3.81)
+				(start 10.1854 -12.6746)
+				(mid 9.3049 -12.3105)
+				(end 8.9408 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -537996,7 +538599,7 @@
 		)
 		(symbol "WA8351-AL_1_1"
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at 0 -2.54 0)
 				(length 5.08)
 				(name "PR1"
 					(effects
@@ -538014,7 +538617,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at 0 -7.62 0)
 				(length 5.08)
 				(name "PM"
 					(effects
@@ -538032,7 +538635,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at 0 -12.7 0)
 				(length 5.08)
 				(name "PR2"
 					(effects
@@ -538050,7 +538653,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "S2"
 					(effects
@@ -538068,7 +538671,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
+				(at 15.24 -12.7 180)
 				(length 5.08)
 				(name "S1"
 					(effects
@@ -538086,7 +538689,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -10.16 180)
+				(at 15.24 -17.78 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -540318,7 +540921,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 22.86 0)
+			(at 7.62 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540327,7 +540930,7 @@
 			)
 		)
 		(property "Value" "824014885"
-			(at 0 -24.13 0)
+			(at 7.62 -46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540336,7 +540939,7 @@
 			)
 		)
 		(property "Footprint" "footprint:UDFN9_3.8x1.0_P0.8"
-			(at 0 0 0)
+			(at 7.62 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540364,7 +540967,7 @@
 			)
 		)
 		(property "Category" "TVS/ESD"
-			(at 0 0 0)
+			(at 7.62 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540382,15 +540985,15 @@
 			)
 		)
 		(property "Package" "UDFN9_3.8x1.0"
-			(at 0 0 0)
+			(at 7.62 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 0 0 0)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 7.62 -22.86 0)
 			(effects
 				(font
 					(size 1 1)
@@ -540398,8 +541001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
-			(at 0 0 0)
+		(property "Manufacturer Part" "824014885"
+			(at 7.62 -22.86 0)
 			(effects
 				(font
 					(size 1 1)
@@ -540446,7 +541049,7 @@
 		(symbol "WE_TVS_824014885_0_0"
 			(polyline
 				(pts
-					(xy -7.62 5.08) (xy 0 5.08)
+					(xy 0 -17.78) (xy 7.62 -17.78)
 				)
 				(stroke
 					(width 0.1524)
@@ -540458,7 +541061,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -5.08) (xy 0 -5.08)
+					(xy 0 -27.94) (xy 7.62 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -540470,7 +541073,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -15.24) (xy 0 -15.24)
+					(xy 0 -38.1) (xy 7.62 -38.1)
 				)
 				(stroke
 					(width 0.1524)
@@ -540481,7 +541084,7 @@
 				)
 			)
 			(circle
-				(center -5.08 12.7)
+				(center 2.54 -10.16)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -540492,7 +541095,7 @@
 				)
 			)
 			(circle
-				(center -5.08 7.62)
+				(center 2.54 -15.24)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -540503,7 +541106,7 @@
 				)
 			)
 			(circle
-				(center -5.08 2.54)
+				(center 2.54 -20.32)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -540514,18 +541117,7 @@
 				)
 			)
 			(circle
-				(center -5.08 2.54)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -5.08 0)
+				(center 2.54 -20.32)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -540537,7 +541129,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 0) (xy -7.62 0)
+					(xy 2.54 -22.86) (xy 0 -22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -540549,7 +541141,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 0) (xy -5.08 17.78)
+					(xy 2.54 -22.86) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -540560,7 +541152,42 @@
 				)
 			)
 			(circle
-				(center -5.08 -2.54)
+				(center 2.54 -22.86)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -25.4) (xy 2.54 -22.86)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -25.4) (xy 2.54 -40.64)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -25.4)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -540571,7 +541198,7 @@
 				)
 			)
 			(circle
-				(center -5.08 -2.54)
+				(center 2.54 -25.4)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -540581,32 +541208,8 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -5.08 -2.54) (xy -5.08 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -2.54) (xy -5.08 -17.78)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
-				(center -5.08 -7.62)
+				(center 2.54 -30.48)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -540617,7 +541220,7 @@
 				)
 			)
 			(circle
-				(center -5.08 -7.62)
+				(center 2.54 -30.48)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -540628,7 +541231,7 @@
 				)
 			)
 			(circle
-				(center -5.08 -12.7)
+				(center 2.54 -35.56)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -540639,7 +541242,7 @@
 				)
 			)
 			(circle
-				(center -5.08 -12.7)
+				(center 2.54 -35.56)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -540651,7 +541254,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 18.415) (xy -2.667 17.78) (xy -3.937 17.145) (xy -3.937 18.415)
+					(xy 3.683 -4.445) (xy 4.953 -5.08) (xy 3.683 -5.715) (xy 3.683 -4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -540663,7 +541266,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 13.335) (xy -2.667 12.7) (xy -3.937 12.065) (xy -3.937 13.335)
+					(xy 3.683 -9.525) (xy 4.953 -10.16) (xy 3.683 -10.795) (xy 3.683 -9.525)
 				)
 				(stroke
 					(width 0.254)
@@ -540675,7 +541278,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 8.255) (xy -2.667 7.62) (xy -3.937 6.985) (xy -3.937 8.255)
+					(xy 3.683 -14.605) (xy 4.953 -15.24) (xy 3.683 -15.875) (xy 3.683 -14.605)
 				)
 				(stroke
 					(width 0.254)
@@ -540687,7 +541290,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 3.175) (xy -2.667 2.54) (xy -3.937 1.905) (xy -3.937 3.175)
+					(xy 3.683 -19.685) (xy 4.953 -20.32) (xy 3.683 -20.955) (xy 3.683 -19.685)
 				)
 				(stroke
 					(width 0.254)
@@ -540699,7 +541302,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 -1.905) (xy -2.667 -2.54) (xy -3.937 -3.175) (xy -3.937 -1.905)
+					(xy 3.683 -24.765) (xy 4.953 -25.4) (xy 3.683 -26.035) (xy 3.683 -24.765)
 				)
 				(stroke
 					(width 0.254)
@@ -540711,7 +541314,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 -6.985) (xy -2.667 -7.62) (xy -3.937 -8.255) (xy -3.937 -6.985)
+					(xy 3.683 -29.845) (xy 4.953 -30.48) (xy 3.683 -31.115) (xy 3.683 -29.845)
 				)
 				(stroke
 					(width 0.254)
@@ -540723,7 +541326,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 -12.065) (xy -2.667 -12.7) (xy -3.937 -13.335) (xy -3.937 -12.065)
+					(xy 3.683 -34.925) (xy 4.953 -35.56) (xy 3.683 -36.195) (xy 3.683 -34.925)
 				)
 				(stroke
 					(width 0.254)
@@ -540735,7 +541338,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.937 -17.145) (xy -2.667 -17.78) (xy -3.937 -18.415) (xy -3.937 -17.145)
+					(xy 3.683 -40.005) (xy 4.953 -40.64) (xy 3.683 -41.275) (xy 3.683 -40.005)
 				)
 				(stroke
 					(width 0.254)
@@ -540747,7 +541350,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 17.78) (xy -5.08 17.78)
+					(xy 3.937 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -540759,7 +541362,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 12.7) (xy -5.08 12.7)
+					(xy 3.937 -10.16) (xy 2.54 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -540771,7 +541374,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 7.62) (xy -5.08 7.62)
+					(xy 3.937 -15.24) (xy 2.54 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -540783,7 +541386,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 2.54) (xy -5.08 2.54)
+					(xy 3.937 -20.32) (xy 2.54 -20.32)
 				)
 				(stroke
 					(width 0.1524)
@@ -540795,7 +541398,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 -2.54) (xy -5.08 -2.54)
+					(xy 3.937 -25.4) (xy 2.54 -25.4)
 				)
 				(stroke
 					(width 0.1524)
@@ -540807,7 +541410,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 -7.62) (xy -5.08 -7.62)
+					(xy 3.937 -30.48) (xy 2.54 -30.48)
 				)
 				(stroke
 					(width 0.1524)
@@ -540819,7 +541422,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 -12.7) (xy -5.08 -12.7)
+					(xy 3.937 -35.56) (xy 2.54 -35.56)
 				)
 				(stroke
 					(width 0.1524)
@@ -540831,7 +541434,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.683 -17.78) (xy -5.08 -17.78)
+					(xy 3.937 -40.64) (xy 2.54 -40.64)
 				)
 				(stroke
 					(width 0.1524)
@@ -540843,7 +541446,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 18.415) (xy -2.667 17.145)
+					(xy 4.953 -4.445) (xy 4.953 -5.715)
 				)
 				(stroke
 					(width 0.254)
@@ -540855,7 +541458,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 13.335) (xy -2.667 12.065)
+					(xy 4.953 -9.525) (xy 4.953 -10.795)
 				)
 				(stroke
 					(width 0.254)
@@ -540867,7 +541470,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 8.255) (xy -2.667 6.985)
+					(xy 4.953 -14.605) (xy 4.953 -15.875)
 				)
 				(stroke
 					(width 0.254)
@@ -540879,7 +541482,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 3.175) (xy -2.667 1.905)
+					(xy 4.953 -19.685) (xy 4.953 -20.955)
 				)
 				(stroke
 					(width 0.254)
@@ -540891,7 +541494,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 -1.905) (xy -2.667 -3.175)
+					(xy 4.953 -24.765) (xy 4.953 -26.035)
 				)
 				(stroke
 					(width 0.254)
@@ -540903,7 +541506,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 -6.985) (xy -2.667 -8.255)
+					(xy 4.953 -29.845) (xy 4.953 -31.115)
 				)
 				(stroke
 					(width 0.254)
@@ -540915,7 +541518,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 -12.065) (xy -2.667 -13.335)
+					(xy 4.953 -34.925) (xy 4.953 -36.195)
 				)
 				(stroke
 					(width 0.254)
@@ -540927,7 +541530,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.667 -17.145) (xy -2.667 -18.415)
+					(xy 4.953 -40.005) (xy 4.953 -41.275)
 				)
 				(stroke
 					(width 0.254)
@@ -540939,7 +541542,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 17.78) (xy 0 17.78)
+					(xy 5.08 -5.08) (xy 7.62 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -540951,7 +541554,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 12.7) (xy 0 12.7)
+					(xy 5.08 -10.16) (xy 7.62 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -540963,7 +541566,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 7.62) (xy 0 7.62)
+					(xy 5.08 -15.24) (xy 7.62 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -540975,7 +541578,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy 0 2.54)
+					(xy 5.08 -20.32) (xy 7.62 -20.32)
 				)
 				(stroke
 					(width 0.1524)
@@ -540987,7 +541590,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy 0 -2.54)
+					(xy 5.08 -25.4) (xy 7.62 -25.4)
 				)
 				(stroke
 					(width 0.1524)
@@ -540999,7 +541602,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -7.62) (xy 0 -7.62)
+					(xy 5.08 -30.48) (xy 7.62 -30.48)
 				)
 				(stroke
 					(width 0.1524)
@@ -541011,7 +541614,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -12.7) (xy 0 -12.7)
+					(xy 5.08 -35.56) (xy 7.62 -35.56)
 				)
 				(stroke
 					(width 0.1524)
@@ -541023,7 +541626,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -17.78) (xy 0 -17.78)
+					(xy 5.08 -40.64) (xy 7.62 -40.64)
 				)
 				(stroke
 					(width 0.1524)
@@ -541035,7 +541638,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 0.635) (xy 0.762 0) (xy -0.508 -0.635) (xy -0.508 0.635)
+					(xy 7.112 -22.225) (xy 8.382 -22.86) (xy 7.112 -23.495) (xy 7.112 -22.225)
 				)
 				(stroke
 					(width 0.254)
@@ -541047,7 +541650,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 0) (xy -5.08 0)
+					(xy 7.112 -22.86) (xy 2.54 -22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -541059,7 +541662,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 20.32) (xy -7.62 20.32)
+					(xy 7.62 -2.54) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -541071,7 +541674,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 17.78) (xy 0 20.32)
+					(xy 7.62 -5.08) (xy 7.62 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -541083,7 +541686,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 17.78) (xy 2.54 17.78)
+					(xy 7.62 -5.08) (xy 10.16 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -541095,7 +541698,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0 15.24) (xy -7.62 15.24)
+					(xy 7.62 -7.62) (xy 0 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 7.62 -7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 10.16 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -541106,7 +541733,7 @@
 				)
 			)
 			(circle
-				(center 0 12.7)
+				(center 7.62 -10.16)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541118,7 +541745,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 0 15.24)
+					(xy 7.62 -12.7) (xy 0 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -541130,7 +541757,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy 2.54 12.7)
+					(xy 7.62 -15.24) (xy 7.62 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -541142,7 +541769,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 10.16) (xy -7.62 10.16)
+					(xy 7.62 -15.24) (xy 10.16 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -541153,7 +541780,7 @@
 				)
 			)
 			(circle
-				(center 0 7.62)
+				(center 7.62 -15.24)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541165,7 +541792,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 7.62) (xy 0 10.16)
+					(xy 7.62 -20.32) (xy 7.62 -17.78)
 				)
 				(stroke
 					(width 0.1524)
@@ -541177,7 +541804,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 7.62) (xy 2.54 7.62)
+					(xy 7.62 -20.32) (xy 10.16 -20.32)
 				)
 				(stroke
 					(width 0.1524)
@@ -541188,7 +541815,7 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 7.62 -20.32)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541199,7 +541826,7 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 7.62 -20.32)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541210,7 +541837,7 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 7.62 -20.32)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541222,7 +541849,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 5.08)
+					(xy 7.62 -25.4) (xy 7.62 -27.94)
 				)
 				(stroke
 					(width 0.1524)
@@ -541234,31 +541861,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 2.54 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 2.54 -2.54)
+					(xy 7.62 -25.4) (xy 10.16 -25.4)
 				)
 				(stroke
 					(width 0.1524)
@@ -541269,7 +541872,7 @@
 				)
 			)
 			(circle
-				(center 0 -2.54)
+				(center 7.62 -25.4)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541280,7 +541883,7 @@
 				)
 			)
 			(circle
-				(center 0 -2.54)
+				(center 7.62 -25.4)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541291,7 +541894,7 @@
 				)
 			)
 			(circle
-				(center 0 -2.54)
+				(center 7.62 -25.4)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541303,7 +541906,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy 0 -10.16)
+					(xy 7.62 -30.48) (xy 7.62 -33.02)
 				)
 				(stroke
 					(width 0.1524)
@@ -541315,7 +541918,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy 2.54 -7.62)
+					(xy 7.62 -30.48) (xy 10.16 -30.48)
 				)
 				(stroke
 					(width 0.1524)
@@ -541326,7 +541929,7 @@
 				)
 			)
 			(circle
-				(center 0 -7.62)
+				(center 7.62 -30.48)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541337,7 +541940,7 @@
 				)
 			)
 			(circle
-				(center 0 -7.62)
+				(center 7.62 -30.48)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541348,7 +541951,7 @@
 				)
 			)
 			(circle
-				(center 0 -7.62)
+				(center 7.62 -30.48)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541359,7 +541962,7 @@
 				)
 			)
 			(circle
-				(center 0 -7.62)
+				(center 7.62 -30.48)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541371,7 +541974,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -10.16) (xy -7.62 -10.16)
+					(xy 7.62 -33.02) (xy 0 -33.02)
 				)
 				(stroke
 					(width 0.1524)
@@ -541383,7 +541986,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -12.7) (xy 0 -15.24)
+					(xy 7.62 -35.56) (xy 7.62 -38.1)
 				)
 				(stroke
 					(width 0.1524)
@@ -541395,7 +541998,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -12.7) (xy 2.54 -12.7)
+					(xy 7.62 -35.56) (xy 10.16 -35.56)
 				)
 				(stroke
 					(width 0.1524)
@@ -541406,7 +542009,7 @@
 				)
 			)
 			(circle
-				(center 0 -12.7)
+				(center 7.62 -35.56)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541417,7 +542020,7 @@
 				)
 			)
 			(circle
-				(center 0 -12.7)
+				(center 7.62 -35.56)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541428,7 +542031,7 @@
 				)
 			)
 			(circle
-				(center 0 -12.7)
+				(center 7.62 -35.56)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541440,7 +542043,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -17.78) (xy 0 -20.32)
+					(xy 7.62 -40.64) (xy 7.62 -43.18)
 				)
 				(stroke
 					(width 0.1524)
@@ -541452,7 +542055,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -17.78) (xy 2.54 -17.78)
+					(xy 7.62 -40.64) (xy 10.16 -40.64)
 				)
 				(stroke
 					(width 0.1524)
@@ -541463,7 +542066,7 @@
 				)
 			)
 			(circle
-				(center 0 -17.78)
+				(center 7.62 -40.64)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541474,7 +542077,7 @@
 				)
 			)
 			(circle
-				(center 0 -17.78)
+				(center 7.62 -40.64)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541486,7 +542089,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -20.32) (xy -7.62 -20.32)
+					(xy 7.62 -43.18) (xy 0 -43.18)
 				)
 				(stroke
 					(width 0.1524)
@@ -541498,7 +542101,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.635) (xy 0.254 1.143)
+					(xy 8.382 -22.225) (xy 7.874 -21.717)
 				)
 				(stroke
 					(width 0.254)
@@ -541510,7 +542113,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.635) (xy 0.762 -0.635)
+					(xy 8.382 -22.225) (xy 8.382 -23.495)
 				)
 				(stroke
 					(width 0.254)
@@ -541522,7 +542125,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -0.635) (xy 1.27 -1.143)
+					(xy 8.382 -23.495) (xy 8.89 -24.003)
 				)
 				(stroke
 					(width 0.254)
@@ -541534,7 +542137,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 18.415) (xy 3.683 17.78) (xy 2.413 17.145) (xy 2.413 18.415)
+					(xy 10.033 -4.445) (xy 11.303 -5.08) (xy 10.033 -5.715) (xy 10.033 -4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -541546,7 +542149,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 13.335) (xy 3.683 12.7) (xy 2.413 12.065) (xy 2.413 13.335)
+					(xy 10.033 -9.525) (xy 11.303 -10.16) (xy 10.033 -10.795) (xy 10.033 -9.525)
 				)
 				(stroke
 					(width 0.254)
@@ -541558,7 +542161,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 8.255) (xy 3.683 7.62) (xy 2.413 6.985) (xy 2.413 8.255)
+					(xy 10.033 -14.605) (xy 11.303 -15.24) (xy 10.033 -15.875) (xy 10.033 -14.605)
 				)
 				(stroke
 					(width 0.254)
@@ -541570,7 +542173,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 3.175) (xy 3.683 2.54) (xy 2.413 1.905) (xy 2.413 3.175)
+					(xy 10.033 -19.685) (xy 11.303 -20.32) (xy 10.033 -20.955) (xy 10.033 -19.685)
 				)
 				(stroke
 					(width 0.254)
@@ -541582,7 +542185,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -1.905) (xy 3.683 -2.54) (xy 2.413 -3.175) (xy 2.413 -1.905)
+					(xy 10.033 -24.765) (xy 11.303 -25.4) (xy 10.033 -26.035) (xy 10.033 -24.765)
 				)
 				(stroke
 					(width 0.254)
@@ -541594,7 +542197,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -6.985) (xy 3.683 -7.62) (xy 2.413 -8.255) (xy 2.413 -6.985)
+					(xy 10.033 -29.845) (xy 11.303 -30.48) (xy 10.033 -31.115) (xy 10.033 -29.845)
 				)
 				(stroke
 					(width 0.254)
@@ -541606,7 +542209,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -12.065) (xy 3.683 -12.7) (xy 2.413 -13.335) (xy 2.413 -12.065)
+					(xy 10.033 -34.925) (xy 11.303 -35.56) (xy 10.033 -36.195) (xy 10.033 -34.925)
 				)
 				(stroke
 					(width 0.254)
@@ -541618,7 +542221,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -17.145) (xy 3.683 -17.78) (xy 2.413 -18.415) (xy 2.413 -17.145)
+					(xy 10.033 -40.005) (xy 11.303 -40.64) (xy 10.033 -41.275) (xy 10.033 -40.005)
 				)
 				(stroke
 					(width 0.254)
@@ -541630,7 +542233,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 18.415) (xy 3.683 17.78)
+					(xy 11.303 -4.445) (xy 11.303 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -541642,7 +542245,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 17.78) (xy 3.683 17.145)
+					(xy 11.303 -5.08) (xy 11.303 -5.715)
 				)
 				(stroke
 					(width 0.254)
@@ -541654,7 +542257,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 17.78) (xy 5.08 17.78)
+					(xy 11.303 -5.08) (xy 12.7 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -541666,7 +542269,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 13.335) (xy 3.683 12.7)
+					(xy 11.303 -9.525) (xy 11.303 -10.16)
 				)
 				(stroke
 					(width 0.254)
@@ -541678,7 +542281,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 12.7) (xy 3.683 12.065)
+					(xy 11.303 -10.16) (xy 11.303 -10.795)
 				)
 				(stroke
 					(width 0.254)
@@ -541690,7 +542293,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 12.7) (xy 5.08 12.7)
+					(xy 11.303 -10.16) (xy 12.7 -10.16)
 				)
 				(stroke
 					(width 0.1524)
@@ -541702,7 +542305,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 8.255) (xy 3.683 7.62)
+					(xy 11.303 -14.605) (xy 11.303 -15.24)
 				)
 				(stroke
 					(width 0.254)
@@ -541714,7 +542317,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 7.62) (xy 3.683 6.985)
+					(xy 11.303 -15.24) (xy 11.303 -15.875)
 				)
 				(stroke
 					(width 0.254)
@@ -541726,7 +542329,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 7.62) (xy 5.08 7.62)
+					(xy 11.303 -15.24) (xy 12.7 -15.24)
 				)
 				(stroke
 					(width 0.1524)
@@ -541738,7 +542341,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 3.175) (xy 3.683 2.54)
+					(xy 11.303 -19.685) (xy 11.303 -20.32)
 				)
 				(stroke
 					(width 0.254)
@@ -541750,7 +542353,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 2.54) (xy 3.683 1.905)
+					(xy 11.303 -20.32) (xy 11.303 -20.955)
 				)
 				(stroke
 					(width 0.254)
@@ -541762,7 +542365,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 2.54) (xy 5.08 2.54)
+					(xy 11.303 -20.32) (xy 12.7 -20.32)
 				)
 				(stroke
 					(width 0.1524)
@@ -541774,7 +542377,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -1.905) (xy 3.683 -2.54)
+					(xy 11.303 -24.765) (xy 11.303 -25.4)
 				)
 				(stroke
 					(width 0.254)
@@ -541786,7 +542389,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -2.54) (xy 3.683 -3.175)
+					(xy 11.303 -25.4) (xy 11.303 -26.035)
 				)
 				(stroke
 					(width 0.254)
@@ -541798,7 +542401,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -2.54) (xy 5.08 -2.54)
+					(xy 11.303 -25.4) (xy 12.7 -25.4)
 				)
 				(stroke
 					(width 0.1524)
@@ -541810,7 +542413,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -6.985) (xy 3.683 -7.62)
+					(xy 11.303 -29.845) (xy 11.303 -30.48)
 				)
 				(stroke
 					(width 0.254)
@@ -541822,7 +542425,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -7.62) (xy 3.683 -8.255)
+					(xy 11.303 -30.48) (xy 11.303 -31.115)
 				)
 				(stroke
 					(width 0.254)
@@ -541834,7 +542437,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -7.62) (xy 5.08 -7.62)
+					(xy 11.303 -30.48) (xy 12.7 -30.48)
 				)
 				(stroke
 					(width 0.1524)
@@ -541846,7 +542449,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -12.065) (xy 3.683 -12.7)
+					(xy 11.303 -34.925) (xy 11.303 -35.56)
 				)
 				(stroke
 					(width 0.254)
@@ -541858,7 +542461,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -12.7) (xy 3.683 -13.335)
+					(xy 11.303 -35.56) (xy 11.303 -36.195)
 				)
 				(stroke
 					(width 0.254)
@@ -541870,7 +542473,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -12.7) (xy 5.08 -12.7)
+					(xy 11.303 -35.56) (xy 12.7 -35.56)
 				)
 				(stroke
 					(width 0.1524)
@@ -541882,7 +542485,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -17.145) (xy 3.683 -17.78)
+					(xy 11.303 -40.005) (xy 11.303 -40.64)
 				)
 				(stroke
 					(width 0.254)
@@ -541894,7 +542497,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -17.78) (xy 3.683 -18.415)
+					(xy 11.303 -40.64) (xy 11.303 -41.275)
 				)
 				(stroke
 					(width 0.254)
@@ -541906,7 +542509,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -17.78) (xy 5.08 -17.78)
+					(xy 11.303 -40.64) (xy 12.7 -40.64)
 				)
 				(stroke
 					(width 0.1524)
@@ -541918,7 +542521,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 17.78) (xy 5.08 -17.78)
+					(xy 12.7 -5.08) (xy 12.7 -40.64)
 				)
 				(stroke
 					(width 0.1524)
@@ -541929,7 +542532,7 @@
 				)
 			)
 			(circle
-				(center 5.08 12.7)
+				(center 12.7 -10.16)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541940,7 +542543,7 @@
 				)
 			)
 			(circle
-				(center 5.08 7.62)
+				(center 12.7 -15.24)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541951,7 +542554,7 @@
 				)
 			)
 			(circle
-				(center 5.08 2.54)
+				(center 12.7 -20.32)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -541962,7 +542565,7 @@
 				)
 			)
 			(circle
-				(center 5.08 2.54)
+				(center 12.7 -20.32)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541974,7 +542577,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 0) (xy 0.254 0)
+					(xy 12.7 -22.86) (xy 7.874 -22.86)
 				)
 				(stroke
 					(width 0.1524)
@@ -541985,7 +542588,7 @@
 				)
 			)
 			(circle
-				(center 5.08 0)
+				(center 12.7 -22.86)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -541996,7 +542599,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -2.54)
+				(center 12.7 -25.4)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -542007,7 +542610,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -2.54)
+				(center 12.7 -25.4)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542018,7 +542621,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -7.62)
+				(center 12.7 -30.48)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -542029,7 +542632,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -7.62)
+				(center 12.7 -30.48)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542040,7 +542643,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -12.7)
+				(center 12.7 -35.56)
 				(radius 0.0254)
 				(stroke
 					(width 0.254)
@@ -542051,7 +542654,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -12.7)
+				(center 12.7 -35.56)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542062,7 +542665,7 @@
 				)
 			)
 			(text "I/O1"
-				(at -10.16 19.05 0)
+				(at -2.54 -3.81 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542071,7 +542674,7 @@
 				)
 			)
 			(text "I/O8"
-				(at -10.16 13.97 0)
+				(at -2.54 -8.89 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542080,7 +542683,7 @@
 				)
 			)
 			(text "I/O2"
-				(at -10.16 8.89 0)
+				(at -2.54 -13.97 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542089,7 +542692,7 @@
 				)
 			)
 			(text "I/O7"
-				(at -10.16 3.81 0)
+				(at -2.54 -19.05 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542098,7 +542701,7 @@
 				)
 			)
 			(text "GND"
-				(at -10.16 -1.27 0)
+				(at -2.54 -24.13 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542107,7 +542710,7 @@
 				)
 			)
 			(text "I/O6"
-				(at -10.16 -6.35 0)
+				(at -2.54 -29.21 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542116,7 +542719,7 @@
 				)
 			)
 			(text "I/O3"
-				(at -10.16 -11.43 0)
+				(at -2.54 -34.29 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542125,7 +542728,7 @@
 				)
 			)
 			(text "I/O5"
-				(at -10.16 -16.51 0)
+				(at -2.54 -39.37 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542134,7 +542737,7 @@
 				)
 			)
 			(text "I/O4"
-				(at -10.16 -21.59 0)
+				(at -2.54 -44.45 0)
 				(effects
 					(font
 						(size 0.8128 0.8128)
@@ -542143,7 +542746,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 20.32 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542161,7 +542764,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 15.24 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542179,7 +542782,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 10.16 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542197,7 +542800,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 5.08 0)
+				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542215,7 +542818,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 0 0)
+				(at -2.54 -22.86 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542233,7 +542836,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -5.08 0)
+				(at -2.54 -27.94 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542251,7 +542854,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -10.16 0)
+				(at -2.54 -33.02 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542269,7 +542872,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -15.24 0)
+				(at -2.54 -38.1 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542287,7 +542890,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -20.32 0)
+				(at -2.54 -43.18 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -542307,8 +542910,8 @@
 		)
 		(symbol "WE_TVS_824014885_1_0"
 			(rectangle
-				(start -6.985 21.59)
-				(end 6.985 -21.59)
+				(start 0.635 -1.27)
+				(end 14.605 -44.45)
 				(stroke
 					(width 0)
 					(type solid)
@@ -542318,7 +542921,7 @@
 				)
 			)
 			(circle
-				(center -5.08 12.7)
+				(center 2.54 -10.16)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542329,7 +542932,7 @@
 				)
 			)
 			(circle
-				(center -5.08 7.62)
+				(center 2.54 -15.24)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542340,7 +542943,7 @@
 				)
 			)
 			(circle
-				(center -5.08 2.54)
+				(center 2.54 -20.32)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542351,7 +542954,7 @@
 				)
 			)
 			(circle
-				(center -5.08 0)
+				(center 2.54 -22.86)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542362,7 +542965,7 @@
 				)
 			)
 			(circle
-				(center -5.08 -2.54)
+				(center 2.54 -25.4)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542373,7 +542976,7 @@
 				)
 			)
 			(circle
-				(center -5.08 -7.62)
+				(center 2.54 -30.48)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542384,7 +542987,7 @@
 				)
 			)
 			(circle
-				(center -5.08 -12.7)
+				(center 2.54 -35.56)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542395,7 +542998,7 @@
 				)
 			)
 			(circle
-				(center 0 17.78)
+				(center 7.62 -5.08)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542406,7 +543009,7 @@
 				)
 			)
 			(circle
-				(center 0 12.7)
+				(center 7.62 -10.16)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542417,7 +543020,7 @@
 				)
 			)
 			(circle
-				(center 0 7.62)
+				(center 7.62 -15.24)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542428,7 +543031,7 @@
 				)
 			)
 			(circle
-				(center 0 2.54)
+				(center 7.62 -20.32)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542439,7 +543042,7 @@
 				)
 			)
 			(circle
-				(center 0 -2.54)
+				(center 7.62 -25.4)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542450,7 +543053,7 @@
 				)
 			)
 			(circle
-				(center 0 -7.62)
+				(center 7.62 -30.48)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542461,7 +543064,7 @@
 				)
 			)
 			(circle
-				(center 0 -12.7)
+				(center 7.62 -35.56)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542472,7 +543075,7 @@
 				)
 			)
 			(circle
-				(center 0 -17.78)
+				(center 7.62 -40.64)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542483,7 +543086,7 @@
 				)
 			)
 			(circle
-				(center 5.08 12.7)
+				(center 12.7 -10.16)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542494,7 +543097,7 @@
 				)
 			)
 			(circle
-				(center 5.08 7.62)
+				(center 12.7 -15.24)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542505,7 +543108,7 @@
 				)
 			)
 			(circle
-				(center 5.08 2.54)
+				(center 12.7 -20.32)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542516,7 +543119,7 @@
 				)
 			)
 			(circle
-				(center 5.08 0)
+				(center 12.7 -22.86)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542527,7 +543130,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -2.54)
+				(center 12.7 -25.4)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542538,7 +543141,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -7.62)
+				(center 12.7 -30.48)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542549,7 +543152,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -12.7)
+				(center 12.7 -35.56)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -542627,7 +543230,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Multi-Directional Switches"
 			(at 0 0 0)
 			(effects
 				(font
@@ -542645,7 +543248,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Alps Alpine"
 			(at 0 0 0)
 			(effects
 				(font
@@ -542654,7 +543257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "SRBE110301"
 			(at 0 0 0)
 			(effects
 				(font
@@ -542889,7 +543492,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Multi-Directional Switches"
 			(at 0 0 0)
 			(effects
 				(font
@@ -542907,7 +543510,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Alps Alpine"
 			(at 0 0 0)
 			(effects
 				(font
@@ -543148,7 +543751,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Cirrus Logic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -543887,7 +544490,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" " LED Integrated"
 			(at 0 0 0)
 			(effects
 				(font
@@ -543905,7 +544508,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -543914,7 +544517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "WS2812B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -544225,7 +544828,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" " LED Integrated"
 			(at 0 0 0)
 			(effects
 				(font
@@ -544243,7 +544846,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Worldsemi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -544252,7 +544855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "WS2812B-2020"
 			(at 0 0 0)
 			(effects
 				(font
@@ -544560,7 +545163,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Bluetooth"
 			(at 0 0 0)
 			(effects
 				(font
@@ -545686,7 +546289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 0 0)
 			(effects
 				(font
@@ -545695,7 +546298,7 @@
 				(hide yes)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "Ethernet"
 			(at 0 0 0)
 			(effects
 				(font
@@ -546472,6 +547075,24 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XLSEMI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL7046"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "Buck"
 			(at 0 0 0)
 			(effects
@@ -546722,7 +547343,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Motorcomm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -546731,7 +547352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "YT8531SH"
 			(at 0 0 0)
 			(effects
 				(font

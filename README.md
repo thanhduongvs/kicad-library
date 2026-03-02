@@ -14,7 +14,7 @@ https://github.com/devbisme/KiPart
 ## BOM generator scripts
 - Open **Sechematic Editor** > **Tool** > **Generate BOM...**
 - Click button add a new BOM then browse to folder **bom-scripts**
-- Select file **bom_onekiwi.py** or **bom_onekiwi_v2.py**
+- Select file **kicad_bom_v9.py**
 
 ## Schematic Field name Template
 - Assembly
@@ -34,7 +34,3 @@ https://github.com/devbisme/KiPart
 - Tolerance
 - Material
 - Function
-
-## Create Power Symbol
-- `cd power`
-- `go run main.go P3V3 P5V0 P12V0`

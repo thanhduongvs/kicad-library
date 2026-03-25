@@ -1,0 +1,300 @@
+(footprint "Raspberry-Pi-CM4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Raspberry Pi 4 Compute Module")
+	(tags "Raspberry Pi 4 Compute Module")
+	(property "Reference" "M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "37c2e3cc-baed-4a29-b7a4-5c4da9874981")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Raspberry-Pi-CM4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ee73c501-41b7-42ad-be25-ef0aed7dbc5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47c46417-3126-4ac9-86c8-562542dc35c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d3c2103-e4b2-4cba-bc88-5e01eb064821")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field4" "Hirose"
+		(at 391 147 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "519615b3-47a7-48db-8b7b-c5758041f7a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field5" "2off DF40C-100DS-0.4V"
+		(at 391 147 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e6e9ffe-3acc-4f02-9cff-a079977bf938")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field6" "2off DF40C-100DS-0.4V"
+		(at 391 147 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0057437b-8e74-4ea1-aff1-37e4bedd904b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field7" "Hirose"
+		(at 391 147 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86d7947c-ab56-4ef9-92c8-001e4604ac19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "	100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
+		(at 391 147 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30db262f-3755-4e7a-9040-6919199573fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -20 -24)
+		(end -20 24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a4d2636-5a65-4d86-b6e7-b3d0d63f044e")
+	)
+	(fp_line
+		(start -18 2.5)
+		(end 18 2.5)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c03cf567-ebf5-49d8-8395-f49608e12abf")
+	)
+	(fp_line
+		(start -17 -20)
+		(end -17 20)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0c35506-67a3-4178-b3de-e28d866a221e")
+	)
+	(fp_line
+		(start -16.5 -27.5)
+		(end 16.5 -27.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adc6ca93-34a0-49dd-84b9-c19a778e9713")
+	)
+	(fp_line
+		(start -16.5 27.5)
+		(end 16.5 27.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce6e3bc7-2157-431d-aa92-ce03c034e2ce")
+	)
+	(fp_line
+		(start 17 -20)
+		(end 17 20)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87da2b8f-5da3-4bb1-a157-bebfb5222fc9")
+	)
+	(fp_line
+		(start 20 -24)
+		(end 20 24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8ac849f-1ca1-43fe-9cea-4f693f8f679a")
+	)
+	(fp_arc
+		(start -20 -24)
+		(mid -18.974874 -26.474874)
+		(end -16.5 -27.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e635b117-3fae-4096-81e0-8e27be815427")
+	)
+	(fp_arc
+		(start -16.5 27.5)
+		(mid -18.974874 26.474874)
+		(end -20 24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f31c38b-dde7-403f-8d41-468b438e5980")
+	)
+	(fp_arc
+		(start 16.5 -27.5)
+		(mid 18.974874 -26.474874)
+		(end 20 -24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bda64195-25be-4abe-8457-2bd49aa5a5be")
+	)
+	(fp_arc
+		(start 20 24)
+		(mid 18.974874 26.474874)
+		(end 16.5 27.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5fdb36f-5510-4127-abaf-a007b0e6017a")
+	)
+	(pad "" np_thru_hole circle
+		(at -16.5 -24)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "ffeb36c2-5714-49aa-a3c0-42f597dc9389")
+	)
+	(pad "" np_thru_hole circle
+		(at -16.5 24)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "a7c093c9-cc1e-453a-bd77-7480ed65078e")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.5 -24)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "0600de01-16aa-4957-9836-0774f317f0d8")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.5 24)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1.7)
+		(clearance 1.7)
+		(uuid "304550a5-0602-4c08-b817-e04a2c064728")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/CM4IO.3dshapes/DF40C-100DS.stp"
+		(offset
+			(xyz -0.46 15.38 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/CM4IO.3dshapes/DF40C-100DS.stp"
+		(offset
+			(xyz 33.46 15.38 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/CM4IO.3dshapes/CM4.step"
+		(hide yes)
+		(offset
+			(xyz 52.5 -3.5 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

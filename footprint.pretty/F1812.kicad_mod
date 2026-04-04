@@ -1,14 +1,14 @@
 (footprint "F1812"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -2.794 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "efc54e6b-edc4-4285-ac5a-5117e1b6303e")
+		(uuid "c6d01c4f-c776-46bb-a700-98f423cfd7a2")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -17,10 +17,10 @@
 		)
 	)
 	(property "Value" "F1812"
-		(at 0 2.921 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "User.1")
-		(uuid "a0cdb266-4fce-4133-a288-d7ad49f7cd64")
+		(uuid "e574dab7-4919-4cc1-96d1-8021ad8c5833")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6a96ac1d-3324-4b15-a21b-e52a9f931ed7")
+		(uuid "8de9cf9c-34d9-4dde-8f06-6e92572067bf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4c9f19f2-3d48-4d74-be27-a51ed50eb260")
+		(uuid "030e3920-d61c-4dab-880a-814f803561b0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,76 +55,77 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -2.921 -1.905)
-		(end -1.524 -1.904999)
+		(start -2.85 -1.8)
+		(end -1.5 -1.8)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "79cb7527-3d34-4eb8-8577-6c79d67aa285")
+		(uuid "194fe78d-4c6a-467d-9eaf-54649b5eb1f1")
 	)
 	(fp_line
-		(start -2.921 1.905)
-		(end -2.921 -1.905)
+		(start -2.85 1.8)
+		(end -2.85 -1.8)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ed95cdcd-a4fe-4a55-a262-27ec089bc9b7")
+		(uuid "985e717d-4d33-4dbf-84a3-da63805de549")
 	)
 	(fp_line
-		(start -2.921 1.905)
-		(end -1.524 1.905)
+		(start -2.85 1.8)
+		(end -1.5 1.8)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c719a822-50cb-496e-bdf3-9b0a3e8ac717")
+		(uuid "b2949169-aa54-4aed-8dfd-a0145cc00234")
 	)
 	(fp_line
-		(start 1.524003 -1.905)
-		(end 2.921 -1.905)
+		(start 1.5 -1.8)
+		(end 2.85 -1.8)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c3d1626c-e0e4-432b-9221-f2e2be11ca29")
+		(uuid "4b994625-37b9-4f21-868b-e8affc980df6")
 	)
 	(fp_line
-		(start 1.524003 1.905)
-		(end 2.921 1.905)
+		(start 1.5 1.8)
+		(end 2.85 1.8)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0e0771a0-94fe-4001-b89e-6a4cc9597bfb")
+		(uuid "7e62b7f6-479d-427d-a2a1-839806300055")
 	)
 	(fp_line
-		(start 2.921 1.905)
-		(end 2.921 -1.905)
+		(start 2.85 1.8)
+		(end 2.85 -1.8)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e6accc58-4df7-4848-bd52-dd0a7d3e5e8c")
+		(uuid "d7c4aa78-2598-4087-86c5-9bd733939b2a")
 	)
 	(fp_rect
-		(start -2.921 -1.905)
-		(end 2.921 1.905)
+		(start -3 -2)
+		(end 3 2)
 		(stroke
 			(width 0.0254)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4cca5214-3aea-4b3c-970f-6bd1b48ab054")
+		(uuid "2867fc21-4844-4d97-844d-5b29d0c79075")
 	)
 	(fp_rect
 		(start -2.25 -1.6)
@@ -135,13 +136,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7111e534-5dc4-4392-bb19-517139ba9b25")
+		(uuid "6abe4175-58ee-4450-8171-6a706948be09")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d8338991-2905-4a35-a64b-8f48f362b6f9")
+		(uuid "d24e20df-4738-4a48-b038-26acc434b061")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -153,15 +154,13 @@
 		(at -2 0)
 		(size 1.4 3.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "7493c5ba-291e-456c-a918-f851b4eca143")
+		(uuid "62c70cb2-5f14-4086-9714-646ff8f9da5b")
 	)
 	(pad "2" smd rect
 		(at 2 0)
 		(size 1.4 3.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "aca2b2d7-4228-4278-851e-cf9cc617c0b0")
+		(uuid "903b0f08-aabd-4f3b-8e16-ff371e74177e")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.step"

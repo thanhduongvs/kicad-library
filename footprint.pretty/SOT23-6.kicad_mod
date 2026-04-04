@@ -1,14 +1,14 @@
 (footprint "SOT23-6"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf")
 	(tags "TSOT-23-6 MK06A TSOT-6 Hand-soldering")
 	(property "Reference" "REF**"
 		(at 0 -2.45 0)
 		(layer "F.SilkS")
-		(uuid "2972139b-8971-4874-ada4-4342e37c346a")
+		(uuid "e798f98f-77da-4695-9589-1e965a952cc3")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "SOT23-6"
 		(at 0 0 90)
 		(layer "User.1")
-		(uuid "762805f9-b0ff-4712-a2ba-520eb3e19ca7")
+		(uuid "f118f37c-137e-416a-8732-fc61ca20b5c5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77cf2c86-917e-402e-82d8-6b3755586162")
+		(uuid "f5b6bd2f-76da-4ef6-a8b2-417ccb5eb7c1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7fc5f155-0dfe-4f1d-af95-44d4c13f7ff4")
+		(uuid "85f45aeb-e599-4e8b-aa8e-ecb41b1bec6b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -0.65 -1.6)
 		(end 0.65 1.6)
@@ -61,7 +62,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "1e369ede-3de9-4c1e-8328-34cf937fef39")
+		(uuid "5d081632-f83e-49ae-94e3-566021c097f3")
 	)
 	(fp_poly
 		(pts
@@ -73,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "804111e2-2dbf-4eac-9ddf-f9028854a65e")
+		(uuid "4656e4df-25a5-4cce-a2e8-f5c9ca1b81d8")
 	)
 	(fp_rect
 		(start -2.4 -1.8)
@@ -84,7 +85,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "bc40ea74-2c63-4dd9-b70c-1ee7a0786f89")
+		(uuid "79f906b8-bbf2-400a-beec-5598394dbf35")
 	)
 	(fp_line
 		(start -0.88 -1)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2190b843-5043-4854-bf5c-d48974e64276")
+		(uuid "44667996-37f7-439e-a31e-e605bdce622c")
 	)
 	(fp_line
 		(start -0.88 -1)
@@ -104,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "50e22dc4-8549-4edb-9cfd-751a5247299c")
+		(uuid "ec6d8b49-aeed-4284-9835-6c3781b03fb7")
 	)
 	(fp_line
 		(start 0.88 -1.45)
@@ -114,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fafa8c59-7ce3-4199-ac9a-318798f048d2")
+		(uuid "ceec1349-bfab-4149-99a1-8e457778148a")
 	)
 	(fp_line
 		(start 0.88 -1.45)
@@ -124,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "72570b23-14dc-4788-9565-d12ffc089c1a")
+		(uuid "6246c8dd-9ae4-4990-bddf-54ad2d029054")
 	)
 	(fp_line
 		(start 0.88 1.45)
@@ -134,12 +135,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e0e4a417-2792-44de-b141-bbee40c59cab")
+		(uuid "bc0e7417-2a15-42d3-a1ac-168b5ace1cf3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "c4efd295-0b76-4f7e-9150-eaa37329896a")
+		(uuid "1f4a886e-74a2-491c-9637-9c9ca64381f5")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -149,45 +150,39 @@
 	)
 	(pad "1" smd rect
 		(at -1.5 -1)
-		(size 1.27 0.6)
+		(size 1.2 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "23d6ed79-a174-48fa-bdf9-35c621312dd4")
+		(uuid "205abd05-0aba-4bc0-ba20-0790da60469e")
 	)
 	(pad "2" smd rect
 		(at -1.5 0)
-		(size 1.27 0.6)
+		(size 1.2 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "ad10cda4-dd64-4bd2-b41d-e6b5ef70390f")
+		(uuid "0041a026-0aaa-4f63-9d4e-dd97c066229c")
 	)
 	(pad "3" smd rect
 		(at -1.5 1)
-		(size 1.27 0.6)
+		(size 1.2 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "06e690b1-d98f-4e48-b492-8a673f17bc01")
+		(uuid "ac57c742-df6b-49d3-8cdf-eb5c3817e370")
 	)
 	(pad "4" smd rect
 		(at 1.5 1)
-		(size 1.27 0.6)
+		(size 1.2 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "53442a9f-b5cf-4bf2-8af2-9de714204693")
+		(uuid "cdfec4a2-ebb5-4143-9672-568da2083023")
 	)
 	(pad "5" smd rect
 		(at 1.5 0)
-		(size 1.27 0.6)
+		(size 1.2 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "ddab5461-72ab-45e6-a127-6fd1761e8b68")
+		(uuid "32521572-9277-4202-9bd8-69f3f7676901")
 	)
 	(pad "6" smd rect
 		(at 1.5 -1)
-		(size 1.27 0.6)
+		(size 1.2 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_paste_margin 0.0762)
-		(uuid "94eafb3d-dfb9-4d41-b93d-781374bbe9be")
+		(uuid "f2369522-de51-42a8-aa4a-1f051dcf0564")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.wrl"

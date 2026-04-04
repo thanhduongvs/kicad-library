@@ -1,0 +1,163 @@
+(footprint "FUSE_BK250-250"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Polymeric PTC Resettable Fuse")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c3a8fc89-c8e0-437e-819b-27ae8a1ea824")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FUSE_BK250-250"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c79a4d7b-001c-48b9-b55c-f1e64f01ed1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce647ee7-1ca0-44b5-ac8c-5910f3f45b9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c34a468f-69c8-4889-9278-246f660d6cfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.2 0)
+		(end -0.8 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61d16e23-40e3-4a28-a4da-1f3b60d6a5cd")
+	)
+	(fp_line
+		(start 1.2 0)
+		(end 0.8 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0af847a7-e3ae-4f24-8657-5ccae38ce232")
+	)
+	(fp_rect
+		(start -4.8 -2.4)
+		(end 4.8 2.4)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8cddb1f0-3609-4da9-ab76-78545a1d0e93")
+	)
+	(fp_arc
+		(start 0 0)
+		(mid -0.4 0.4)
+		(end -0.8 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e863da07-c055-4e8f-9427-c2bbc9261aa2")
+	)
+	(fp_arc
+		(start 0 0)
+		(mid 0.4 -0.4)
+		(end 0.8 0)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c09b2e74-b39c-420b-9ce6-18341d712716")
+	)
+	(fp_rect
+		(start -5 -2.6)
+		(end 5 2.6)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "89f914b3-476c-405c-82c0-87c136d54d45")
+	)
+	(fp_rect
+		(start -4.8 -2.4)
+		(end 4.8 2.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7ba208f1-9ea2-489d-9aa3-d5c61500e5be")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df697c73-1824-4516-bc2b-e2720fcbb71e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.6 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d77d7dd6-6282-44c7-8296-4659c765c4cd")
+	)
+	(pad "2" thru_hole circle
+		(at 2.6 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "494f2135-a373-4e9c-bae7-ba8710deb3ac")
+	)
+	(embedded_fonts no)
+)

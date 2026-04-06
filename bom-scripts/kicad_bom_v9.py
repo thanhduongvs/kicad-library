@@ -7,6 +7,7 @@
 # 2. Exclude components where Category == "PCB"
 # 3. Components with DNP (Do Not Populate) must be at the end of the list
 # 4. Insert a blank line before the DNP section
+# env -u PYTHONHOME -u PYTHONPATH python3 "/home/thanhduong/working/kicad/kicad-library/bom-scripts/kicad_bom_v9.py" "%I" "%O"
 #
 
 import kicad_netlist_reader_v9 as kicad_netlist_reader

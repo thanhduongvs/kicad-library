@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "12ff6a11-ad16-49fc-b9f0-da1dc92859ad")
+		(uuid "a8a2ac9d-d982-48e1-ba34-5fa21b3792f4")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ae6589bb-11ae-4172-a1f6-5b12c6449651")
+		(uuid "8a722c4a-1e15-4cbb-9ab7-732e2b9fadb8")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "feee4108-e72d-4dae-b2df-5bc3adeef905")
+		(uuid "9724b5bc-ef6c-41c9-821e-52fe2eb1dee0")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0fd029de-b7ce-4cc5-9fcf-550b23924b9b")
+		(uuid "0b4da234-1f32-4ccc-b08d-facc708747ca")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "34db46bf-93ef-44ef-ae3d-50f8a409b412")
+		(uuid "d6d89e3b-5b7e-4741-810b-2d64e7b4a61a")
 	)
 	(fp_rect
 		(start -5.715 -3.6)
@@ -74,13 +74,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "014022b9-88f1-4197-9aa7-16850726d515")
+		(uuid "f94b156f-7be9-4178-b74f-10fad5ceb024")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ca41a602-6a2e-4a47-bacb-2ca4fab4f5b9")
+		(uuid "929a90fd-c2dc-4186-a4b5-106ef5adc36c")
 		(effects
 			(font
 				(size 1 1)
@@ -94,7 +94,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ba71a512-56d0-4ff4-ad24-5f4d4e686d34")
+		(uuid "39cdc3c7-b36d-4c7c-9027-c8a59581b31d")
 	)
 	(pad "2" thru_hole circle
 		(at 0 0)
@@ -102,7 +102,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "153ace1c-bac3-4a49-a742-ce6c71da4a49")
+		(uuid "94293e23-5af2-4a29-8f51-2abfa7b11156")
 	)
 	(pad "3" thru_hole circle
 		(at 3.81 0)
@@ -110,7 +110,18 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "10b95ebb-84d6-4404-a614-b29704ebd040")
+		(uuid "0025da1b-85c7-4fbc-b29a-0d22d4148bc5")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_KF128L_3.81.3dshapes/KF128L-3.81-3P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

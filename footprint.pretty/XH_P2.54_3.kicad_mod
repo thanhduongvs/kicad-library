@@ -1,14 +1,14 @@
 (footprint "XH_P2.54_3"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "JST XH series connector, B20B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST XH side entry")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "fe6d3c9b-3622-42f8-9fc8-14ad2dd522f1")
+		(uuid "6bc62292-3f71-4516-ae6e-3d4b6265b0d2")
 		(effects
 			(font
 				(size 1 1)
@@ -19,22 +19,10 @@
 	(property "Value" "XH_P2.54_3"
 		(at 0 0 0)
 		(layer "User.1")
-		(uuid "c9d9fb72-1ce3-4e96-8020-3c0aed81c63f")
+		(uuid "cee88b0c-d24b-44a7-add2-32314dec4c2d")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6176983a-c51a-4bef-b402-9ba8e65ba7c9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -43,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "564fcf05-105c-4435-9163-7cd10c479698")
+		(uuid "abd0d154-efe4-45e8-a3ac-abdbcb25d8ab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a92cc35-6019-419a-a6a1-3749159a889f")
+		(uuid "e314c19b-3cd6-4ddb-9166-6f4c0d692961")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.334 -2.794)
 		(end -4.064 -2.794)
@@ -72,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c725d07f-48bf-4510-884a-f6303f3dcb78")
+		(uuid "2e70ad3d-4ae0-4379-8dc9-bb6223841a40")
 	)
 	(fp_line
 		(start -5.334 -1.524)
@@ -82,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7970e1e4-b6ea-4761-aa4f-4819815f6640")
+		(uuid "ea0531f7-5f07-474d-a3c9-aa98e4aea15e")
 	)
 	(fp_line
 		(start -5.08 -2.54)
@@ -92,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d09d1912-b812-4655-8e62-da732033c437")
+		(uuid "01ebaa8d-9375-4fc1-a0d6-3fe9457d9633")
 	)
 	(fp_line
 		(start -5.08 -0.254)
@@ -102,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7a02dec9-2e3a-4246-be79-c0d0cfa70b03")
+		(uuid "4c93dbf6-3352-4edf-a7b2-fedd94f199d1")
 	)
 	(fp_line
 		(start -5.08 3.556)
@@ -112,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "28900186-d9c7-4e13-b518-69a39daf63b4")
+		(uuid "ff97b850-53a6-42d2-8967-3a025ab97702")
 	)
 	(fp_line
 		(start -4.318 -0.254)
@@ -122,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "63900337-7d3b-4043-b966-23b0a781d2bf")
+		(uuid "b4830e8d-d1b0-43cb-9eab-3a63bf85adae")
 	)
 	(fp_line
 		(start -4.318 2.794)
@@ -132,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6aeacbc5-be77-437a-be74-6d8675d9a4e3")
+		(uuid "d75b2896-d242-40f9-a493-62a8589e03e7")
 	)
 	(fp_line
 		(start 4.318 -0.254)
@@ -142,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3dfce8af-853d-4b4f-80d6-8123aa201865")
+		(uuid "8f9cad5b-dcaf-4436-a8d8-b12644671bd1")
 	)
 	(fp_line
 		(start 4.318 -0.254)
@@ -152,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7d5dc855-93c0-418b-9f0f-60b86a7b23c7")
+		(uuid "010abc4c-f8cc-4d39-a457-d3fc74830b24")
 	)
 	(fp_line
 		(start 5.08 -2.54)
@@ -162,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1ec55475-3986-499f-acc5-2713b41c3867")
+		(uuid "36f04620-e9fa-4970-be3b-fe84df5f99a5")
 	)
 	(fp_rect
 		(start -5.08 -2.54)
@@ -171,9 +160,9 @@
 			(width 0.1778)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "faf177e2-e4de-4e6f-ab00-e390d97465a3")
+		(uuid "4241dcef-1f2e-4f5d-bc95-42009f52411a")
 	)
 	(fp_rect
 		(start -1.778 -2.54)
@@ -182,9 +171,9 @@
 			(width 0.1778)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "a833583c-62b6-4858-836f-9110f27b3324")
+		(uuid "6c644ad6-ff44-416c-9115-08e73ff2e0d4")
 	)
 	(fp_rect
 		(start 3.302 -2.54)
@@ -193,9 +182,9 @@
 			(width 0.1778)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "9f61cc9b-deea-4426-b1f9-251a6216f6d3")
+		(uuid "f781db84-ad56-4ea6-8dea-0a2c53cf2963")
 	)
 	(fp_rect
 		(start -5.588 -3.048)
@@ -204,9 +193,9 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8cb76051-03b9-438a-9f8a-2d85f49261c7")
+		(uuid "216978a0-e079-4a0f-b945-63dc767719ef")
 	)
 	(fp_line
 		(start -3.048 -2.54)
@@ -216,7 +205,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2661a34c-abef-4fb8-9f2f-2fac80ba4d72")
+		(uuid "d73f0239-e5d8-479c-b8b6-0dd84cbdf45d")
 	)
 	(fp_line
 		(start -2.032 -2.54)
@@ -226,7 +215,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "36d6e91a-3e4f-4c07-8726-0c90711fb1e9")
+		(uuid "c7047ab2-31c1-4694-ad23-93294d586e54")
 	)
 	(fp_rect
 		(start -5.08 -2.54)
@@ -235,14 +224,14 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "76d8b2da-b817-4ea0-9232-0a58153e3dbd")
+		(uuid "02147966-c2f2-4fea-a0aa-2e9d020cd7a8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "ca8719ca-e6a4-4415-8916-d56cb68e1069")
+		(uuid "4afaead2-139d-4659-ab95-3aed41c8bf79")
 		(effects
 			(font
 				(size 1 1)
@@ -257,7 +246,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "00698263-cde6-4c6c-9e3f-19bfb5029b3e")
+		(uuid "e0dfc2d3-8d79-4228-8629-bb63178a9a82")
 	)
 	(pad "2" thru_hole oval
 		(at 0 0)
@@ -265,7 +254,7 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cd4ed96c-2bd7-4147-acac-f7ecca0dacb9")
+		(uuid "0c77f4e4-68e5-4174-9dfd-174557f7bec2")
 	)
 	(pad "3" thru_hole oval
 		(at 2.54 0)
@@ -273,8 +262,9 @@
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "573f8b34-d817-4c9e-be2a-7641165d7888")
+		(uuid "fe1b6335-cadf-4167-96a0-4c46bbea0a34")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_LIB_PATH}/3dmodels/Connector_JST.3dshapes/JST_XH_P2.54mm_03Pin.stp"
 		(offset
 			(xyz 0 0 0)
@@ -283,7 +273,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -0 -0 -180)
 		)
 	)
 )

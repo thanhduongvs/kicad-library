@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "cabd2cd4-fc7e-4209-8574-46e7abc283d0")
+		(uuid "978d872c-cb7f-4b10-a7cf-0f7b2165a286")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Buzzer_12x9.5RM7.6"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "cd768693-d332-49e4-a3c2-34fed210e0be")
+		(uuid "054597a6-2e39-428d-bf5b-6b8f448a65f6")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b27b656b-5418-404d-bd9f-d0dc8e14fd84")
+		(uuid "95aa9d90-cd66-4104-ba3c-48d29cdf0474")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ec1c5ba-e156-47c3-9c5b-d6d951f4a31e")
+		(uuid "1d58ef22-21be-49de-a251-4cd4aa3bf9ea")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "e473d376-1bbd-44fd-b74a-e28928506dd0")
+		(uuid "89fee20b-2571-43b2-946a-74cf6318a31a")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "989243a1-1ec7-4429-a4e7-037edde2b020")
+		(uuid "262738d0-e4a1-4409-ae39-aacedae19129")
 	)
 	(fp_circle
 		(center 0 0)
@@ -86,7 +86,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "9a9613bb-ca55-4e97-8a2f-0740b78624c7")
+		(uuid "4b0d76de-5db4-4a51-a13f-bfd399ca80a2")
 	)
 	(fp_circle
 		(center 3.8 0)
@@ -97,12 +97,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "df79460f-a603-40c9-846c-542dec0e344e")
+		(uuid "c6f9c3a7-9283-49ea-afdc-639679600244")
 	)
 	(fp_text user "+"
 		(at -3.8 -2.2 0)
 		(layer "F.SilkS")
-		(uuid "33998854-b64c-414c-a196-578f011df971")
+		(uuid "46ef5b30-0348-46aa-8e1a-c98dfefcfaac")
 		(effects
 			(font
 				(size 1 1)
@@ -113,7 +113,7 @@
 	(fp_text user "+"
 		(at -3.8 -2.2 0)
 		(layer "F.Fab")
-		(uuid "9a564053-cf50-45a1-9d94-1ee8afbbc747")
+		(uuid "2f50cfdf-ce1e-43ac-980e-a21034a6994c")
 		(effects
 			(font
 				(size 1 1)
@@ -124,7 +124,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "2d175b68-6cee-4620-9493-7fc0600ed469")
+		(uuid "7e926a34-1267-4b6c-b47f-972e02013dc8")
 		(effects
 			(font
 				(size 1 1)
@@ -138,7 +138,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7db8b05f-9795-45ec-aeaa-82f1bab32b6a")
+		(uuid "6ebc8645-cf07-4dc7-bfca-62b68f7486cd")
 	)
 	(pad "P" thru_hole rect
 		(at -3.8 0)
@@ -146,18 +146,18 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2c47fe90-2724-4391-83a5-544c0744e6fc")
+		(uuid "c1dd0d49-60f9-46e9-bd8e-d78ada43c11e")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -3.8 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

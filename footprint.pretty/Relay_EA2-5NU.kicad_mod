@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "abcfe277-cc2d-4e23-9d9f-50ae738e9885")
+		(uuid "b62272e8-30a9-4168-bd58-1fd4e99fafaa")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3193c9ea-3529-498e-bf16-df95c7b59416")
+		(uuid "fe0b78b1-1ff4-4bf1-9a2a-9adef3e68d6f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "afcb6e38-cad3-4efa-bb73-f5a92993e1b2")
+		(uuid "c602aa64-f954-4ba9-ab54-57e60632eb1c")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1be22dc0-b909-484a-a359-8b7cd0e0c1ba")
+		(uuid "2a10f832-b79e-42f8-b4ff-379631ad8a58")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b4ae63fd-98de-446e-9dd3-b832e21868c1")
+		(uuid "66e0863f-2045-4ce1-b4f7-98b4b27d05fe")
 	)
 	(fp_rect
 		(start -5.6 -2.8)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "fa6be91d-98c9-4446-bd4f-3cba715f748d")
+		(uuid "264927fd-413b-4c4d-9293-78742382cdd2")
 	)
 	(fp_poly
 		(pts
@@ -87,13 +87,13 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "8446422d-ae72-49f0-bab4-a28dc619946a")
+		(uuid "5859714d-669c-440a-8c98-94435a2a7799")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a50609f8-c8f8-4295-92bd-a283dcbdf4da")
+		(uuid "210bcb8d-27a3-4c1b-92cb-cd63a77ccdc8")
 		(effects
 			(font
 				(size 1 1)
@@ -107,7 +107,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c0bda16a-6554-411d-9d20-e5295e4b9543")
+		(uuid "9a2dbf0f-e301-41b9-a9b5-318ca7f041f1")
 	)
 	(pad "2" thru_hole circle
 		(at -2.54 3.81)
@@ -115,7 +115,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6b6b600f-7ca9-44ec-a46d-4063d24b92e0")
+		(uuid "443bb87f-0130-4a8e-b78e-4113f9b9e0b7")
 	)
 	(pad "3" thru_hole circle
 		(at 0 3.81)
@@ -123,7 +123,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d9e31892-1624-4586-aa06-8512e9d4d315")
+		(uuid "fc33f76e-1ed6-4969-80ad-246c2f9787ee")
 	)
 	(pad "4" thru_hole circle
 		(at 2.54 3.81)
@@ -131,7 +131,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "62991fdb-2026-430d-a1cf-8947ab92caf0")
+		(uuid "0641a8ca-8a70-4717-98f6-6835ff82123c")
 	)
 	(pad "5" thru_hole circle
 		(at 5.08 3.81)
@@ -139,7 +139,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e592125e-5877-4cac-a894-f8dd91427569")
+		(uuid "9727d682-583f-4037-911f-66726a7fe065")
 	)
 	(pad "6" thru_hole circle
 		(at 5.08 -3.81)
@@ -147,7 +147,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "37760244-0284-44f3-91d2-947e3f9c0e93")
+		(uuid "e87d8de0-1a44-4036-93c3-83575c2acbb6")
 	)
 	(pad "7" thru_hole circle
 		(at 2.54 -3.81)
@@ -155,7 +155,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d9ebe17f-80fc-47e8-ae8e-5be7b601c881")
+		(uuid "63b0f930-435a-4324-b52e-bc5d76f928a9")
 	)
 	(pad "8" thru_hole circle
 		(at 0 -3.81)
@@ -163,7 +163,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a6f88e6f-aba7-4358-b42c-10e5ba1afebb")
+		(uuid "8a170a14-80dd-4511-b1e9-c454fa3a8c3d")
 	)
 	(pad "9" thru_hole circle
 		(at -2.54 -3.81)
@@ -171,7 +171,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5dfffe30-c519-416b-8c31-3084f38c6b41")
+		(uuid "1b226ff4-6e8b-462e-a93a-8fd88131c02c")
 	)
 	(pad "10" thru_hole circle
 		(at -5.08 -3.81)
@@ -179,7 +179,18 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9230f08b-1e48-4919-8bc4-ab9aa0d5bbe0")
+		(uuid "727e8354-91a3-432b-9305-8b272b09ac39")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_LIB_PATH}/3dmodels/Relay.3dshapes/EA2-5NU.stp"
+		(offset
+			(xyz -7.2 -4.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

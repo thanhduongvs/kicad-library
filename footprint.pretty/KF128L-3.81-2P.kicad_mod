@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "e86bf6b4-fb73-45c1-95bd-571941481745")
+		(uuid "0f2d1db1-a43a-4a0f-913e-3dca3282efe5")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3fe12e65-c91e-495d-9ff3-f3170b4136a1")
+		(uuid "39c8d26b-0a37-41ff-9123-37ebd7a4eacc")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "454bc123-5aa0-48be-82ad-7feafea075fc")
+		(uuid "1b8e07ad-76d5-4126-8bb0-57a5467ca7b8")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4a52c84d-9c0f-4290-9248-ebdde435bfdc")
+		(uuid "603e9066-2c1a-4fad-a445-83d80bdaefe6")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5382102f-debb-453c-8b38-aa7b24e6ed3d")
+		(uuid "78143186-5dbb-44ee-ac6f-38dbef85b5f4")
 	)
 	(fp_rect
 		(start -3.81 -3.6)
@@ -74,13 +74,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "96ff660c-1240-4feb-ac7e-3731c1f5d8f1")
+		(uuid "1a44159e-5fb4-4a98-b693-4d6c7f2f02e2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ceb9ab80-3b72-42d4-8b94-8b7baff3d275")
+		(uuid "a15bb178-808c-4403-9b52-e6d61feec6be")
 		(effects
 			(font
 				(size 1 1)
@@ -94,7 +94,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9df3fbb5-e946-49d5-a012-17494b5ee86e")
+		(uuid "80259012-40b2-4d93-9a16-58592ac1a158")
 	)
 	(pad "2" thru_hole circle
 		(at 1.905 0)
@@ -102,7 +102,18 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "757da5bf-201a-4113-bcdb-645a36f99a68")
+		(uuid "11df808f-0b21-4d5d-9d7e-6447c220ffe5")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_KF128L_3.81.3dshapes/KF128L-3.81-2P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,14 +1,14 @@
 (footprint "KF_5.08_2"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "terminal block RND 205-00238, 8 pins, pitch 5.08mm, size 40.6x8.45mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00232_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND")
 	(tags "THT terminal block RND 205-00238 pitch 5.08mm size 40.6x8.45mm^2 drill 1.1mm pad 2.1mm")
 	(property "Reference" "REF**"
-		(at -4.572 -5.842 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "08918d67-dcf2-4651-ae72-7949683871d1")
+		(uuid "4c86851f-7c17-49d7-91c9-92b2ac4f344b")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "KF_5.08_2"
 		(at 0 5.588 0)
 		(layer "User.1")
-		(uuid "4ceaf85a-ddd5-433d-ba15-8540f494937b")
+		(uuid "f0bab820-50cf-4417-b8da-e702d6904379")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "31bf497d-bc98-4144-8185-775f00244ef7")
+		(uuid "79ffb0f0-6e84-4104-b121-878071dee531")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "352793b5-8278-4379-a847-7dd98d2db9dd")
+		(uuid "c1409558-d81a-4f7f-97bc-a0b4b2bdf9c8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,37 +52,38 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -6.604 -2.54)
-		(end 6.604 -2.54)
+		(start -5.08 -2.54)
+		(end 5.08 -2.54)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "834e57d0-b16f-49f8-91d1-d99b18c5f0fd")
+		(uuid "7b484151-a019-40e2-a39b-59d4a2c9c980")
 	)
 	(fp_rect
-		(start -6.604 -4.572)
-		(end 6.604 4.064)
+		(start -5.08 -4.572)
+		(end 5.08 4.064)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "5f2966d5-a173-4d0c-a376-155ac87b528b")
+		(uuid "693a5cb6-4885-488d-89b4-42c5e51fa06e")
 	)
 	(fp_rect
-		(start -6.604 2.54)
-		(end 6.604 3.556)
+		(start -5.08 2.54)
+		(end 5.08 3.556)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "08f410b0-d450-4db0-ab3b-7973b47a9ab4")
+		(uuid "50d7d8ee-41ac-4b5c-9190-be1b473b6ef1")
 	)
 	(fp_rect
 		(start -4.064 -4.572)
@@ -93,7 +94,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "56805c02-f7f2-4322-a790-11d864e1ad4e")
+		(uuid "b764bd3c-3b55-4bb6-9705-060ba658c995")
 	)
 	(fp_rect
 		(start 1.016 -4.572)
@@ -104,34 +105,34 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "c6ec5f7a-afb7-4577-bdc4-817ad2e8c4a5")
+		(uuid "6fdb3f6b-80e8-4c49-bf0f-0da6a1424181")
 	)
 	(fp_rect
-		(start -7.112 -5.08)
-		(end 7.112 4.572)
+		(start -5.2 -5.08)
+		(end 5.2 4.572)
 		(stroke
 			(width 0.0254)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8acc8e50-2f28-4d33-9d3a-7b621762420f")
+		(uuid "6c20cdd3-b15e-4d08-9b4c-5eb02eb01c7a")
 	)
 	(fp_rect
-		(start -6.604 -4.572)
-		(end 6.604 4.064)
+		(start -5.08 -4.572)
+		(end 5.08 4.064)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2d799bea-6adc-4a7a-a03a-4950f451a716")
+		(uuid "b33a768f-ed98-45a4-92f6-13e5bb703556")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "fd009f97-6a38-4f64-9659-b13eb14b4a3c")
+		(uuid "262acd5d-ef2d-410c-8e86-041cd9e2e545")
 		(effects
 			(font
 				(size 1 1)
@@ -145,7 +146,7 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "da315196-b6a7-4f2b-8e48-0e51478b97ac")
+		(uuid "124eddcd-bd83-4c30-8d6f-7c4ef066a358")
 	)
 	(pad "2" thru_hole oval
 		(at 2.54 0)
@@ -153,18 +154,18 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "53d0a1cc-50af-4bf1-9949-225c79a772ed")
+		(uuid "ae83f26c-8df8-4bfe-85f1-d37b71d3a7a7")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00238_1x08_P5.08mm_Horizontal.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 2.54 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )

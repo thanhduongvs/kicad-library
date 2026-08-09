@@ -7,7 +7,7 @@
 		(at 0 6.223 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5a263da5-6791-4e10-b176-24d43c3fd3d3")
+		(uuid "aaf91dad-141d-403e-82fe-2501f9ead723")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "User.1")
-		(uuid "cce5e1de-0eec-47b9-9001-b93fa59b3a56")
+		(uuid "eab1108a-6751-4a1d-88ed-6382b9554886")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "048acf16-2866-453e-8c32-cae161441fc2")
+		(uuid "2e7a5766-35d7-4259-b7f0-0d7b723cc701")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4036aa2a-908f-48bf-88e2-46a50b7ad58b")
+		(uuid "b7a33128-74fa-476f-9dab-9f565ff60cdb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "62dd13cc-b135-43f5-b17a-f65cdb61bdd0")
+		(uuid "af169606-c1fc-4106-b0f3-d4edcf875b48")
 	)
 	(fp_rect
 		(start -1.905 -1.905)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "dd3f779c-ffb2-41dc-9819-10d485472929")
+		(uuid "f352d8a3-dd60-47cf-883d-cdb640df47c3")
 	)
 	(fp_rect
 		(start -1.905 0)
@@ -86,7 +86,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "c9e7757c-31de-497d-ba64-cd168891c90a")
+		(uuid "955d2dc3-f58e-4dbd-b301-9471f81dfa12")
 	)
 	(fp_rect
 		(start 0.635 -1.905)
@@ -97,7 +97,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "49aeabe0-5a42-482e-9018-266c719f892c")
+		(uuid "aaa032dd-3b22-428c-9be5-238a7980189a")
 	)
 	(fp_rect
 		(start 0.635 0)
@@ -108,7 +108,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ba6d1ab7-9679-4655-8001-fa0373ca95bb")
+		(uuid "481911e4-703c-4ba5-8e21-eee9aef14843")
 	)
 	(fp_rect
 		(start -3.4 -6)
@@ -119,7 +119,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "2a60624d-94a9-4ae7-8a55-18da07f2a3a0")
+		(uuid "f80213e3-ce66-45e5-b5c1-41004087db76")
 	)
 	(fp_rect
 		(start -3.3 -3)
@@ -130,7 +130,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "4a11038b-8f52-4ce6-b191-dbfb8b9d0f38")
+		(uuid "4099e41e-c6af-4d99-b9ee-e7049f490cc7")
 	)
 	(fp_poly
 		(pts
@@ -142,13 +142,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "cf3d70ce-7c0e-4c40-98e7-7584c1ac8400")
+		(uuid "11875e75-c9b4-4953-a0cc-3431ff03b3db")
 	)
 	(fp_text user "ON"
 		(at -1.27 -2.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "80f586f6-681f-4077-95aa-82ac8110806d")
+		(uuid "3f172549-341c-499e-9334-39daf8abfaf2")
 		(effects
 			(font
 				(size 1 1)
@@ -161,7 +161,7 @@
 		(at -1.27 2.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "774e4ead-adf5-48be-b941-0a657a016b19")
+		(uuid "5ddd409e-a293-406a-9d10-21c520aaa8df")
 		(effects
 			(font
 				(size 1 1)
@@ -174,7 +174,7 @@
 		(at 1.27 2.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "70f38c79-bc6b-43a1-a0b9-ee85d878a326")
+		(uuid "0272e956-6725-47b5-a739-5ae70a4754d0")
 		(effects
 			(font
 				(size 1 1)
@@ -187,7 +187,7 @@
 		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f6ae2bd7-4be9-467d-b5e4-b73e6fd08481")
+		(uuid "64eb930f-61cf-4a60-b0f9-f37c64143fb7")
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -200,28 +200,28 @@
 		(at -1.27 4.9)
 		(size 0.6 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e35ce5d8-2742-4392-8cc5-f455d1285314")
+		(uuid "cc7020f8-a218-4549-b10a-e85e61d2da63")
 	)
 	(pad "2" smd rect
 		(at 1.27 4.9)
 		(size 0.6 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bafa453a-94cc-4182-be7d-88a2a4e4e4fe")
+		(uuid "1ef4ebfc-353e-47ab-820d-7d5b3a2e145d")
 	)
 	(pad "3" smd rect
 		(at 1.27 -4.9)
 		(size 0.6 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "18ca5097-8127-425a-8c53-5ac69c5f2a9a")
+		(uuid "b8072213-af40-42e0-b322-44ecb551e499")
 	)
 	(pad "4" smd rect
 		(at -1.27 -4.9)
 		(size 0.6 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d16907cb-7ee0-4797-b336-1e01e522f36e")
+		(uuid "26a1ad83-36fe-46da-93a5-633a112631fd")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx02_Slide_Omron_A6S-210x_W8.9mm_P2.54mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

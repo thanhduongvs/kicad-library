@@ -19522,7 +19522,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Connectors"
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -20024,7 +20024,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Ferrite bead"
+		(property "Category" "Bead"
 			(at 2.54 -8.89 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -20562,7 +20562,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Ferrite bead"
+		(property "Category" "Bead"
 			(at 2.54 -11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -20840,7 +20840,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Ferrite bead"
+		(property "Category" "Bead"
 			(at 2.54 -11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -106986,7 +106986,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "ESD Protection"
+		(property "Category" "TVS/ESD"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -160141,7 +160141,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "ESD"
+		(property "Category" "TVS/ESD"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -161401,7 +161401,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" " Isolated"
+		(property "Category" "Isolated"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -161690,7 +161690,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" " Isolated"
+		(property "Category" "Isolated"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -177121,7 +177121,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Connectors"
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -177620,7 +177620,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Connectors"
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -177925,7 +177925,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Connectors"
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -178393,7 +178393,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Connectors"
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -197364,7 +197364,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Balanced Filters"
+		(property "Category" "Filter"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -197660,7 +197660,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "RF Filter"
+		(property "Category" "Filter"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -626799,7 +626799,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Ultrasonic Transformer"
+		(property "Category" "Ultrasonic"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -631860,7 +631860,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Rotary Encoders"
+		(property "Category" "Rotary Encoder"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -632159,7 +632159,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" "Rotary Encoders"
+		(property "Category" "Rotary Encoder"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)

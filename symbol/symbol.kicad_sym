@@ -28983,7 +28983,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -97857,7 +97857,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Diode"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -98159,7 +98159,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Diode"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -100776,7 +100776,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -116904,7 +116904,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -157086,7 +157086,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Optocoupler"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -158636,7 +158636,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Board"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -160501,7 +160501,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Relay"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -186716,7 +186716,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -192523,7 +192523,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "LCD"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -193945,7 +193945,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "LED"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -198646,7 +198646,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -256923,7 +256923,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -264375,7 +264375,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -286231,7 +286231,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -286708,7 +286708,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -313135,7 +313135,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -314338,7 +314338,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -316112,7 +316112,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Transformer"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -322731,7 +322731,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "LCD"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -323459,7 +323459,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "LCD"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -324097,7 +324097,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "LCD"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -328693,7 +328693,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Temperature"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -334168,7 +334168,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -427082,7 +427082,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -430770,7 +430770,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Rotary Encoder"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -454897,7 +454897,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Board"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -473961,7 +473961,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -475021,7 +475021,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -475033,7 +475033,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -475647,7 +475647,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -477007,7 +477007,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -478198,7 +478198,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -479560,7 +479560,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -480922,7 +480922,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -483050,7 +483050,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -483062,7 +483062,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -485538,7 +485538,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -486324,7 +486324,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -490199,7 +490199,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -495194,7 +495194,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MPU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -500644,7 +500644,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MPU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -507383,7 +507383,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MPU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -520254,7 +520254,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MPU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -526877,7 +526877,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MPU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -535189,7 +535189,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MPU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -543363,7 +543363,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -544457,7 +544457,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -545899,7 +545899,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -545911,7 +545911,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -547328,7 +547328,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -549075,7 +549075,7 @@
 				(justify left)
 			)
 		)
-		(property "SubCategory" ""
+		(property "SubCategory" "MCU"
 			(at 0 13.97 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -562790,7 +562790,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Button"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -563761,7 +563761,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Button"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -570077,7 +570077,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "IC"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -592327,7 +592327,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Module"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -598480,7 +598480,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Transformer"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -605106,7 +605106,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -639989,7 +639989,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "LCD"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -669139,7 +669139,7 @@
 				(justify left)
 			)
 		)
-		(property "Category" ""
+		(property "Category" "Connector"
 			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace yes)

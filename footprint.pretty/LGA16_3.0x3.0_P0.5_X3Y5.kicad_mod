@@ -66,7 +66,7 @@
     (solder_paste_margin 0.0762) (tstamp ecd3316b-6350-4bfe-8d45-ca88a33ecac9))
   (pad "16" smd roundrect (at -0.508 -1.397) (size 0.3048 0.889) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (solder_paste_margin 0.0762) (tstamp ede531eb-bdc3-4c4b-9a83-199427c1fe24))
-  (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -475,7 +475,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1f496878-0b27-4686-91de-cc5e64a254ea")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

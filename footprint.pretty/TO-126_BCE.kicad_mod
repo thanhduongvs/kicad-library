@@ -181,7 +181,7 @@
 		(uuid "3a844bb2-668f-4919-8658-bf1a80fa9445")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-126-3_Vertical.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-126-3_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

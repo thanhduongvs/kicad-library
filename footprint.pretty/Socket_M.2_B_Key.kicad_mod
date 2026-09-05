@@ -852,7 +852,7 @@
 		(uuid "b6f7aa80-dc12-4220-a6be-225b1e74bdb0")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PCIE-SMD_2199230-3_1.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PCIE-SMD_2199230-3_1.step"
 		(offset
 			(xyz 0 -0 0.6)
 		)

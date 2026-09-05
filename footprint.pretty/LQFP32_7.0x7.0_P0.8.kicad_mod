@@ -93,7 +93,7 @@
     (solder_paste_margin 0.0762) (tstamp 2fb9f9b5-e9f1-4343-94f0-c309ec2e27d6))
   (pad "32" smd rect (at -2.8 -4.5) (size 0.5 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp b2e21195-fe47-4d5f-b4ea-c31c39e3a9bb))
-  (model "${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

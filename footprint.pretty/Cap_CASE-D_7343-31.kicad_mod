@@ -238,7 +238,7 @@
 		(uuid "a22ca75b-d251-4ac7-98e9-73da99315919")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CASE-D_L7.3-W4.3-H2.9.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CASE-D_L7.3-W4.3-H2.9.step"
 		(offset
 			(xyz 0 -0 -0)
 		)

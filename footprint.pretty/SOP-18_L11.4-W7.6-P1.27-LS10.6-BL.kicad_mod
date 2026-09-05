@@ -35,7 +35,7 @@
 	(fp_circle (center -5.08 5.55) (end -4.93 5.55) (layer Cmts.User) (width 0.30))
 	(fp_circle (center -5.08 2.82) (end -4.93 2.82) (layer F.SilkS) (width 0.30))
 	(fp_circle (center -5.85 4.96) (end -5.70 4.96) (layer F.SilkS) (width 0.30))
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOP-18_L11.5-W7.5-H2.5-LS10.3-P1.27.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOP-18_L11.5-W7.5-H2.5-LS10.3-P1.27.step"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

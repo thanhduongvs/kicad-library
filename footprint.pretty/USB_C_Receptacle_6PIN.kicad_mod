@@ -32,7 +32,7 @@
 	(fp_line (start -4.47 -2.20) (end 4.47 -2.20) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.47 -2.20) (end 4.47 4.60) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.47 4.60) (end -4.47 4.60) (layer F.CrtYd) (width 0.05))
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_HX-TYPE-C-6PIN.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_HX-TYPE-C-6PIN.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

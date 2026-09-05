@@ -293,7 +293,7 @@
 		(uuid "0faf1607-e117-414b-8f19-a5cb0d780ad4")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -170,7 +170,7 @@
 		(uuid "1c48c157-fab2-4c0b-a2f6-f94f89f976b2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.step"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.step"
 		(offset
 			(xyz 0 0 0)
 		)

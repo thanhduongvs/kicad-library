@@ -202,7 +202,7 @@
 		(uuid "c66e62a5-a9fc-47cf-8756-61f9a94f6539")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_2010_5025Metric.step"
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_2010_5025Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

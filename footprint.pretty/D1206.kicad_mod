@@ -235,7 +235,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "f544e615-7653-47c3-bc8f-d18da315a898")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MicroMELF.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MicroMELF.step"
 		(offset
 			(xyz 0 0 0)
 		)

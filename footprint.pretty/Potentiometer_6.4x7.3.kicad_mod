@@ -241,7 +241,7 @@
 		(remove_unused_layers no)
 		(uuid "f56367c0-8376-4a15-b321-f76be410be93")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3214X_Vertical.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3214X_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

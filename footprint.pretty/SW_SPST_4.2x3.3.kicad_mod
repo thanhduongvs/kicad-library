@@ -275,7 +275,7 @@
 		(uuid "27dd83ba-882c-4837-a3dd-02f47e5bd701")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP2.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP2.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -208,7 +208,7 @@
 		(uuid "0cdd0da6-0ac3-47f5-97cb-52b990a816aa")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVPBF.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVPBF.step"
 		(offset
 			(xyz 0 0 0)
 		)

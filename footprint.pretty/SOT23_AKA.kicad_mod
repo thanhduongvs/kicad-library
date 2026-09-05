@@ -197,7 +197,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "f4e8015a-90d5-4100-ba36-7debd9e376fd")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 		(offset
 			(xyz 0 0 0)
 		)

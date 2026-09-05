@@ -59,7 +59,7 @@
 	(fp_arc (start -5.42 2.05) (end -5.42 1.75) (angle 358.09) (layer F.SilkS) (width 0.60))
 	(fp_arc (start -6.40 4.40) (end -6.40 4.40) (angle -359.00) (layer F.SilkS) (width 0.30))
 	(fp_arc (start -6.40 -0.00) (end -6.40 0.70) (angle -180.00) (layer F.SilkS) (width 0.25))
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOP-20_L12.8-W7.5-H2.5-LS10.4-P1.27.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOP-20_L12.8-W7.5-H2.5-LS10.4-P1.27.step"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

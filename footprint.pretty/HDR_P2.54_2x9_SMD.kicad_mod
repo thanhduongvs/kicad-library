@@ -102,7 +102,7 @@
     (solder_paste_margin 0.0762) (tstamp f279cd7a-4afc-46a5-abb7-988db04584b4))
   (pad "18" smd roundrect (at 2.794 10.16) (size 3.302 1.016) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15)
     (solder_paste_margin 0.0762) (tstamp c40bb985-1a5e-4d94-a94a-486e85fddd9a))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x09_P2.54mm_Vertical_SMD.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x09_P2.54mm_Vertical_SMD.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

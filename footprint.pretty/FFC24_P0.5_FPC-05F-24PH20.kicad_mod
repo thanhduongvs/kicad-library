@@ -371,7 +371,7 @@
 		(uuid "8fa2c0dd-7c64-40d0-877c-6d467d1fe980")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/FPC-SMD_24P-P0.50_FPC-05F-24PH20.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/FPC-SMD_24P-P0.50_FPC-05F-24PH20.step"
 		(offset
 			(xyz 0 0 0)
 		)

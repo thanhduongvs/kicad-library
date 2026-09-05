@@ -70,7 +70,7 @@
     (solder_paste_margin 0.0762) (tstamp a59219d6-83d1-4742-be6f-cd873e0d7a7a))
   (pad "S" smd rect (at -0.85 -1.725) (size 1.1 0.85) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp ecb35aa6-6b50-4614-9a13-3160e96c19e2))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_L8.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_L8.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -802,7 +802,7 @@
 		(uuid "db150e5d-209f-4562-a1df-9ca81536e751")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical_SMD.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical_SMD.step"
 		(offset
 			(xyz 0 0 0)
 		)

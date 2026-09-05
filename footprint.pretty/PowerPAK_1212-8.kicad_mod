@@ -284,7 +284,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c77a0c1c-d7f2-46eb-a1fc-8db2d340953a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Single.step"
 		(offset
 			(xyz 0 0 0)
 		)

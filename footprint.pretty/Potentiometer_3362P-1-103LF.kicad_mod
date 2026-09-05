@@ -214,7 +214,7 @@
 		(uuid "0cec5de3-7328-4001-bff1-b7c3c3a1fc7d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3214X_Vertical.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3214X_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

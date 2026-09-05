@@ -259,7 +259,7 @@
 		(solder_paste_margin 0.0762)
 		(uuid "82f40c27-4e8a-428b-afb2-b790aec3c7f3")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
 		(offset
 			(xyz 0 0 0)
 		)

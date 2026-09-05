@@ -459,7 +459,7 @@
 		(remove_unused_layers no)
 		(uuid "ba91399d-fa84-4822-9f43-4feb27ab13ed")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x18_P2.54mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x18_P2.54mm_Vertical.step"
 		(offset
 			(xyz -1.27 24.13 0)
 		)

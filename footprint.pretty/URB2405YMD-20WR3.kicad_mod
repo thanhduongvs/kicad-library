@@ -31,7 +31,7 @@
 	(fp_line (start 12.70 -12.70) (end 12.70 12.70) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 12.70 12.70) (end -12.70 12.70) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -12.70 12.70) (end -12.70 -12.70) (layer F.CrtYd) (width 0.05))
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PWRM-TH_URBXXXXYMD-20WR3.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PWRM-TH_URBXXXXYMD-20WR3.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

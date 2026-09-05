@@ -42,7 +42,7 @@
   (pad "NO1" thru_hole oval locked (at -3.81 12.7 90) (size 2.032 3.048) (drill 1.27) (layers *.Cu *.Mask) (tstamp 7b05901a-5f00-4276-b7b9-74f97b77f10b))
   (pad "NO2" thru_hole oval locked (at 3.81 12.7 90) (size 2.032 3.048) (drill 1.27) (layers *.Cu *.Mask) (tstamp a7c34b5a-02f2-4374-8571-04a2bdc9b15a))
   (pad "P" thru_hole rect locked (at -3.81 -12.7) (size 3.048 2.032) (drill 1.27) (layers *.Cu *.Mask) (tstamp d6b5cc2d-e375-41a7-b564-ed77e796152e))
-  (model "${KICAD6_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Schrack-RT2-FormC_RM5mm.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_DPDT_Schrack-RT2-FormC_RM5mm.step"
     (offset (xyz -3.81 12.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

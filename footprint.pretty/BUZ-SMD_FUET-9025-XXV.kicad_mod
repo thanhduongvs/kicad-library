@@ -388,7 +388,7 @@
 		(uuid "d89f4bda-53f1-4ed0-9528-7c180583060f")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/BUZ-SMD_BD9.0-H2.5-LS10.5.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/BUZ-SMD_BD9.0-H2.5-LS10.5.step"
 		(offset
 			(xyz 0 0 0)
 		)

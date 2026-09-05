@@ -518,7 +518,7 @@
 		(uuid "c823d3b5-9583-42d3-953a-6e0b3227aaa4")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIFIM-SMD_ESP32-S3-WROOM-1-N8.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIFIM-SMD_ESP32-S3-WROOM-1-N8.step"
 		(offset
 			(xyz 0 0 0)
 		)

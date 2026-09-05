@@ -196,7 +196,7 @@
 		(uuid "80f188d4-bbda-48f0-b8c7-efa69a46556e")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PWRM-TH_FXXXXS-1WR3.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PWRM-TH_FXXXXS-1WR3.step"
 		(offset
 			(xyz 0 -2.12 0)
 		)

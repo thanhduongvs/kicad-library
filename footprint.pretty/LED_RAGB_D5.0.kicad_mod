@@ -35,7 +35,7 @@
   (pad "B" thru_hole oval (at 1.905 0) (size 1.07 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 91f31d36-da0d-4479-b4b7-965cd477d469))
   (pad "G" thru_hole oval (at 0.635 0) (size 1.07 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp dd179255-cf7d-444d-a220-a896a67a8693))
   (pad "R" thru_hole rect (at -1.905 0) (size 1.07 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp e5a645e7-3da8-45fd-b3e0-0c2350222ea8))
-  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

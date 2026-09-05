@@ -28,7 +28,7 @@
     (solder_paste_margin 0.0762) (tstamp d0556d63-c0e0-400d-a7d0-a8f5f21fc274))
   (pad "2" smd rect (at 4.6 0) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp c89acb37-8b8f-46e4-a125-9ec7127fae93))
-  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H8mm.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H8mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

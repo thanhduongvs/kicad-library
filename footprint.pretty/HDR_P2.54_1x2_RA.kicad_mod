@@ -37,7 +37,7 @@
   (fp_rect (start -0.254 1.524) (end 1.524 1.016) (layer "F.Fab") (width 0.1) (fill none) (tstamp d609bce6-c48e-48b0-ba42-23d20f5152d7))
   (pad "1" thru_hole roundrect locked (at 0 -1.27) (size 2.032 1.778) (drill 1.016) (layers *.Cu *.Mask) (roundrect_rratio 0.1) (tstamp 961652ce-7933-4386-a667-b25bfdf04038))
   (pad "2" thru_hole oval locked (at 0 1.27) (size 2.032 1.778) (drill 1.016) (layers *.Cu *.Mask) (tstamp 430cbbbd-887d-4cbe-a6a8-e70af1f81dfb))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Horizontal.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Horizontal.step"
     (offset (xyz 0 1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

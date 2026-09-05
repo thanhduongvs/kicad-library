@@ -395,7 +395,7 @@
 		(uuid "2d0afb59-2ff2-4448-8bdb-fefd15942748")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -168,7 +168,7 @@
     (solder_paste_margin 0.0762) (tstamp 385a50bf-2def-487d-8b8e-35a555e3d242))
   (pad "64" smd rect (at -3.75 -6) (size 0.25 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 7892446b-67af-460f-8c1b-573e406988d9))
-  (model "${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

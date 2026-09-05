@@ -53,7 +53,7 @@
     (solder_paste_margin 0.0762) (tstamp e7cd5f03-a6b1-4345-a303-aac97e01dd26))
   (pad "P" smd rect (at -2.4625 0) (size 2.075 2.35) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp ac755969-1ed1-47f0-bde4-9c0568f221db))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

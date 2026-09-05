@@ -464,7 +464,7 @@
 		(uuid "c468865d-de0d-445a-99ed-1c00c4505316")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132203-12_Horizontal.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132203-12_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

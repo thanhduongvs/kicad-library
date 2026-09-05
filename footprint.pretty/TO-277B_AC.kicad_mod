@@ -206,7 +206,7 @@
 		(uuid "be698cdd-216a-4886-a808-e21119886831")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-277B.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-277B.step"
 		(offset
 			(xyz 0 0 0)
 		)

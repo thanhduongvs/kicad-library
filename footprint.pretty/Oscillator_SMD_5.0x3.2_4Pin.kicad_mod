@@ -35,7 +35,7 @@
     (solder_paste_margin 0.0762) (tstamp 4d80dd9d-6587-41e1-8578-94e46367075a))
   (pad "4" smd rect locked (at 2.286 -1.27) (size 1.524 1.27) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 28d5ddfd-7a78-43e2-9b9f-a372895c3e7a))
-  (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

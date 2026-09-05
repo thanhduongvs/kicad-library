@@ -351,7 +351,7 @@
 		(uuid "3ff2be32-1341-4d45-b73e-7b7ecc49f07d")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/DB9-TH_D-SUB-DR-9PCM-CB.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/DB9-TH_D-SUB-DR-9PCM-CB.step"
 		(offset
 			(xyz -0.01 -6.26 0)
 		)

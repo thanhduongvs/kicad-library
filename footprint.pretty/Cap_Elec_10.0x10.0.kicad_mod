@@ -40,7 +40,7 @@
     (solder_paste_margin 0.0762) (tstamp e4ca5549-d35a-4f15-9730-30681319d4a1))
   (pad "P" smd roundrect (at -4 0) (size 4 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (solder_paste_margin 0.0762) (tstamp 03a8433e-0406-441b-b444-703b4c62f519))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -201,7 +201,7 @@
     (solder_paste_margin 0.0762) (tstamp 0ea83ea6-fac9-47e3-9567-985d79dcdeb5))
   (pad "40" smd rect locked (at 12.065 -2.032) (size 0.635 1.778) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp b38388db-ed6b-4471-9ae7-240d17e38b69))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x20_P1.27mm_Vertical_SMD.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x20_P1.27mm_Vertical_SMD.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

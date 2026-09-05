@@ -391,7 +391,7 @@
 		(uuid "c1470b8d-078b-4bfa-acd6-c1d3b63f0440")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical.step"
 		(offset
 			(xyz -7 0 0)
 		)

@@ -253,7 +253,7 @@
 		(uuid "5a13773f-9426-48bd-b64c-511041936855")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ311_Horizontal.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ311_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

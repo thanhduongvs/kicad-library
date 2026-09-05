@@ -36,7 +36,7 @@
     (solder_paste_margin 0.0762) (tstamp 054d5ea1-cf50-49d0-af0c-9b23fe6be29e))
   (pad "3" smd rect locked (at 1.016 1.651) (size 1.27 1.27) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp e5d65e91-94b3-4d9c-9f09-df79d6b89382))
-  (model "${KICAD6_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3214X_Vertical.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3214X_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

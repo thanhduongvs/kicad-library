@@ -185,7 +185,7 @@
 		(uuid "f2369522-de51-42a8-aa4a-1f051dcf0564")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step"
 		(offset
 			(xyz 0 0 0)
 		)

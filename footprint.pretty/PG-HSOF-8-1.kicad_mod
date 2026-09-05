@@ -98,7 +98,7 @@
     (solder_paste_margin 0.0762) (tstamp 6aeb4655-014b-4368-89cb-3f848b9b2e8f))
   (pad "S" smd rect (at 4.2 5.2 90) (size 2.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp c366104b-f540-42f0-8860-e536b44b564c))
-  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Infineon_PG-HSOF-8-1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

@@ -232,7 +232,7 @@
     (solder_paste_margin 0.0762) (tstamp 92c52cd5-3429-4bd2-a06c-b7789004ee38))
   (pad "Y23" smd roundrect (at 2.75 2) (size 0.2794 0.2794) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
     (solder_paste_margin 0.0762) (tstamp b837912a-c17c-4542-b9f2-42679a24c775))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Nordic_AQFN-73-1EP_7x7mm_P0.5mm.step"
+  (model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Nordic_AQFN-73-1EP_7x7mm_P0.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

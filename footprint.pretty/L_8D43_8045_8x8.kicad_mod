@@ -39,7 +39,7 @@
     (solder_paste_margin 0.0762) (tstamp 00000000-0000-0000-0000-000000000000))
   (pad "2" smd rect (at 4.064 0) (locked) (size 2.032 3.048) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.0762) (tstamp 00000000-0000-0000-0000-000000000000))
-  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRU8028_8.0x8.0mm.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRU8028_8.0x8.0mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -673,7 +673,7 @@
 		(uuid "8b8f764a-0f76-45e1-a6c0-213c2f00bccf")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-SMD_80P-P0.50_DF12NA-3.0-80DP-0.5V.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-SMD_80P-P0.50_DF12NA-3.0-80DP-0.5V.step"
 		(offset
 			(xyz 0 -0 0.6)
 		)

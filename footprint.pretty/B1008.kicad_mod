@@ -1,14 +1,14 @@
 (footprint "B1008"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "ferrite bead")
 	(property "Reference" "REF**"
-		(at 0 -2.032 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "efc54e6b-edc4-4285-ac5a-5117e1b6303e")
+		(uuid "6b636795-71f7-44cb-99d2-bcb1bc16b95e")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -20,7 +20,7 @@
 		(at 0 2.159 0)
 		(unlocked yes)
 		(layer "User.1")
-		(uuid "a0cdb266-4fce-4133-a288-d7ad49f7cd64")
+		(uuid "36a9ffcf-0286-4642-bcff-aa77ab6895e5")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f7123d72-352b-493b-af58-14e839427b25")
+		(uuid "c0f1858b-fd42-4f0d-a62b-f6e60466e4f3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "38a85adc-33bd-48b5-aa35-2a895a4dc442")
+		(uuid "1302ea46-912a-4a38-b783-9afe877f3938")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.905 -1.016001)
 		(end -1.651 -1.269999)
@@ -61,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8339274e-01ea-4207-92a3-5fa860804cbe")
+		(uuid "f4a68c07-a3c0-494b-97f2-b9afebee2101")
 	)
 	(fp_line
 		(start -1.905 -1.016)
@@ -71,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c74f618c-a8f2-4ddf-9be3-3e3fa3beb7bf")
+		(uuid "73079133-453a-454c-96fc-e9b060080111")
 	)
 	(fp_line
 		(start -1.651 1.270001)
@@ -81,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "763b6c0e-2c86-4e60-8ea2-5b3247ce11a8")
+		(uuid "1eae39f2-672a-4a2e-aca3-b07e5b120cca")
 	)
 	(fp_line
 		(start -1.650997 -1.269999)
@@ -91,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1567eb81-da8b-413e-b28d-555e1178ca87")
+		(uuid "46b31260-daa6-466c-ba63-e883dc67d0fb")
 	)
 	(fp_line
 		(start -1.650997 1.270001)
@@ -101,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "451bcb6e-15ad-4da6-b79b-c99d18ec264e")
+		(uuid "47425cc6-3b0d-4af7-b9c4-f8b96b95d7e3")
 	)
 	(fp_line
 		(start 0.889 1.27)
@@ -111,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "af6e6ace-ca31-46fe-8c69-14134e5aeaca")
+		(uuid "3f2be37f-9bd0-4d82-be85-840d00b27495")
 	)
 	(fp_line
 		(start 0.889004 -1.269998)
@@ -121,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0addf32d-826a-4210-9a35-82827b53aeea")
+		(uuid "328d38bc-ecc1-456e-aa7d-76feeb259900")
 	)
 	(fp_line
 		(start 1.651 -1.270001)
@@ -131,7 +132,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ce8800ba-3db5-4369-a24a-1ef8626d97bb")
+		(uuid "f1a8d31a-fa26-4f3e-8f70-d3b8aa8ecbad")
 	)
 	(fp_line
 		(start 1.651 1.269999)
@@ -141,7 +142,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "722a57b4-581b-4522-850b-edabf6ba61ad")
+		(uuid "9e2d2489-6ba5-4f17-aa7a-19b76f6db638")
 	)
 	(fp_line
 		(start 1.905 -1.016)
@@ -151,7 +152,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9021ee24-21d5-46c2-8169-71811e3646ee")
+		(uuid "52ef1c7d-0b11-421a-a2ed-21c4c13858a4")
 	)
 	(fp_rect
 		(start -1.905 -1.27)
@@ -162,7 +163,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7445ddbe-6d5d-4f35-b9fd-8b5b2193ebc4")
+		(uuid "9914a7c7-d058-4fbf-b38d-118b945ef86c")
 	)
 	(fp_rect
 		(start -1.25 -1)
@@ -173,13 +174,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7111e534-5dc4-4392-bb19-517139ba9b25")
+		(uuid "2091490f-8981-46a3-8edb-e03d6003f284")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d8338991-2905-4a35-a64b-8f48f362b6f9")
+		(uuid "0ef43aeb-110c-432f-896b-ff2200d55241")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -192,14 +193,14 @@
 		(size 1.143 2.159)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0254)
-		(uuid "7493c5ba-291e-456c-a918-f851b4eca143")
+		(uuid "abc9fb19-f4e7-42cb-aa88-140ef5b38058")
 	)
 	(pad "2" smd rect
 		(at 1.143 0)
 		(size 1.143 2.159)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0254)
-		(uuid "63d81b6b-af34-4f0c-9b88-2b74827dbfce")
+		(uuid "69cf7770-2ef5-4f00-9392-168896c47bf3")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.step"

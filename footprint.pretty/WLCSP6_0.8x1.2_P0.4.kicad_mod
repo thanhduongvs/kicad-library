@@ -1,25 +1,14 @@
 (footprint "WLCSP6_0.8x1.2_P0.4"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SOT TO_SOT_SMD")
-	(property "Reference" "REF**"
-		(at 0 -1.778 0)
-		(layer "F.SilkS")
-		(uuid "758cb620-834d-4090-bfe1-a5c52e8b2291")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "WLCSP6_0.8x1.2_P0.4"
 		(at 0 0 90)
 		(layer "User.1")
-		(uuid "e879f0bd-b3db-4cf9-baaf-31c3f7ca81e3")
+		(uuid "c65e6d10-7dec-4c09-916e-01251ece07db")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a8a00d23-1a14-4c26-935a-ec9c71d2c026")
+		(uuid "83377c9b-13e7-461b-8681-da6045287130")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7c014d65-7674-4562-b130-b1c98b11b905")
+		(uuid "c8a2ad44-4daf-481a-b7ee-44c6c800846f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,7 +40,19 @@
 			)
 		)
 	)
+	(property "Reference" "REF**"
+		(at 0 -1.778 0)
+		(layer "F.SilkS")
+		(uuid "3fc37bfa-b619-4414-b1c7-5bbb5ca511b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.762 0.762)
 		(end 0.762 0.762)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3340dc48-df60-42c9-8272-dace82498ede")
+		(uuid "c10b5f76-e9b3-4956-8e1e-f9dc56bf54ea")
 	)
 	(fp_line
 		(start 0.762 -0.762)
@@ -70,11 +71,11 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "619613dc-f472-43dd-abf8-08224a9a1f25")
+		(uuid "21c9b8bf-065b-40db-930e-29681a51659a")
 	)
 	(fp_poly
 		(pts
-			(xy -1.27 -0.508) (xy -1.778 0) (xy -1.778 -1.016)
+			(xy -1.1 -0.508) (xy -1.608 0) (xy -1.608 -1.016)
 		)
 		(stroke
 			(width 0.1)
@@ -82,7 +83,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "7af7e76f-8c61-475f-b63f-d80f47514121")
+		(uuid "1e2d8214-4496-497f-87dd-876a01f9f0ed")
 	)
 	(fp_rect
 		(start -1.27 -1.016)
@@ -93,7 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "be90fd9b-f585-44e6-adbe-86da67c13549")
+		(uuid "3e85f8b6-bb96-4746-994f-464e573f9fa9")
 	)
 	(fp_rect
 		(start -0.4 -0.6)
@@ -104,12 +105,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "db4eca4e-016b-4483-b741-1b40183d53d1")
+		(uuid "219a4441-35ab-443e-b1ff-1f00ad4fa46e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "98e3202c-872e-4597-b1db-690b083d5e35")
+		(uuid "f41c2b9f-1dba-45ae-9ef7-b96583f9c88f")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -122,42 +123,42 @@
 		(size 0.8 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "3e930cb7-0d30-4fc4-b647-a8124ddb0f8f")
+		(uuid "0332604e-aa94-4c05-9b59-81fc36a5c976")
 	)
 	(pad "A2" smd rect
 		(at 0.5 -0.4)
 		(size 0.8 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "acd54c6f-1446-4c74-9fdd-22321177819f")
+		(uuid "97f1aecf-561b-456b-9728-13f5ad393ca2")
 	)
 	(pad "B1" smd rect
 		(at -0.5 0)
 		(size 0.8 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "89ab2330-e23c-4d38-ad9f-4fd54f3743e5")
+		(uuid "e7e55c3e-736c-410d-b307-504334a39955")
 	)
 	(pad "B2" smd rect
 		(at 0.5 0)
 		(size 0.8 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "e0fca4f7-5ba1-4e52-a2ed-820521e59da5")
+		(uuid "c41e198c-6eb8-43aa-a9da-ae275fd222ef")
 	)
 	(pad "C1" smd rect
 		(at -0.5 0.4)
 		(size 0.8 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "16456c46-8fb2-4c1c-9ad2-b53c9777009c")
+		(uuid "85baa83c-a647-413b-82c2-43fd6f771391")
 	)
 	(pad "C2" smd rect
 		(at 0.5 0.4)
 		(size 0.8 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "44edbbda-814d-47d3-a762-917ef7f9c5c0")
+		(uuid "51e7e855-3d3e-4e77-b38f-257e18436d3f")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB_PATH}/3dmodels/Package_SMD.3dshapes/UFQFN6_1.5x1.7_P0.5.step"

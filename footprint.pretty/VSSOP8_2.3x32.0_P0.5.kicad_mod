@@ -1,13 +1,13 @@
 (footprint "VSSOP8_2.3x32.0_P0.5"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "fbe7cdca-4043-4291-9569-ca74aa88a01d")
+		(uuid "70bb2302-ce6b-48ad-bd7c-d60db6b9d7cb")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "User.1")
-		(uuid "fd855801-ed01-484e-a913-f70b6be97e91")
+		(uuid "62845ed2-8fea-461f-86fc-9bf3398727f4")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "76aa2833-6d33-4efb-9a92-29bc22659d5d")
+		(uuid "943968d8-8c81-4271-a399-70684466a13a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0f0554c4-f878-474f-ab1d-4526f169308d")
+		(uuid "fe3853e2-eb8c-49e5-ba32-2f701a5142dc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1 -1)
 		(end 1 1)
@@ -63,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "961acb97-018c-4a60-bbea-dbb757957df0")
+		(uuid "4d5fc8db-26e3-47b0-bdc8-773e5b66f840")
 	)
 	(fp_poly
 		(pts
@@ -75,7 +76,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "27714237-8965-4831-a847-4ca56f73e03c")
+		(uuid "4ba5388e-9da1-4e90-bafd-a6b3635a1a09")
 	)
 	(fp_poly
 		(pts
@@ -87,7 +88,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "96c39c80-3bf8-4bec-9a8b-f238c9098438")
+		(uuid "1e42e210-0ce4-47ea-865d-6f9207240de1")
 	)
 	(fp_rect
 		(start -2.25 -1.25)
@@ -98,7 +99,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "89ce1b3c-e963-466d-83f0-8a8875a35003")
+		(uuid "6162d91e-648f-4335-942d-8ffb126edd39")
 	)
 	(fp_rect
 		(start -1.15 -1)
@@ -109,13 +110,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5041b80d-8432-4ae3-8ecc-53d13a04eded")
+		(uuid "d45497c3-d874-48f2-a2e5-647c672875ab")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "71739349-6d8f-424b-98d1-e4b4f3b5fbe3")
+		(uuid "7d605936-8ea3-43ee-a679-158375d0e4b2")
 		(effects
 			(font
 				(size 1 1)
@@ -128,56 +129,56 @@
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "3eb2d77f-4655-4246-b53b-f0aa4122c8e5")
+		(uuid "de20c472-7209-4335-8942-be186180a8ce")
 	)
 	(pad "2" smd rect
 		(at -1.6 -0.25)
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "b31c4153-b74e-4fb5-ae8e-448a0282813a")
+		(uuid "5656ce78-2294-435f-9704-0ee47013d35e")
 	)
 	(pad "3" smd rect
 		(at -1.6 0.25)
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "d940779c-3078-4d0c-9022-f530d0d4fa95")
+		(uuid "47847833-f110-4411-9e51-0e73acef0941")
 	)
 	(pad "4" smd rect
 		(at -1.6 0.75)
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "3004b833-0c0a-4fb2-88ff-d8f36782d8b2")
+		(uuid "b9f5a259-2fd1-491d-8dc9-a21696df3e5c")
 	)
 	(pad "5" smd rect
 		(at 1.6 0.75)
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "91dab64b-5756-4f68-bda5-c119aa3fdcff")
+		(uuid "79a7d149-0307-4ce0-b6cd-88f4eb2a5835")
 	)
 	(pad "6" smd rect
 		(at 1.6 0.25)
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "86e69c34-0693-4c21-aff5-905c3f9ac180")
+		(uuid "5f7fc68b-6296-45bf-9db9-372b4672bef4")
 	)
 	(pad "7" smd rect
 		(at 1.6 -0.25)
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "3ddfd98e-7eb4-41b6-aee4-5ab24d28d695")
+		(uuid "7690a11a-96cb-4f76-bf06-340cdec1023a")
 	)
 	(pad "8" smd rect
 		(at 1.6 -0.75)
 		(size 0.8 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0762)
-		(uuid "f0a867f7-c936-40d9-ae4d-8e3ccb600460")
+		(uuid "02ffe788-0d1d-4470-94c2-c90cf2d6f063")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB_PATH}/3dmodels/Package_SO.3dshapes/VSSOP8_2.3x32.0_P0.5.step"

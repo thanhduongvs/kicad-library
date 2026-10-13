@@ -1,14 +1,14 @@
 (footprint "C0402_3P"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Feed Through Capacitors")
 	(property "Reference" "REF**"
-		(at 0 -1.2 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "701f77c7-26ee-4160-8ed4-4174654f37dd")
+		(uuid "eed2f85f-d9c8-4d93-997a-5178e6b769ba")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "User.1")
-		(uuid "0a28d32e-e5c6-468f-a05d-6656e77bfa18")
+		(uuid "a1a5e25e-e6a7-49fa-9a2e-b7271f6eb145")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "51be98e7-fb80-4545-9d59-77c9a0a57635")
+		(uuid "fba2a9ee-22eb-4dc5-995c-676205f45136")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "20b80aac-a40a-41e5-9de7-8cb834abc18d")
+		(uuid "da9b4ab7-fb3f-4827-b11c-c1430bf3beb6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -0.3)
 		(end -1 0.3)
@@ -63,7 +64,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9d947507-381c-450a-8dc2-f94ca17eaa7f")
+		(uuid "d3231390-98ed-4a34-9431-f2cfb549caa8")
 	)
 	(fp_line
 		(start -0.8 0.5)
@@ -73,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "efca25c1-5017-4789-8005-9762d0956c27")
+		(uuid "ed16498a-079b-4397-a32a-1e845c7ac8a7")
 	)
 	(fp_line
 		(start -0.4 -0.5)
@@ -83,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "af80a13d-16d2-4b59-83cb-b0e9a3df7468")
+		(uuid "320c0645-5e11-4aea-9539-b51682e28670")
 	)
 	(fp_line
 		(start 0.8 -0.5)
@@ -93,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "98120fb0-9d59-4255-84aa-202b9c792686")
+		(uuid "7e1b896c-14ad-4deb-a850-d91b46210081")
 	)
 	(fp_line
 		(start 0.8 0.5)
@@ -103,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f52080b4-741c-4208-8620-2c81eb9ee925")
+		(uuid "e3b71abb-ddd9-409a-8f8b-9839b4e08620")
 	)
 	(fp_line
 		(start 1 -0.3)
@@ -113,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "690f42ef-4d8c-4d43-8bac-5fcbdcc19daf")
+		(uuid "a5f2c71e-59c7-4173-9721-8c31d62b51e5")
 	)
 	(fp_arc
 		(start -1 -0.3)
@@ -124,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7a28ebeb-de80-4df0-a43c-1fcc1015adce")
+		(uuid "d2346309-2c5e-4f8f-b585-03733b0b8b82")
 	)
 	(fp_arc
 		(start -0.8 0.5)
@@ -135,7 +136,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f4b16354-08f1-426f-b975-d2bb8f8ec80a")
+		(uuid "170ea3d1-5ca6-4bec-a854-862bc35ed4af")
 	)
 	(fp_arc
 		(start 0.8 -0.5)
@@ -146,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "35b5c56e-96ac-4399-b91b-dc79e3c3eff9")
+		(uuid "2de4120e-ed8c-453c-95e0-77028f4da5ce")
 	)
 	(fp_arc
 		(start 1 0.3)
@@ -157,7 +158,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d99ae690-18b1-4621-b946-3a2f03bb6028")
+		(uuid "02d1b304-a650-4db1-b9a1-6eef13217e67")
 	)
 	(fp_rect
 		(start -1 -0.6)
@@ -168,7 +169,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c67d7c0e-b175-4da7-9bfe-3f78f3abac7a")
+		(uuid "88404ca7-a721-4a2e-a8a1-dae33babbe2f")
 	)
 	(fp_rect
 		(start -0.8 -0.3)
@@ -179,13 +180,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "1f20942c-3382-487b-9290-35f20bdb2fab")
+		(uuid "2bf4d60f-6b5a-44e1-ac4f-c56a9d77a227")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a77112b9-af32-4695-90ee-6df334d40dc2")
+		(uuid "dddb3d6b-6ac2-491d-94e7-19dba7f05479")
 		(effects
 			(font
 				(size 0.254 0.254)
@@ -199,7 +200,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0508)
 		(thermal_bridge_angle 45)
-		(uuid "cf5fff9c-46e7-412d-8a51-1b49a1943c1d")
+		(uuid "4d89c446-7aca-4e0e-94c8-e27796581098")
 	)
 	(pad "2" smd rect
 		(at 0 0)
@@ -207,7 +208,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0508)
 		(thermal_bridge_angle 45)
-		(uuid "62f167e1-158e-45bc-b953-873ad40bbc94")
+		(uuid "ef5b20fb-aae5-44e3-9ce6-da391f199cac")
 	)
 	(pad "3" smd rect
 		(at 0.6 0)
@@ -215,7 +216,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin 0.0508)
 		(thermal_bridge_angle 45)
-		(uuid "337df14b-dc73-4aae-aa0e-7bd23eac281f")
+		(uuid "2889bf27-f0ea-4b9f-ad4d-c2069c4afe07")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB_PATH}/3dmodels/Capacitor_SMD.3dshapes/C0402_3P.STEP"

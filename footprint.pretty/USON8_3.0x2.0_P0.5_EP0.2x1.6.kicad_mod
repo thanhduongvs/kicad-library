@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.75 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bb772042-4d36-467b-b78a-b38a1388616d")
+		(uuid "c6cb36a6-5d5a-4324-a7bd-fcfc76fce604")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "User.1")
-		(uuid "abe6ddc8-ddf8-4418-af43-f7afa0216bb1")
+		(uuid "ade09ead-e967-4f2a-a92b-07d56ebf078d")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a6996ba8-a6fc-49ef-ab2d-826e3ccf2c57")
+		(uuid "da09adac-9549-4872-b9c4-ff6e30679069")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c691714-09ec-46df-9c24-01386972c6fc")
+		(uuid "5f98f6c8-8916-4ce8-b5ec-003f9474d567")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f69ae2d1-0790-469e-8b6c-2e7e6b2c2f8f")
+		(uuid "a5884364-f871-4d57-89bd-ed7609426e05")
 	)
 	(fp_line
 		(start -1.5 1)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a4605d5e-1062-4403-b87e-1a4a3ace494a")
+		(uuid "7655366f-df3a-4354-ae70-385e44e4dbc7")
 	)
 	(fp_poly
 		(pts
@@ -83,7 +83,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "fa6f457d-3755-479a-a3ee-602722890826")
+		(uuid "4f4889a8-d690-4f15-87a2-d17c26ac29cb")
 	)
 	(fp_rect
 		(start -2.25 -1.25)
@@ -94,7 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "bbbe9a84-df71-4442-be3e-194b31333880")
+		(uuid "c11ae3fd-a7de-476a-85cb-0a20855b9125")
 	)
 	(fp_line
 		(start -1.5 -0.5)
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "08b1a281-7549-4be0-9453-6a4aae255fcc")
+		(uuid "55e1c22b-5bde-4163-aca5-662abe6d445f")
 	)
 	(fp_rect
 		(start -1.5 -1)
@@ -115,13 +115,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "28203add-1000-457f-b319-a740ce2f032a")
+		(uuid "cff5ed27-0dc1-4c82-830f-1d8c4e082333")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c43f4cab-e088-435b-a203-4571ae13d2f1")
+		(uuid "c1de9730-584a-41e0-9879-26cb0b575e69")
 		(effects
 			(font
 				(size 1 1)
@@ -133,55 +133,55 @@
 		(at -1.5 -0.75)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "67985598-b6c1-4983-94a9-b993d62afe18")
+		(uuid "d77da395-1f7d-483b-a937-54bd09a83820")
 	)
 	(pad "2" smd rect
 		(at -1.5 -0.25)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "08e8aa76-a94d-4d8b-8f12-74bcfe3f1827")
+		(uuid "ed18be9f-4d6a-4f4e-b570-80411025a6b9")
 	)
 	(pad "3" smd rect
 		(at -1.5 0.25)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0872410d-af60-4cce-b07d-2398de00c0f3")
+		(uuid "a2c73ea1-9be3-4e27-8a89-7743cd85f186")
 	)
 	(pad "4" smd rect
 		(at -1.5 0.75)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b061d73a-3131-460b-bfb5-0a71c5d60feb")
+		(uuid "09fc3006-5e31-4c7a-8cab-0703689d9445")
 	)
 	(pad "5" smd rect
 		(at 1.5 0.75)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "71234825-f11a-436d-b632-cf7846e9daf3")
+		(uuid "c19412a1-a822-455e-bad5-fd020cbc807b")
 	)
 	(pad "6" smd rect
 		(at 1.5 0.25)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "13104c9c-6423-4959-9eaa-e0c231d31040")
+		(uuid "b90d81f7-5088-4b51-a54d-a0ae07e1a515")
 	)
 	(pad "7" smd rect
 		(at 1.5 -0.25)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "dfa8ac2e-7fbe-44a5-b6c1-28f8fa963044")
+		(uuid "51a411a3-e5ad-45a1-afd8-92edb28773f2")
 	)
 	(pad "8" smd rect
 		(at 1.5 -0.75)
 		(size 1 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4a6427a9-d2a5-4c60-b797-114dec370fea")
+		(uuid "dd00d3c2-4675-420d-8bd5-58aa6d041553")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 0.3 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3ed095be-a02d-40d0-9ffd-97d3c60482c2")
+		(uuid "107fcad8-0f9b-4e6e-b1f9-cf267dde5bac")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB_PATH}/3dmodels/Package_SO.3dshapes/USON8_3.0x2.0_P0.5_EP0.2x1.6.step"

@@ -1,13 +1,13 @@
 (footprint "KF128L-5.08-2P"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3b176368-42ba-4f96-8845-5a75e1c37b8b")
+		(uuid "61698fae-12d3-4157-9396-c0995417e342")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "83f97387-e399-4b5e-a757-b18c0e6c3962")
+		(uuid "0ad65bab-ebf1-402e-99ea-ad8d8fcc396c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ab5eca0e-98fa-47a5-9c89-1883a5085c96")
+		(uuid "aa20d727-3a86-4e25-8bd0-a89725de82b1")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e94ecf5-da22-4636-b1d8-a5667e3d9a7d")
+		(uuid "e7ebf345-301b-455b-a588-fe0a3dd28d49")
 		(effects
 			(font
 				(size 1 1)
@@ -54,74 +54,76 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -5.08 -4.405)
-		(end 5.08 -4.405)
+		(start -5.08 -2.5)
+		(end 5.08 -2.5)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "02f81e5c-401d-4352-b1ca-21b86d4f4409")
+		(uuid "0c57db9f-ea27-49a3-abf5-1813af1af7d9")
 	)
 	(fp_line
-		(start -5.08 -2.073)
-		(end 5.08 -2.073)
+		(start -5.08 2)
+		(end 5.08 2)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9719947c-2fc6-4d44-bb9b-1c392033c1cb")
+		(uuid "5b2a65ae-96d1-4366-b49f-3fec3e2f413d")
 	)
 	(fp_line
-		(start -5.08 2.537)
-		(end 5.08 2.537)
+		(start -5.08 4.4)
+		(end 5.08 4.4)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "52f1a6ce-d204-49ba-b543-953a917c6930")
+		(uuid "bd4d8593-1687-4c89-97ee-6a3a77841c3f")
 	)
 	(fp_rect
-		(start -5.08 -5.1)
-		(end 5.08 4.9)
+		(start -5.08 -4.9)
+		(end 5.08 5.1)
 		(stroke
 			(width 0.1778)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "e61973a9-ce2e-492f-8819-6170a814492f")
+		(uuid "bb480de0-5bb4-43ee-8a35-eb52005b6020")
 	)
 	(fp_rect
-		(start -3.175 -5.1)
-		(end -1.905 -4.405)
+		(start -2.667 4.826)
+		(end -2.413 5.08)
 		(stroke
-			(width 0.1778)
+			(width 0.1)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "19f91ba3-1e0d-402d-96bc-b6cb38980a6c")
+		(uuid "a1a168ce-321e-49ad-bad7-7ee102f02f52")
 	)
-	(fp_rect
-		(start 1.905 -5.1)
-		(end 3.175 -4.405)
+	(fp_poly
+		(pts
+			(xy -2.54 4.445) (xy -2.921 4.826) (xy -2.159 4.826)
+		)
 		(stroke
-			(width 0.1778)
+			(width 0.1)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "60838784-abea-4a3c-b44f-81a28ac8e87e")
+		(uuid "93b6c152-ad4a-476d-a538-229537bbfaec")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ae07f4c1-f3b7-4047-a602-5f5b45813f1b")
+		(uuid "aabf824a-e86a-40cc-94c4-5803788d75a9")
 		(effects
 			(font
 				(size 1 1)
@@ -135,7 +137,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "75ac61c4-21e6-492c-ae53-b78435a58371")
+		(uuid "a2dc59a0-d680-4f25-90eb-85aa0ddc35a7")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
@@ -143,7 +145,18 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "17b363dc-31b9-428b-bd83-c95094319960")
+		(uuid "3a9a5e62-f1e1-4f4a-8812-37bdef58ead8")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_LIB_PATH}/3dmodels/Connector_KF128L_5.08.3dshapes/CONN-TH_P5.08_KF128L-5.08-2P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
